@@ -9,11 +9,11 @@ const xsd = fs.readFileSync('./examples/variant-report-2.2-external.xsd') // xsd
 const jsonSchema = fs.readFileSync('./examples/variant-report-2.2-external-schema.json') // json schema validation file
 
 // here I'm getting an instance of the Variant Report transformer by making use of the FActory
-const transformer = TransformerFactory.getInstance(TransformerTypes.variantReport)
+const transformer = TransformerFactory.getInstance(TransformerTypes.ngsFinalReport)
 
 // example transforming XML Variant Report
 // by calling the transformXml method and passing over the XML content and also the XSL content
-transformer.transformXml(xml.toString(), xsl.toString(), xsd.toString())
+transformer.transformXml(xml.toString(), xsl.toString())
 
 // here printing the result of the transformation
 if (transformer.result.errors.length === 0) {
@@ -22,7 +22,7 @@ if (transformer.result.errors.length === 0) {
 }
 
 // example transforming XML Variant Report and convert to JSON
-transformer.transformXmlAndConvertToJson(xml.toString(), xsl.toString(),xsd.toString(),jsonSchema.toString())
+transformer.transformXmlAndConvertToJson(xml.toString(), xsl.toString(), jsonSchema.toString())
 if (transformer.result.errors.length === 0) {
   fs.writeFileSync('./output/transformed.json', JSON.stringify(JSON.parse(transformer.result.content), null, 2))
   console.log('--- example XML Variant Report transformed from internal to external FMI and converted to JSON format------\n\n', JSON.stringify(JSON.parse(transformer.result.content), null, 2))
