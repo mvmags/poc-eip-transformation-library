@@ -1,0 +1,732 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema",
+  "$id": "http://integration.foundationmedicine.com/uapi/ReportDelivery-1.1.0.json",
+  "type": "object",
+  "additionalProperties": true,
+  "required": [
+      "finalReport"
+  ],
+  "properties": {
+      "finalReport": {
+        "$ref": "#/definitions/finalReport"
+    }
+  },
+  "definitions": {
+      "orderMetadata": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+              "orderNumber": {
+                  "type": "string",
+                  "example": "ORD-1234567"
+              },
+              "orderedTestNumber": {
+                  "type": "string",
+                  "example": "ORD-1234567-01"
+              },
+              "clientId": {
+                  "type": "string",
+                  "example": "-01234"
+              },
+              "transactionId": {
+                  "type": "string",
+                  "example": "7ec6477d-c53e-4739-8d06-5f408113c183"
+              },
+              "referenceId": {
+                  "type": "string",
+                  "example": "client-unique-reference-id-123"
+              },
+              "physicianId": {
+                  "type": "string",
+                  "example": "xx1234"
+              },
+              "facilityId": {
+                  "type": "string",
+                  "example": "xx9876"
+              },
+              "testType": {
+                  "type": "string",
+                  "example": "FoundationOneDx"
+              },
+              "patientFullName": {
+                  "type": "string",
+                  "example": "John Smith"
+              },
+              "gender": {
+                  "type": "string",
+                  "example": "Male"
+              },
+              "dateOfBirth" : {
+                  "type": "string",
+                  "format": "date",
+                  "example": "1970-01-01"
+              },
+              "patientFirstName": {
+                  "type": "string",
+                  "example": "John"
+              },
+              "patientMiddleName": {
+                  "type": "string",
+                  "example": "Peter"
+              },
+              "patientLastName": {
+                  "type": "string",
+                  "example": "Smith"
+              },
+              "physicianFirstName": {
+                  "type": "string",
+                  "example": "Jon"
+              },
+              "physicianLastName": {
+                  "type": "string",
+                  "example": "Doe"
+              },
+              "signOffDate": {
+                  "type": "string",
+                  "pattern": "[0-9]{4}\\-[0-9]{2}\\-[0-9]{2}T[0-9]{2}:[0-9]{2}:[0-9]{2}[+-][0-9]{2}:[0-9]{2}",
+                  "example": "2021-08-31T16:59:08+00:00"
+              }
+          },
+          "required": [
+              "orderNumber",
+              "orderedTestNumber",
+              "transactionId",
+              "referenceId",
+              "clientId",
+              "facilityId",
+              "physicianId",
+              "patientFullName",
+              "testType"
+          ]
+      },
+      "finalReport": {
+        "type": "object",
+        "Application": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "applicationSettings": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/ApplicationSettings"
+              }
+            }
+          }
+        },
+        "ApplicationSettings": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "applicationSetting": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/ApplicationSetting"
+              }
+            }
+          }
+        },
+        "ApplicationSetting": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "value": {
+              "type": "string"
+            }
+          }
+        },
+        "Sample": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "sampleId": {
+              "type": "string"
+            },
+            "blockId": {
+              "type": "string"
+            },
+            "testType": {
+              "type": "string"
+            },
+            "specFormat": {
+              "type": "string"
+            },
+            "receivedDate": {
+              "type": "integer",
+              "format": "utc-millisec"
+            },
+            "processSites": {
+              "$ref": "#/definitions/finalReport/ProcessSites"
+            },
+            "trfnumber": {
+              "type": "string"
+            },
+            "fmid": {
+              "type": "string"
+            }
+          }
+        },
+        "ProcessSites": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "processSite": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/ProcessSite"
+              }
+            }
+          }
+        },
+        "ProcessSite": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "locationName": {
+              "type": "string"
+            },
+            "locationID": {
+              "type": "integer"
+            },
+            "processID": {
+              "type": "integer"
+            },
+            "processName": {
+              "type": "string"
+            },
+            "address": {
+              "type": "string"
+            },
+            "cliaNumber": {
+              "type": "string"
+            }
+          }
+        },
+        "PMI": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "reportId": {
+              "type": "string"
+            },
+            "mrn": {
+              "type": "string"
+            },
+            "fullName": {
+              "type": "string"
+            },
+            "firstName": {
+              "type": "string"
+            },
+            "lastName": {
+              "type": "string"
+            },
+            "sampleId": {
+              "type": "string"
+            },
+            "submittedDiagnosis": {
+              "type": "string"
+            },
+            "gender": {
+              "type": "string"
+            },
+            "dob": {
+              "type": "string"
+            },
+            "orderingMD": {
+              "type": "string"
+            },
+            "orderingMDId": {
+              "type": "string"
+            },
+            "pathologist": {
+              "type": "string"
+            },
+            "copiedPhysician1": {
+              "type": "string"
+            },
+            "medFacilName": {
+              "type": "string"
+            },
+            "medFacilID": {
+              "type": "string"
+            },
+            "specSite": {
+              "type": "string"
+            },
+            "collDate": {
+              "type": "integer",
+              "format": "utc-millisec"
+            },
+            "receivedDate": {
+              "type": "integer",
+              "format": "utc-millisec"
+            },
+            "countryOfOrigin": {
+              "type": "string"
+            }
+          }
+        },
+        "PertinentNegatives": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "pertinentNegative": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/PertinentNegative"
+              }
+            }
+          }
+        },
+        "PertinentNegative": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "gene": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Gene"
+              }
+            }
+          }
+        },
+        "Gene": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "content": {
+              "type": "array",
+              "items": {}
+            }
+          }
+        },
+        "Summaries": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "clinicalTrialSummary": {
+              "type": "string"
+            },
+            "resistiveCount": {
+              "type": "integer"
+            },
+            "alterationCount": {
+              "type": "integer"
+            },
+            "clinicalTrialCount": {
+              "type": "integer"
+            },
+            "sensitizingCount": {
+              "type": "integer"
+            }
+          }
+        },
+        "VariantProperties": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "variantProperty": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/VariantProperty"
+              }
+            }
+          }
+        },
+        "VariantProperty": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "geneName": {
+              "type": "string"
+            },
+            "variantName": {
+              "type": "string"
+            },
+            "isVUS": {
+              "type": "boolean"
+            }
+          }
+        },
+        "Genes": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "gene": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Gene"
+              }
+            }
+          }
+        },
+        "Trials": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "trial": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Trial"
+              }
+            }
+          }
+        },
+        "Trial": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "gene": {
+              "$ref": "#/definitions/finalReport/Gene"
+            },
+            "alteration": {
+              "$ref": "#/definitions/finalReport/Alteration"
+            },
+            "title": {
+              "type": "string"
+            },
+            "summary": {
+              "$ref": "#/definitions/finalReport/Summary"
+            },
+            "studyPhase": {
+              "type": "string"
+            },
+            "condition": {
+              "type": "string"
+            },
+            "target": {
+              "type": "string"
+            },
+            "eligibility": {
+              "type": "string"
+            },
+            "locations": {
+              "type": "string"
+            },
+            "nctid": {
+              "type": "string"
+            },
+            "note": {
+              "type": "string"
+            },
+            "include": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "include"
+          ]
+        },
+        "Alteration": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "content": {
+              "type": "array",
+              "items": {}
+            }
+          }
+        },
+        "Summary": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "content": {
+              "type": "string"
+            },
+            "rule": {
+              "type": "string"
+            }
+          }
+        },
+        "References": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "reference": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Reference"
+              }
+            }
+          }
+        },
+        "Reference": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "referenceId": {
+              "type": "string"
+            },
+            "fullCitation": {
+              "type": "string"
+            },
+            "include": {
+              "type": "boolean"
+            },
+            "number": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "include"
+          ]
+        },
+        "Signatures": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "signature": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Signature"
+              }
+            }
+          }
+        },
+        "Signature": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "serverTime": {
+              "type": "string"
+            },
+            "opName": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            }
+          }
+        },
+        "AAC": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "amendmends": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Amendmends"
+              }
+            }
+          }
+        },
+        "Amendmends": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "amendmend": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Amendmend"
+              }
+            }
+          }
+        },
+        "Amendmend": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "modifiedDts": {
+              "type": "string"
+            },
+            "isSigned": {
+              "type": "boolean"
+            },
+            "comment": {},
+            "type": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "isSigned"
+          ]
+        },
+        "Amendment": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "amendmentType": {
+              "$ref": "#/definitions/finalReport/AmendmentType"
+            }
+          }
+        },
+        "AmendmentType": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "isActive": {
+              "$ref": "#/definitions/finalReport/JAXBElement(Boolean)"
+            }
+          }
+        },
+        "JAXBElement(Boolean)": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            },
+            "declaredType": {
+              "type": "string"
+            },
+            "scope": {
+              "type": "string"
+            },
+            "value": {
+              "type": "boolean"
+            },
+            "nil": {
+              "type": "boolean"
+            },
+            "globalScope": {
+              "type": "boolean"
+            },
+            "typeSubstituted": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "nil",
+            "globalScope",
+            "typeSubstituted"
+          ]
+        },
+        "PriorTests": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "priorTest": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/PriorTest"
+              }
+            }
+          }
+        },
+        "PriorTest": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "priorGenes": {
+              "$ref": "#/definitions/finalReport/PriorGenes"
+            },
+            "testType": {
+              "type": "string"
+            },
+            "reportID": {
+              "type": "string"
+            },
+            "reportDate": {
+              "type": "string"
+            }
+          }
+        },
+        "PriorGenes": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "priorGene": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/PriorGene"
+              }
+            }
+          }
+        },
+        "PriorGene": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "priorAlterations": {
+              "$ref": "#/definitions/finalReport/PriorAlterations"
+            },
+            "name": {
+              "type": "string"
+            },
+            "assayedInTests": {
+              "type": "string"
+            }
+          }
+        },
+        "PriorAlterations": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "priorAlteration": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/PriorAlteration"
+              }
+            }
+          }
+        },
+        "PriorAlteration": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "name": {
+              "type": "string"
+            }
+          }
+        },
+        "ReportProperties": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "reportProperty": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/ReportProperty"
+              }
+            }
+          }
+        },
+        "ReportProperty": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "value": {
+              "type": "string"
+            },
+            "identifier": {
+              "type": "string"
+            },
+            "key": {
+              "type": "string"
+            }
+          }
+        },
+        "Comments": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "comment": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/finalReport/Comment"
+              }
+            }
+          }
+        },
+        "Comment": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "text": {
+              "type": "string"
+            },
+            "commentedBy": {
+              "type": "string"
+            },
+            "commentedDts": {
+              "type": "string"
+            }
+          }
+        }
+      }
+  }
+}

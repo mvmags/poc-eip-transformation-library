@@ -1,0 +1,838 @@
+{
+  "finalReport": {
+    "Application": {
+      "ApplicationSettings": [
+        {
+          "ApplicationSetting": [
+            {
+              "Name": "Statement",
+              "Value": ""
+            }
+          ]
+        }
+      ]
+    },
+    "DemographicCorrectionDate": "",
+    "ReportId": "ORD-0000000-01",
+    "SampleName": "US0000000.01",
+    "Version": 0,
+    "Sample": {
+      "processSites": {
+        "processSite": [
+          {
+            "locationName": "Cambridge",
+            "locationID": 1,
+            "processID": 1,
+            "processName": "Extracted DNA",
+            "address": "some-full-address",
+            "cliaNumber": "2000000000"
+          }
+        ]
+      },
+      "FM_Id": "ORD-0000000-01",
+      "SampleId": "US0000000.01",
+      "BlockId": "2",
+      "TRFNumber": "ORD-0000000-01",
+      "TestType": "FoundationOne CDX",
+      "SpecFormat": "Block",
+      "ReceivedDate": 1557878400000
+    },
+    "PMI": {
+      "ReportId": "ORD-0000000-01",
+      "MRN": "",
+      "FullName": "Lisa Miller",
+      "FirstName": "Lisa",
+      "LastName": "Miller",
+      "SampleId": null,
+      "SubmittedDiagnosis": "Adrenal gland cortical carcinoma",
+      "Gender": "Female",
+      "DOB": "2000-01-01",
+      "OrderingMD": "Alizadeh, Aaron",
+      "OrderingMDId": "0000",
+      "Pathologist": ", ",
+      "CopiedPhysician1": "",
+      "MedFacilName": "Georgia Cancer Specialist - Stemmer",
+      "MedFacilID": "200000",
+      "SpecSite": "Abdomen",
+      "CollDate": null,
+      "ReceivedDate": 1557878400000,
+      "CountryOfOrigin": "US"
+    },
+    "PertinentNegatives": {
+      "PertinentNegative": null
+    },
+    "Summaries": {
+      "ClinicalTrialSummary": null,
+      "resistiveCount": 0,
+      "alterationCount": 13,
+      "clinicalTrialCount": 10,
+      "sensitizingCount": 7
+    },
+    "VariantProperties": {
+      "VariantProperty": [
+        {
+          "geneName": "ASXL1",
+          "variantName": "G643V",
+          "isVUS": true
+        },
+        {
+          "geneName": "ATM",
+          "variantName": "T935M",
+          "isVUS": true
+        }
+      ]
+    },
+    "priorTests": {
+      "priorTest": []
+    },
+    "Genes": {
+      "Gene": [
+        {
+          "content": [
+            {
+              "Name": "Microsatellite status"
+            },
+            {
+              "Include": true
+            },
+            {
+              "Alterations": {
+                "Alteration": [
+                  {
+                    "content": [
+                      {
+                        "Name": "MS-Stable"
+                      },
+                      {
+                        "AlterationProperties": {
+                          "AlterationProperty": [
+                            {
+                              "name": "MS-Stable",
+                              "isSubclonal": null,
+                              "isEquivocal": false,
+                              "dnaFraction": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "Interpretation": "Microsatellite instability (MSI) is a condition of genetic hypermutability that generates excessive amounts of short insertion/deletion mutations in the genome; it generally occurs at microsatellite DNA sequences and is caused by a deficiency in DNA mismatch repair (MMR) in the tumor (Kocarnik et al., 2015; 26337942). Defective MMR and consequent MSI occur as a result of genetic or epigenetic inactivation of one of the MMR pathway proteins, primarily MLH1, MSH2, MSH6, or PMS2 (You et al., 2010; 21081928, Bairwa et al., 2014; 24623249, Kocarnik et al., 2015; 26337942). This sample has a high level of MSI, equivalent to the clinical definition of an MSI-high (MSI-H) tumor: one with mutations in >30% of microsatellite markers (Boland et al., 1998; 9823339, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSI-H status indicates high-level deficiency in MMR and typically correlates with loss of expression of at least one, and often two, MMR family proteins (Kocarnik et al., 2015; 26337942, Bairwa et al., 2014; 24623249, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). While approximately 80% of MSI-H tumors arise due to somatic inactivation of an MMR pathway protein, about 20% arise due to germline mutations in one of the MMR genes (Kocarnik et al., 2015; 26337942), which are associated with a condition known as Lynch syndrome (also known as hereditary nonpolyposis colorectal cancer or HNPCC) (Lynch et al., 2009; 19659756). Lynch syndrome leads to an increased risk of colorectal, endometrial, gastric, and other cancers (Lynch et al., 2009; 19659756, Pande et al., 2012; 22714864, Kastrinos and Syngal, 2007; 17920897) and has an estimated prevalence in the general population ranging from 1:600 to 1:2000 (Silva et al., 2009; 19466295, Sehgal et al., 2014; 24978665, de la Chapelle et al., 2005; 16136383). Therefore, in the appropriate clinical context, germline testing of MLH1, MSH2, MSH6, and PMS2 is recommended. One study identified Lynch syndrome in 3.2% (3/94) of cases with adrenocortical carcinoma, with the available tumors being microsatellite stable (Raymond et al., 2013; 23752102). Published data investigating the prognostic implications of MSI in adrenal gland cortical carcinomas are limited (PubMed, Aug 2018). On the basis of prospective clinical evidence in multiple solid tumor types, MSI and associated increased mutational burden (Jass, 2007; 17204026, Lal et al., 2015; 25949894) may predict sensitivity to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors (Hochster et al., 2017; ASCO Abstract 673, Fleming et al., 2018; ASCO Abstract 5585, Bang et al., 2018; ASCO Abstract 92)(Gatalica et al., 2014; 25392179, Lal et al., 2015; 25949894), including the approved therapies nivolumab (Overman et al., 2016; ASCO Abstract 3501)(Lipson et al., 2013; 23169436), pembrolizumab (Le et al., 2015; 26028255, Rizvi et al., 2015; 25765070), atezolizumab, avelumab, and durvalumab (Hochster et al., 2017; ASCO Abstract 673, Fleming et al., 2018; ASCO Abstract 5585, Bang et al., 2018; ASCO Abstract 92)."
+                      },
+                      {
+                        "Include": true
+                      },
+                      {
+                        "ClinicalTrialNote": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors."
+                      },
+                      {
+                        "Therapies": {
+                          "Therapy": [
+                            {
+                              "Name": "",
+                              "GenericName": "Nivolumab",
+                              "FDAApproved": false,
+                              "Rationale": "<p><b>Approved Indications:</b> Nivolumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with PD-L1 and PD-L2, thereby reducing inhibition of the antitumor immune response. It is FDA approved as adjuvant treatment for completely resected advanced melanoma and as treatment for unresectable or metastatic melanoma as both a single agent and in combination with the immunotherapy ipilimumab. Nivolumab is also approved in combination with ipilimumab to treat intermediate- or poor-risk, previously untreated advanced renal cell carcinoma (RCC) and as monotherapy to treat advanced RCC after prior antiangiogenic therapy. Nivolumab is also approved to treat metastatic non-small cell lung cancer (NSCLC) after progression on prior treatments, recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) after progression on or after platinum-based therapy, advanced urothelial carcinoma after progression on or after platinum chemotherapy or within 12 months of neoadjuvant or adjuvant platinum chemotherapy, hepatocellular carcinoma (HCC) previously treated with sorafenib, classical Hodgkin lymphoma (cHL) that has relapsed or progressed after autologous hematopoietic stem cell transplantation (HSCT) and posttransplantation brentuximab vedotin, and metastatic small cell lung cancer (SCLC) after progression on platinum-based chemotherapy and at least one other line of therapy. Furthermore, nivolumab is approved as both a single agent and in combination with ipilimumab to treat patients 12 years and older with mismatch repair-deficient (dMMR) or microsatellite instability-high (MSI-H) metastatic colorectal cancer (CRC) that has progressed on fluoropyrimidine, oxaliplatin, and irinotecan. </p> <p><b>Gene Association:</b> On the basis of prospective clinical data showing efficacy of nivolumab for patients with MSI-H CRC (Overman et al., 2017; 28734759, Lipson et al., 2013; 23169436), MSI-H status may predict sensitivity to nivolumab. </p> <p><b>Supporting Data:</b> Clinical data on the efficacy of nivolumab for the treatment of adrenal cortical carcinoma are limited (PubMed, Dec 2018). Nivolumab has primarily been investigated in the context of melanoma (Postow et al., 2015; 25891304, Larkin et al., 2015; 26027431, Robert et al., 2014; 25399552, Topalian et al., 2014; 24590637, Weber et al., 2015; 25795410), non-small cell lung carcinoma (NSCLC) (Brahmer et al., 2014; ASCO Abstract 8112, Gettinger et al., 2014; ASCO Abstract 8024, Antonia et al., 2014; ASCO Abstract 8023, Rizvi et al., 2014; ASCO Abstract 8022, Antonia et al., 2014; ASCO Abstract 8113)(Brahmer et al., 2015; 26028407, Borghaei et al., 2015; 26412456) and renal cell carcinoma (RCC) (Amin et al., 2014; ASCO Abstract 5010, McDermott et al., 2016, ASCO Abstract 4507)(Motzer et al., 2014; 25452452, Topalian et al., 2012; 22658127, Brahmer et al., 2010; 20516446, Motzer et al., 2015; 26406148). In a Phase 3 study for patients with platinum-refractory recurrent or metastatic head and neck squamous cell carcinoma (HNSCC), nivolumab compared with investigator's choice (methotrexate, docetaxel, or cetuximab) improved median OS (7.5 vs. 5.1 months) and significantly reduced the risk of death (hazard ratio [HR] of 0.70) (Gillison et al., 2016; AACR Abstract CT099, Ferris et al., 2016; ASCO Abstract 6009). Increased survival benefit was observed for patients whose tumors were positive for PD-L1 expression (HR=0.55) or human papillomavirus (HPV) (HR=0.56), although nivolumab also showed efficacy for PD-L1-negative (HR=0.89) or HPV-negative (HR=0.73) patients (Gillison et al., 2016; AACR Abstract CT099). Nivolumab has also achieved clinical benefit in various other cancers, including ovarian cancer (ORR, 6-15%) (Hamanishi et al., 2015; 26351349, Brahmer et al., 2012; 22658128), small cell lung cancer (ORR, 18%) (Calvo et al., 2015; ECC Abstract 3098), Hodgkin lymphoma (ORR 87%) (Ansell et al.,2015; ASH Abstract 583)(Ansell et al., 2015; 25482239), advanced/metastatic gastroesophageal carcinoma (ORR 12-18%) (Le et al., 2016; ASCO GI Cancers Abstract 06, Kojima et al., 2016; ASCO GI Cancers Abstract TPS175), recurrent/progressive glioblastoma (GBM; 12-month OS, 40%) (Reardon et al., 2016; ASCO Abstract 2014), pediatric GBM associated with biallelic mismatch repair deficiency (2/2 partial responses)(Bouffet et al., 2016; 27001570), and hepatocellular carcinoma (ORR, 16%) (Sangro et al., 2016; ASCO Abstract 4078; El-Khoureiry et al., 2016; ASCO Abstract 4012). Nivolumab alone or in combination with pazopanib for previously treated metastatic sarcoma achieved clinical benefit in 39% (9/23) of cases (Paoluzzi et al., 2016; ASCO Abstract 11047); however, another study reported responses in 0% (0/12) of patients with uterine leiomyosarcoma (George et al., 2016; ASCO Abstract 11007). Nivolumab alone or in combination with ipilimumab (at two different dose combinations) for previously treated advanced gastric cancer achieved ORRs of 14% and 10-26%, respectively (Janjigian et al., 2016; ASCO Abstract 4010). Nivolumab in combination with ipilimumab for patients with recurrent bevacizumab-naive GBM achieved stable disease in 43% (13/30) of cases, but with a greater incidence of serious treatment-related adverse events than nivolumab alone (Reardon et al., 2016; ASCO Abstract 2014). Nivolumab and stereotactic radiation have been successfully combined for the treatment of melanoma brain metastases (Ahmed et al., 2016; 26712903). </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            },
+                            {
+                              "Name": "",
+                              "GenericName": "Avelumab",
+                              "FDAApproved": false,
+                              "Rationale": "<p><b>Approved Indications:</b> Avelumab is a monoclonal antibody that binds to PD-L1 and blocks its interaction with PD-1 in order to enhance antitumor immune responses. It is FDA approved to treat patients 12 years and older with metastatic Merkel cell carcinoma, as well as patients with advanced urothelial carcinoma who have progressed on or after platinum chemotherapy or who are within 12 months of neoadjuvant or adjuvant platinum chemotherapy. The combination of avelumab and axitinib is FDA approved as first-line treatment for patients with advanced renal cell carcinoma (RCC). </p> <p><b>Gene Association:</b> On the basis of emerging clinical data in patients with MSI-H colorectal cancer (Hochster et al., 2017; ASCO Abstract 673), endometrial cancer (Fleming et al., 2018; ASCO Abstract 5585), or gastric/gastroesophageal junction cancer (Bang et al., 2018; ASCO Abstract 92), MSI-H status may predict sensitivity to anti-PD-L1 therapies such as avelumab. </p> <p><b>Supporting Data:</b> Clinical data on the efficacy of avelumab for the treatment of adrenal gland cortical carcinoma are limited (PubMed, Dec 2018). The JAVELIN Phase 1b study has demonstrated clinical benefit from single-agent avelumab in a variety of solid tumor types, including non-small cell lung carcinoma (NSCLC)(Verschraegen et al., 2016; ASCO Abstract 9036), gastric carcinoma and gastroesophageal junction (GEJ) adenocarcinoma (Chung et al., 2016; ASCO Abstract 4009), urothelial carcinoma (Patel et al., 2016; ESMO Abstract 777PD), mesothelioma (Hassan et al., 2016; ASCO Abstract 8503), ovarian carcinoma (Disis et al., 2016; ASCO Abstract 5533), and breast cancer (Dirix et al., 2016; SABCS Abstract S1-04), and from avelumab combined with axitinib in renal cell carcinoma (Larkin et al., 2016; ESMO Abstract 775PD). Emerging clinical data show a positive trend toward the association of tumor cell PD-L1 expression and improved objective response rate, progression-free survival, or overall survival in NSCLC in the first-line setting and in ovarian and breast cancer (Disis et al., 2016; ASCO Abstract 5533, Dirix et al., 2016; SABCS Abstract S1-04, Verschraegen et al., 2016; ASCO Abstract 9036). Limited clinical data indicate activity of avelumab in adrenocortical carcinoma, metastatic castration-resistant prostate cancer, and thymic cancer (Le Tourneau et al., 2016; ASCO Abstract 4516, Fakhrejahani et al., 2017; ASCO GU Abstract 159, Rajan et al., 2016; ASCO Abstract e20106). Phase 3 studies are evaluating avelumab with chemoradiotherapy alone (NCT02952586) or in combination with cetuximab (NCT02999087) in patients with locally advanced head and neck squamous cell carcinoma (Jun 2018). </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            },
+                            {
+                              "Name": "",
+                              "GenericName": "Atezolizumab",
+                              "FDAApproved": false,
+                              "Rationale": "<p><b>Approved Indications:</b> Atezolizumab is a monoclonal antibody that binds to PD-L1 and blocks its interaction with PD-1 to enhance antitumor immune responses. It is FDA approved to treat patients with advanced urothelial carcinoma who are not eligible for any platinum-containing therapy, who have PD-L1-positive tumors and are not eligible for cisplatin-containing chemotherapy, or who progress during or following platinum-based chemotherapy. It is also approved to treat patients with metastatic non-small cell lung cancer (NSCLC) who progressed on prior treatments and as a first-line treatment in combination with bevacizumab, paclitaxel, and carboplatin for patients with metastatic non-squamous NSCLC without EGFR or ALK alterations. It is additionally approved in combination with carboplatin and etoposide as first-line treatment for patients with extensive-stage small cell lung cancer. Atezolizumab is also approved in combination with paclitaxel protein-bound to treat patients with advanced triple-negative breast cancer whose tumors are PD-L1 positive. </p> <p><b>Gene Association:</b> On the basis of emerging clinical data showing efficacy of atezolizumab alone or in combination with antiangiogenic therapy for patients with MSI-H colorectal cancer (Hochster et al., 2017; ASCO Abstract 673) or endometrial cancer (Fleming et al., 2018; ASCO Abstract 5585), MSI-H status may predict sensitivity to atezolizumab. </p> <p><b>Supporting Data:</b> Atezolizumab has been studied primarily for the treatment of non-small cell lung cancer (NSCLC) (Smith et al., 2016; ASCO Abstract 9028, Mazieres et al., 2016; ASCO Abstract 9032, Besse et al., 2015; ECC Abstract 16LBA, Spigel et al., 2015; ASCO Abstract 8028)(Fehrenbacher et al., 2016; 26970723, Herbst et al., 2014; 25428504) and urothelial carcinoma (Balar et al., 2016; ASCO Abstract LBA4500, Dreicer et al., 2016; ASCO Abstract 4515)(Rosenberg et al., 2016; 26952546, Powles et al., 2014; 25428503). A study of atezolizumab as monotherapy for patients with advanced solid tumors reported a median progression-free survival (PFS) of 18 weeks and an overall response rate (ORR) of 21%, including confirmed responses in 26% (11/43) of melanomas, 13% (7/56) of renal cell carcinomas (RCC) and 13% (1/6) of colorectal cancers (CRCs)(Herbst et al., 2014; 25428504). A Phase 1a study of atezolizumab reported an ORR of 15% (9/62), median PFS of 5.6 months, and median overall survival (OS) of 28.9 months for patients with clear cell RCC (McDermott et al., 2016; 26755520). A Phase 1b study evaluated atezolizumab combined with nab-paclitaxel for patients with previously treated metastatic triple-negative breast cancer (mTNBC) and reported confirmed objective responses for 42% (10/24) of patients; no dose-limiting toxicities were observed (Adams et al., 2016; ASCO Abstract 1009). A Phase 1b study evaluated atezolizumab in combination with the MEK inhibitor cobimetinib for advanced solid tumors and enrolled 23 patients with CRC, who were mostly (22/23) KRAS-mutant; 17% (4/23) of these patients achieved objective partial responses, with three of the responders being mismatch repair (MMR)-proficient and one of them having unknown MMR status. In addition, stable disease was observed for 22% (5/23) of patients, and no dose-limiting toxicities were encountered (Bendell et al., 2016; ASCO Abstract 3502). Clinical data on the efficacy of atezolizumab for the treatment of adrenal gland cortical carcinoma are limited (PubMed, Dec 2018). </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            },
+                            {
+                              "Name": "",
+                              "GenericName": "Pembrolizumab",
+                              "FDAApproved": true,
+                              "Rationale": "<p><b>Approved Indications:</b> Pembrolizumab is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with the ligands PD-L1 and PD-L2 to enhance antitumor immune responses. It is FDA approved as second-line treatment for adult and pediatric patients with unresectable or metastatic microsatellite instability-high (MSI-H) or mismatch-repair-deficient (dMMR) solid tumors, or with MSI-H or dMMR colorectal cancer that has progressed on fluoropyrimidine, oxaliplatin, and irinotecan. Pembrolizumab is also approved in recurrent or metastatic head and neck squamous cell carcinoma (HNSCC) that has progressed on or after platinum chemotherapy, hepatocellular carcinoma previously treated with sorafenib, adult or pediatric classical Hodgkin lymphoma that is refractory or following relapse after 3 or more prior lines of therapy, adult or pediatric primary mediastinal large B-cell lymphoma (PMBCL) that is refractory or has relapsed after 2 or more prior lines of therapy, PD-L1-positive gastric or gastroesophageal junction (GEJ) adenocarcinoma that has progressed on 2 or more lines of therapy, PD-L1-positive recurrent or metastatic cervical cancer that has progressed on or after chemotherapy, adult or pediatric recurrent locally advanced or metastatic Merkel cell carcinoma (MCC), unresectable or metastatic melanoma, and as adjuvant treatment for completely resected advanced melanoma with lymph node involvement. Pembrolizumab is approved in PD-L1-positive metastatic non-small cell lung cancer (NSCLC) following progression on prior therapy. It is also approved as first-line treatment for patients with metastatic NSCLC or patients with Stage 3 NSCLC who are not candidates for surgical resection or definitive chemoradiation and whose tumors express PD-L1 without EGFR or ALK genomic alterations, as first-line treatment in combination with pemetrexed and carboplatin for metastatic non-squamous NSCLC without EGFR or ALK genomic alterations, and as first-line treatment in combination with carboplatin and paclitaxel or nab-paclitaxel for metastatic squamous NSCLC. It is also approved to treat patients with advanced urothelial carcinoma who are not eligible for any platinum-containing chemotherapy, who have PD-L1 positive tumors and are not eligible for cisplatin-containing chemotherapy, or who progress on or after platinum chemotherapy or within 12 months of neoadjuvant or adjuvant platinum chemotherapy. Pembrolizumab is also approved in combination with axitinib as first-line treatment for patients with advanced renal cell carcinoma (RCC). </p> <p><b>Gene Association:</b> On the basis of multiple prospective clinical studies showing efficacy of pembrolizumab against various microsatellite instability (MSI)-high or mismatch repair-deficient solid tumors (Ayers et al., 2016; ASCO-SITC Abstract P60, Diaz et al., 2016; ASCO Abstract 3003, Le et al., 2016; ASCO GI Abstract 195, Fader et al., 2016; SGO Abstract 3)(Le et al., 2015; 26028255), MSI may predict sensitivity to pembrolizumab. </p> <p><b>Supporting Data:</b> Clinical data on the efficacy of pembrolizumab for the treatment of adrenal cortical carcinoma are limited (PubMed, Dec 2018). Significant clinical benefit in response to pembrolizumab has been achieved in patients with mismatch repair-deficient or microsatellite instability (MSI)-high solid tumors (Diaz et al., 2016; ASCO Abstract 3003)(Le et al., 2015; 26028255), including colorectal cancer [CRC; overall response rate (ORR), 4/10](Le et al., 2015; 26028255), non-CRC gastrointestinal cancer (ORR, 5/10) (Le et al., 2016; ASCO Gastrointestinal Cancers Symposium Abstract 195), and endometrial cancer (ORR, 5/9) (Fader et al., 2016; SGO Abstract 3). In a retrospective analysis of 361 patients with solid tumors treated with pembrolizumab, 3% were MSI-high and experienced a significantly higher ORR compared with non-MSI-high cases (70% vs. 12%, p=0.001) (Ayers et al., ASCO-SITC 2016; Abstract P60). Pembrolizumab has achieved significant clinical benefit in PD-L1-expressing solid tumors including gastric carcinoma (ORR, 22%)(Muro et al., 2016; 27157491), esophageal carcinoma (ORR, 22%) (Doi et al., 2015; ASCO Abstract 4010), endometrial carcinoma (ORR, 13%) (Ott et al., 2016; ASCO Abstract 5581)(Mehnert et al., 2016; 27159395), lung carcinoma (median overall survival = 14.9 months) (Herbst et al., 2015; 26712084), urothelial tract carcinoma (ORR, 24%) (Pilmack et al., 2014; ESMO Abstract LBA23), head and neck carcinoma (ORR, 12–26%) (Chow et al., 2014; ESMO Abstract LBA31, Hsu et al., 2015; ESMO Abstract 2801, Cohen et al., 2016; ASCO Abstract 6017)(Seiwert et al., 2016; 27247226), breast carcinoma (ORR, 16-25%) (Nanda et al., 2014; SABCS Abstract S1-09)(Nanda et al., 2016; 27138582), cervical squamous cell carcinoma (ORR, 12.5%) (Frenel et al., 2016; ASCO Abstract 5515), thyroid carcinoma (ORR, 9%) (Mehnert et al., 2016; ASCO Abstract 6091), and pleural mesothelioma (ORR, 24%) (Alley et al., 2015; AACR Abstract CT103). Clinical studies have reported responses to pembrolizumab in combination with other immunotherapies such as ipilimumab in recurrent advanced non-small cell lung carcinoma (NSCLC) (ORR, 24%) (Patnaik et al., 2015; ASCO Abstract 8011, Gubens et al., 2016; ASCO Abstract 9027), and nivolumab in glioma [2/12 partial responses (PRs), 4/12 stable disease (SD)] (Schaff et al., 2015; SNO Abstract IMCT-18). Clinical benefit has also been achieved with pembrolizumab combined with other agents such as chemotherapy for advanced non-squamous NSCLC (ORR, 28%) (Papadimitrakopoulou et al., 2015; ASCO Abstract 8031), IDO-1 inhibitor epacadostat for solid tumors (ORR, 53%) (Gangadhar et al., 2015; SITC Abstract 511), HDAC inhibitor entinostat for breast and endometrial cancer (Tolcher et al., 2018; AACR Abstract CT179), and bevacizumab for glioblastoma (1/6 PR, 2/6 SD) (Reardon et al., 2016; ASCO Abstract 2010). </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            },
+                            {
+                              "Name": "",
+                              "GenericName": "Cemiplimab-rwlc",
+                              "FDAApproved": false,
+                              "Rationale": "<p><b>Approved Indications:</b> Cemiplimab-rwlc is a monoclonal antibody that binds to the PD-1 receptor and blocks its interaction with the ligands PD-L1 and PD-L2 to enhance antitumor immune responses. It is FDA approved to treat patients with locally advanced or metastatic cutaneous squamous cell carcinoma (CSCC) that is not amenable to surgery or radiation therapy. </p> <p><b>Gene Association:</b> On the basis of prospective clinical data showing efficacy of anti-PD-1 therapies against various MSI-high (MSI-H) solid tumors (Ayers et al., 2016; ASCO-SITC Abstract P60, Diaz et al., 2016; ASCO Abstract 3003, Le et al., 2016; ASCO GI Abstract 195, Fader et al., 2016; SGO Abstract 3, Le et al., 2015; 26028255, Overman et al., 2017; 28734759, Lipson et al., 2013; 23169436), MSI-H status may predict sensitivity to cemiplimab-rwlc. </p> <p><b>Supporting Data:</b> Cemiplimab-rwlc has been studied primarily in advanced CSCC, where it elicited a combined ORR of 48% (41/85) in Phase 1 and 2 studies (Migden et al., 2018; 29863979). Clinical responses have also been reported in non-small cell lung cancer (40% ORR, 1 CR and 7 PRs) and basal cell carcinoma (1 PR) (Moreno et al., 2018; WCLC Abstract MA04.01, Falchook et al., 2016; 27879972). </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            },
+                            {
+                              "Name": "",
+                              "GenericName": "Durvalumab",
+                              "FDAApproved": false,
+                              "Rationale": "<p><b>Approved Indications:</b> Durvalumab is a monoclonal antibody that binds to PD-L1 and blocks its interaction with PD-1 to enhance antitumor immune responses. It is FDA approved to treat patients with advanced urothelial carcinoma that has progressed on or after platinum chemotherapy or within 12 months of neoadjuvant or adjuvant platinum chemotherapy. Durvalumab is also approved to treat patients with unresectable, Stage 3 non-small cell lung cancer that has not progressed following concurrent platinum-based chemotherapy and radiation. </p> <p><b>Gene Association:</b> On the basis of emerging clinical data in patients with MSI-H colorectal cancer (Hochster et al., 2017; ASCO Abstract 673), endometrial cancer (Fleming et al., 2018; ASCO Abstract 5585), or gastric/gastroesophageal junction cancer (Bang et al., 2018; ASCO Abstract 92), MSI-H status may predict sensitivity to anti-PD-L1 therapies such as durvalumab. </p> <p><b>Supporting Data:</b> Clinical data on the efficacy of durvalumab for the treatment of adrenal gland cortical carcinoma are limited (PubMed, Dec 2018). Single-agent durvalumab has demonstrated efficacy in urothelial carcinoma (Powles et al., 2017; ASCO Genitourinary Abstract 286)(Massard et al., 2016; 27269937), non-small cell lung cancer (Bais et al., 2017; AACR Abstract 3720/5, Garassino et al., 2016; IASLC Abstract PLO4a.03), and head and neck squamous cell carcinoma (Segal et al., 2016; ESMO Abstract 949O, Segal et al., 2015; ASCO Abstract 3011). In patients with advanced solid tumors, durvalumab monotherapy has elicited disease control rates (DCRs) of 36–46% (7/19 to 12/26) in Phase 1/2 studies (Lutzky et al., 2014; ASCO Abstract 3001, Iguchi et al., 2015; ASCO Abstract 3039). Durvalumab is also under investigation in combination with other agents in Phase 1/2 trials. In advanced melanoma, durvalumab in combination with trametinib and dabrafenib elicited objective response rates (ORRs) and DCRs of 76% (16/21) and 100% (21/21) in patients with BRAF-mutant tumors, and durvalumab with trametinib elicited ORRs and DCRs of 21% (3/14) and 64% (9/14) in patients whose tumors were BRAF wild-type (Ribas et al., 2015; ASCO Abstract 3003). Durvalumab in combination with the PARP inhibitor olaparib has shown activity in patients with metastatic castration-resistant prostate cancer and progression on enzalutamide and/or abiraterone (Karzai et al., 2017; ASCO Genitourinary Abstract 162) and in patients with BRCA-wild-type breast or gynecological cancer (Lee et al., 2016; ASCO Abstract 3015). Durvalumab in combination with the anti-CTLA4 antibody tremelimumab, but not durvalumab as a single-agent, has shown activity in patients with previously treated advanced germ cell tumors (Necchi et al., 2018; AACR Abstract CT102/23). Responses have also been reported for patients with solid tumors treated with durvalumab in combination with the anti-PD-1 antibody MEDI0680 (Hamid et al., 2016; ESMO Abstract 1050PD), the CXCR2 antagonist AZD5069 (Hong et al., 2016; ESMO 2016 Abstract 1049PD), or the ATR inhibitor AZD6738 (Yap et al., 2016; EORTC-NCI-AACR Abstract 1LBA). In patients with treatment-refractory solid tumors, concurrent durvalumab and radiotherapy achieved an ORR of 60% (6/10) for in-field evaluable lesions, including 2 complete and 4 partial responses (Levy et al., 2016; 27764686). </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ReferenceLinks": {
+                          "ReferenceLink": null
+                        }
+                      },
+                      {
+                        "ClinicalTrialLinks": {
+                          "ClinicalTrialLink": [
+                            {
+                              "nctId": "NCT03084471",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02834013",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02304458",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT03104699",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02693535",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02983045",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02832167",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02715284",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT02817633",
+                              "Include": true
+                            },
+                            {
+                              "nctId": "NCT03010176",
+                              "Include": true
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceLinks": {
+                "ReferenceLink": null
+              }
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "Name": "PARK2"
+            },
+            {
+              "Include": true
+            },
+            {
+              "Alterations": {
+                "Alteration": [
+                  {
+                    "content": [
+                      {
+                        "Name": "Q34fs*5"
+                      },
+                      {
+                        "AlterationProperties": {
+                          "AlterationProperty": [
+                            {
+                              "name": "Q34fs*5",
+                              "isSubclonal": null,
+                              "isEquivocal": false,
+                              "dnaFraction": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "Interpretation": "PARK2 (Parkin) is an E3 ubiquitin ligase involved in multiple cellular functions including protein turnover, stress response, metabolism, and cell growth and survival. Dysfunction of PARK2 is associated with the development and progression of Parkinson Disease (Xu et al., 2014; 24297497). While the role of PARK2 in neurodegenerative disease has been a primary focus of investigation, there is a growing body of evidence demonstrating PARK2 inactivation is involved in human cancer. In preclinical studies, PARK2 has been shown to inhibit cell proliferation and tumorigenesis in cancer cell line models (Veeriah et al., 2010; 19946270) and Parkin-deficient mice show increased susceptibility to tumorigenesis, suggesting a role as a tumor suppressor (Sun et al., 2013; 23470638, Poulogiannis et al., 2010; 20696900; Tay et al., 2010; 20630868). In vitro functional studies have characterized PARK2 R42C, N254S, R275Q, and E344G as loss of function mutations (Veeriah et al., 2010; 19946270), and truncation mutations that disrupt the RING finger domains (amino acids 238-293 and 418-449) are also predicted to result in loss of function (Veeriah et al., 2010; 19946270). PARK2 is located on chromosome 6q25.2–27, a region that is frequently deleted in human cancer (Veeriah et al., 2010; 19946270). In a study across 11 cancer types, deletions of PARK2 were reported in 30% of tumors, with 11% harboring focal deletions in PARK2 (Gong et al., 2014; 24793136). Deletions of PARK2 were most frequent in ovarian (62%), bladder (38%), and breast (32%) carcinomas (Gong et al., 2014; 24793136). Somatic mutations in PARK2 have also been reported in multiple cancer types (Veeriah et al., 2010; 19946270), including in cervical cancer (5.6%), lung squamous cell cancer (5.6%), colorectal cancer (2.4-5.6%), gastric cancer (4.6%), skin cutaneous melanoma (3.5%), lung adenocarcinoma (2.7-3.1%), and endometrioid cancer (2.1%) (Xu et al., 2014; 24297497). PARK2 was reported to promote ubiquitination and turnover of cyclin D1 and cyclin E1, and depletion of PARK2 resulted in accumulation of cyclin D1 and cyclin E1 and enhanced cell proliferation (Gong et al., 2014; 24793136, Veeriah et al., 2010; 19946270). Therefore, inhibitors of CDK4/CDK6 (the binding partners for cyclin D1) or CDK2 (the binding partner for cyclin E1) may be relevant in the case of PARK2 deletion or loss of function mutation (Bartek and Hodny, 2014; 24866187)."
+                      },
+                      {
+                        "Include": true
+                      },
+                      {
+                        "ClinicalTrialNote": ""
+                      },
+                      {
+                        "Therapies": {
+                          "Therapy": null
+                        }
+                      },
+                      {
+                        "ReferenceLinks": {
+                          "ReferenceLink": null
+                        }
+                      },
+                      {
+                        "ClinicalTrialLinks": {
+                          "ClinicalTrialLink": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceLinks": {
+                "ReferenceLink": null
+              }
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "Name": "TERT"
+            },
+            {
+              "Include": true
+            },
+            {
+              "Alterations": {
+                "Alteration": [
+                  {
+                    "content": [
+                      {
+                        "Name": "promoter -124C>T"
+                      },
+                      {
+                        "AlterationProperties": {
+                          "AlterationProperty": [
+                            {
+                              "name": "promoter -124C>T",
+                              "isSubclonal": null,
+                              "isEquivocal": false,
+                              "dnaFraction": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "Interpretation": "Telomerase reverse transcriptase (TERT, or hTERT) is a catalytic subunit of the telomerase complex, which is required to maintain appropriate chromosomal length (Shay et al., 2011; 22015685). Activation of TERT is a hallmark of cancer, being detected in up to 80-90% of malignancies and absent in quiescent cells (Shay et al., 1997; 9282118, Kim et al., 1994; 7605428, Hanahan and Weinberg, 2000; 10647931). Mutations within the promoter region of TERT that confer enhanced TERT promoter activity have been reported in two hotspots, located at -124 bp and -146 bp upstream of the transcriptional start site (also termed C228T and C250T, respectively)(Horn et al., 2013; 23348503, Huang et al., 2014; 23348506, Vinagre et al., 2013; 23887589), as well as tandem mutations at positions –124/–125 bp and –138/–139 bp (Horn et al., 2013; 23348503). In one study, TERT promoter mutations were detected in 7/289 adrenal gland tumors, including 4/38 adrenocortical carcinomas (ACCs), the majority of which were -124C>T (C228T) mutations (Papathomas et al., 2014; 24951106). High level amplification of TERT has also been found in ACC (Assie et al., 2014; 24747642). Hypermethylation of the TERT promoter was reported in 27 adrenocortical carcinoma samples and associated with metastasis, relapse, and poorer survival rates; however, TERT copy number gain or promoter mutations, while detected, were not evaluated towards prognosis in this study (Svahn et al., 2018; 29956721). Therapeutic options for targeting tumors with TERT mutations are limited, although a variety of approaches are under development, including immunotherapies utilizing TERT as a tumor-associated antigen, antisense oligonucleotide- or peptide-based therapies, and TERT promoter-directed cytotoxic molecules."
+                      },
+                      {
+                        "Include": true
+                      },
+                      {
+                        "ClinicalTrialNote": ""
+                      },
+                      {
+                        "Therapies": {
+                          "Therapy": null
+                        }
+                      },
+                      {
+                        "ReferenceLinks": {
+                          "ReferenceLink": null
+                        }
+                      },
+                      {
+                        "ClinicalTrialLinks": {
+                          "ClinicalTrialLink": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceLinks": {
+                "ReferenceLink": null
+              }
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "Name": "TP53"
+            },
+            {
+              "Include": true
+            },
+            {
+              "Alterations": {
+                "Alteration": [
+                  {
+                    "content": [
+                      {
+                        "Name": "P250L"
+                      },
+                      {
+                        "AlterationProperties": {
+                          "AlterationProperty": [
+                            {
+                              "name": "P250L",
+                              "isSubclonal": null,
+                              "isEquivocal": false,
+                              "dnaFraction": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "Interpretation": "Functional loss of the tumor suppressor p53, which is encoded by the TP53 gene, is common in aggressive advanced cancers (Brown et al., 2009; 19935675). Any alteration that results in the disruption or partial or complete loss of the region encoding the TP53 DNA-binding domain (DBD, aa 100-292) or the tetramerization domain (aa 325-356), such as observed here, is thought to dysregulate the transactivation of p53-dependent genes and is predicted to promote tumorigenesis (Joerger and Fersht, 2008; 18410249, Kato et al., 2003; 12826609, Kamada et al., 2011; 20978130). Germline mutations in TP53 are associated with the very rare disorder Li-Fraumeni syndrome and the early onset of many cancers (Bougeard et al., 2015; 26014290, Sorrell et al., 2013; 23355100, Nichols et al., 2001; 11219776), including sarcomas (Taubert et al., 1998; 10780879, Kleihues et al., 1997; 9006316, Gonzalez et al., 2009; 19204208). Estimates for the prevalence of germline TP53 mutations in the general population range from 1:5,000 (Lalloo et al., 2003; 12672316) to 1:20,000 (Gonzalez et al., 2009; 19204208). In the appropriate clinical context, germline testing of TP53 is recommended. TP53 mutations have been reported in 20-33% of adrenocortical carcinomas (Bertherat and Bertagna, 2009; 19500768, Ohgaki et al., 1993; 8509216, Reincke et al., 1994; 8126158, Libè et al., 2007; 17289876, Sidhu et al., 2005; 15922892), although a few studies have reported a much higher incidence (70-80%) of TP53 mutations in this tumor type (Barzon et al., 2001; 11454518, Choong et al., 2012; 22233476, Seidinger et al., 2011; 21192060). TP53 mutations have been strongly associated with abnormal p53 protein expression in adrenocortical carcinoma, and both mutations and aberrant expression have been associated with poor outcomes and decreased disease-free survival (Barzon et al., 2001; 11454518, Waldmann et al., 2012; 22203015, Ragazzon et al., 2010; 20959480, Libè et al., 2007; 17289876, Reincke et al., 1994; 8126158). tp53 There are no approved therapies to address TP53 mutation or loss. However, tumors with TP53 loss of function alterations may be sensitive to the WEE1 inhibitor AZD1775 (Hirai et al., 2010; 20107315, Bridges et al., 2011; 21799033, Rajeshkumar et al., 2011; 21389100, Osman et al., 2015; 25504633), or p53 gene therapy and immunotherapeutics such as SGT-53 (Xu et al., 2002; 12489850, Xu et al., 2001; 11713371, Camp et al., 2013; 23470564, Kim et al., 2015; 25240597, Pirollo et al., 2016; 27357628) and ALT-801 (Hajdenberg et al., 2012; ASCO Abstract e15010). Missense mutations leading to TP53 inactivation may also be sensitive to therapies that reactivate mutant p53 such as APR-246 (Gourley et al., 2016; ASCO Abstract 5571, Lehmann et al., 2012; 22965953, Mohell et al., 2015; 26086967, Franssonet al., 2016; 27179933). In a Phase 1b trial in patients with p53-positive high-grade serous ovarian cancer, APR-246 combined with carboplatin and pegylated liposomal doxorubicin achieved a 52% (11/21) response rate and 100% disease control rate (Gourley et al., 2016; ASCO Abstract 5571). In a Phase 1 study, AZD1775 in combination with gemcitabine, cisplatin, or carboplatin elicited partial response in 10% (17/176) and stable disease in 53% (94/176) of patients with solid tumors; the response rate was 21% (4/19) in patients with TP53 mutations versus 12% (4/33) in patients who were TP53-wild-type (Leijen et al., 2016; 27601554). Combination of AZD1775 with paclitaxel and carboplatin achieved significantly longer progression-free survival than paclitaxel and carboplatin alone in patients with TP53-mutant ovarian cancer (Oza et al., 2015; ASCO Abstract 5506). Furthermore, AZD1775 in combination with carboplatin achieved a 27% (6/22) response rate and 41% (9/22) stable disease rate in patients with TP53-mutant ovarian cancer refractory or resistant to carboplatin plus paclitaxel (Leijen et al., 2015; ASCO Abstract 2507). In a Phase 1b clinical trial of SGT-53 in combination with docetaxel in patients with solid tumors, 75% (9/12) of evaluable patients experienced clinical benefit, including two confirmed and one unconfirmed partial responses and two instances of stable disease with significant tumor shrinkage (Pirollo et al., 2016; 27357628). Additionally, the combination of a CHK1 inhibitor and irinotecan reportedly reduced tumor growth and prolonged survival in a TP53 mutant, but not TP53 wild-type, breast cancer xenotransplant mouse model (Ma et al., 2012; 22446188)."
+                      },
+                      {
+                        "Include": true
+                      },
+                      {
+                        "ClinicalTrialNote": ""
+                      },
+                      {
+                        "Therapies": {
+                          "Therapy": [
+                            {
+                              "Name": "",
+                              "GenericName": " MTIG7192A",
+                              "FDAApproved": true,
+                              "Rationale": "<p><b>Approved Indications:</b> test </p> <p><b>Gene Association:</b> test </p> <p><b>Supporting Data:</b> test </p>",
+                              "RationaleRtf": null,
+                              "ApprovedUses": "",
+                              "Effect": "Sensitizing",
+                              "Include": true,
+                              "IncludeInSummary": true,
+                              "ReferenceLinks": {
+                                "ReferenceLink": null
+                              },
+                              "ClinicalTrialLinks": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "ReferenceLinks": {
+                          "ReferenceLink": null
+                        }
+                      },
+                      {
+                        "ClinicalTrialLinks": {
+                          "ClinicalTrialLink": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceLinks": {
+                "ReferenceLink": null
+              }
+            }
+          ]
+        },
+        {
+          "content": [
+            {
+              "Name": "Tumor Mutation Burden"
+            },
+            {
+              "Include": true
+            },
+            {
+              "Alterations": {
+                "Alteration": [
+                  {
+                    "content": [
+                      {
+                        "Name": "TMB-Low"
+                      },
+                      {
+                        "AlterationProperties": {
+                          "AlterationProperty": [
+                            {
+                              "name": "TMB-Low",
+                              "isSubclonal": null,
+                              "isEquivocal": false,
+                              "dnaFraction": null
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "Interpretation": "Tumor mutational burden (TMB, also known as mutation load) is a measure of the number of somatic protein-coding base substitution and insertion/deletion mutations occurring in a tumor specimen. TMB is affected by a variety of causes, including exposure to mutagens such as ultraviolet light in melanoma (Pfeifer et al., 2005; 15748635, Hill et al., 2013; 23875803) and cigarette smoke in lung cancer (Pfeifer et al., 2002; 12379884, Rizvi et al., 2015; 25765070), mutations in the proofreading domains of DNA polymerases encoded by the POLE and POLD1 genes (Cancer Genome Atlas Research Network, 2013; 23636398, Briggs and Tomlinson, 2013; 23447401, Heitzer and Tomlinson, 2014; 24583393, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919), and microsatellite instability (MSI) (Cancer Genome Atlas Research Network, 2013; 23636398, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919). test test test test oscar 2 This sample harbors a low TMB. Compared to patients with tumors harboring higher TMB levels, patients with tumors harboring low TMB levels have experienced lower rates of clinical benefit from treatment with immune checkpoint inhibitors, including anti-CTLA-4 therapy in melanoma (Snyder et al., 2014; 25409260), anti-PD-L1 therapy in urothelial carcinoma (Rosenberg et al., 2016; 26952546), and anti-PD-1 therapy in non-small cell lung cancer and colorectal cancer (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255). Adrenocortical carcinoma harbors a median TMB of 2.7 mutations per megabase (muts/Mb), and 2.5% of cases have high TMB (>20 muts/Mb)(FMI-Chalmers et al., 2017; 28420421). Moreover, several small genomic studies of adrenocortical carcinoma (ACC) have reported a low overall mutational burden in this tumor type, with mean somatic mutation rates of 0.6 to 1.2 mutations per megabase (muts/Mb) (Juhlin et al., 2015; 25490274, Assié et al., 2014; 24747642, Zheng et al., 2016; 27505681). However, a small percentage of ACC cases (2.2 to 4.4%; n = 41 to 91) in these studies exhibited a hyper- or ultra-mutator phenotype, often accompanied by mutations in genes encoding DNA polymerases or DNA mismatch repair proteins (Juhlin et al., 2015; 25490274, Assié et al., 2014; 24747642, Zheng et al., 2016; 27505681), supporting the observation that ACC is a Lynch syndrome-associated cancer (Raymond et al., 2013; 23752102). test In patients with ACC, increased mutational burden has been associated with several clinicopathologic parameters, including reduced survival, higher Weiss score, and higher tumor stage (Assié et al., 2014; 24747642, Zheng et al., 2016; 27505681). test On the basis of strong clinical evidence, elevated TMB may be associated with greater sensitivity to immunotherapeutic agents, including anti-CTLA-4, anti-PD-L1, and anti-PD-1 immune checkpoint inhibitors; approved agents include ipilimumab, atezolizumab, avelumab, durvalumab, cemiplimab-rwlc, pembrolizumab, and nivolumab. Clinical studies have reported associations between elevated TMB and efficacy of PD-1- or PD-L1-targeting therapies, alone or in combination with other agents, in multiple types of solid tumors, including small cell (Dolgin, 2017; 29101156, Hellmann et al., 2018; 29731394) and non-small cell (Hellmann et al., 2018; 29658845, Hellmann et al., 2018; 29657128, Ready et al., 2019; 30785829, Goodman et al., 2017; 28835386, Carbone et al., 2017; 28636851, Rizvi et al., 2018; 29337640, Forde et al., 2018; 29658848, Samstein et al., 2019; 30643254, Miao et al., 2018; 30150660, Chae et al., 2019; 30425022, Colli et al., 2016; 27197178, Wang et al., 2017; 28923100, Gandara et al., 2018; 30082870) lung cancer, urothelial carcinoma (Rosenberg et al., 2016; 26952546, Balar et al., 2017; 27939400, Powles et al., 2018; 29268948, Mariathasan et al., 2018; 29443960, Samstein et al., 2019; 30643254), melanoma (Johnson et al., 2016; 27671167, Goodman et al., 2017; 28835386, Eroglu et al, 2018; 29320474, Shin et al., 2017; 27903500, Riaz et al., 2017; 29033130, Cristescu et al., 2018; 30309915, Miao et al., 2018; 30150660, Samstein et al., 2019; 30643254), colorectal cancer (Samstein et al., 2019; 30643254, Fabrizio et al., 2018; 30151257), HNSCC (Samstein et al., 2019; 30643254, Hanna et al., 2018; 29467336), and other cancer types (Goodman et al., 2017; 28835386, Cristescu et al., 2018; 30309915, Ott et al, 2019; 30557521, Mehnert et al., 2016; 27159395, Santin et al., 2016; 27486176). For patients with melanoma, increased TMB has also been reported to be associated with clinical benefit from the CTLA-4 inhibitor ipilimumab (Snyder et al., 2014; 25409260, Van Allen et al., 2015; 26359337, Colli et al., 2016; 27197178, Roszik et al., 2017; 27776519). test"
+                      },
+                      {
+                        "Include": true
+                      },
+                      {
+                        "ClinicalTrialNote": ""
+                      },
+                      {
+                        "Therapies": {
+                          "Therapy": null
+                        }
+                      },
+                      {
+                        "ReferenceLinks": {
+                          "ReferenceLink": null
+                        }
+                      },
+                      {
+                        "ClinicalTrialLinks": {
+                          "ClinicalTrialLink": null
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            },
+            {
+              "ReferenceLinks": {
+                "ReferenceLink": null
+              }
+            }
+          ]
+        }
+      ]
+    },
+    "Trials": {
+      "Trial": [
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "An Open-Label, Multi-Centre, Study to Assess the Safety of Fixed-Dose Durvalumab + Tremelimumab Combination Therapy or Durvalumab Monotherapy in Advanced Solid Malignancies.",
+          "Summary": null,
+          "StudyPhase": "PHASE 3",
+          "Condition": null,
+          "Target": "PD-L1, CTLA-4",
+          "Eligibility": null,
+          "Locations": "Villejuif (France), Marseille (France), Bari (Italy), Udine (Italy), Montpellier (France), Nimes (France), Poitiers Cedex (France), London (United Kingdom), Padova (Italy), Lyon Cedex 08 (France), and additional locations.",
+          "NCTID": "NCT03084471",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "Nivolumab and Ipilimumab in Treating Patients With Rare Tumors",
+          "Summary": null,
+          "StudyPhase": "PHASE 2",
+          "Condition": null,
+          "Target": "CTLA-4, PD-1",
+          "Eligibility": null,
+          "Locations": "Walnut Creek (California), Boone (Iowa), Cedar Rapids (Iowa), Clive (Iowa), Council Bluffs (Iowa), Creston (Iowa), Des Moines (Iowa), Fort Dodge (Iowa), Jefferson (Iowa), Marshalltown (Iowa), and additional locations.",
+          "NCTID": "NCT02834013",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "Nivolumab With or Without Ipilimumab in Treating Younger Patients With Recurrent or Refractory Solid Tumors or Sarcomas",
+          "Summary": null,
+          "StudyPhase": "PHASE 1/2",
+          "Condition": null,
+          "Target": "PD-1, CTLA-4",
+          "Eligibility": null,
+          "Locations": "Birmingham (Alabama), Los Angeles (California), Orange (California), San Francisco (California), Aurora (Colorado), Atlanta (Georgia), Chicago (Illinois), Indianapolis (Indiana), Boston (Massachusetts), Ann Arbor (Michigan), and additional locations.",
+          "NCTID": "NCT02304458",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "Phase 1 / 2 Study of AGEN2034 in Advanced Tumors and Cervical Cancer",
+          "Summary": null,
+          "StudyPhase": "PHASE 1/2",
+          "Condition": null,
+          "Target": "PD-1",
+          "Eligibility": null,
+          "Locations": "Scottsdale (Arizona), Duarte (California), Miami (Florida), Sarasota (Florida), Augusta (Georgia), Chicago (Illinois), Boston (Massachusetts), Columbus (Ohio), Houston (Texas), Seattle (Washington), and additional locations.",
+          "NCTID": "NCT03104699",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "TAPUR: Testing the Use of Food and Drug Administration (FDA) Approved Drugs That Target a Specific Abnormality in a Tumor Gene in People With Advanced Stage Cancer",
+          "Summary": null,
+          "StudyPhase": "PHASE 2",
+          "Condition": null,
+          "Target": "VEGFRs, ABL, SRC, ALK, AXL, MET, ROS1, TRKA, TRKC, CDK4, CDK6, CSF1R, FLT3, KIT, PDGFRs, RET, mTOR, EGFR, ERBB3, ERBB2, BRAF, MEK, SMO, DDR2, RAF1, PARP, PD-1, CTLA-4",
+          "Eligibility": null,
+          "Locations": "Omaha (Nebraska), Atlanta (Georgia), Grand Rapids (Michigan), Phoenix (Arizona), Ann Arbor (Michigan), Fargo (North Dakota), Charlotte (North Carolina), Sioux Falls (South Dakota), Seattle (Washington), Bismarck (North Dakota), and additional locations.",
+          "NCTID": "NCT02693535",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "A Dose Escalation and Cohort Expansion Study of CD122-Biased Cytokine (NKTR-214) in Combination With Anti-PD-1 Antibody (Nivolumab) in Patients With Select Advanced or Metastatic Solid Tumors",
+          "Summary": null,
+          "StudyPhase": "PHASE 1/2",
+          "Condition": null,
+          "Target": "PD-1, CD122, CTLA-4",
+          "Eligibility": null,
+          "Locations": "Cleveland (Ohio), Nashville (Tennessee), Montréal (Canada), New Haven (Connecticut), Portland (Oregon), Houston (Texas), Seattle (Washington), Buffalo (New York), Poznań (Poland), Otwock (Poland), and additional locations.",
+          "NCTID": "NCT02983045",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "An Open Label Investigational Immuno-therapy Trial of Nivolumab in Cancers That Are Advanced or Have Spread",
+          "Summary": null,
+          "StudyPhase": "PHASE 2",
+          "Condition": null,
+          "Target": "PD-1",
+          "Eligibility": null,
+          "Locations": "Nashville (Tennessee), Dallas (Texas), Fort Worth (Texas), Houston (Texas), San Antonio (Texas), The Woodlands (Texas), Waco (Texas), Fairfax (Virginia), Wytheville (Virginia), Berlin (Germany), and additional locations.",
+          "NCTID": "NCT02832167",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "A Phase 1 Dose Escalation and Cohort Expansion Study of TSR-042, an Anti-PD-1 Monoclonal Antibody, in Patients With Advanced Solid Tumors",
+          "Summary": null,
+          "StudyPhase": "PHASE 1",
+          "Condition": null,
+          "Target": "PD-1",
+          "Eligibility": null,
+          "Locations": "Birmingham (Alabama), Goodyear (Arizona), Phoenix (Arizona), Scottsdale (Arizona), Fayetteville (Arkansas), La Jolla (California), Los Angeles (California), Newport Beach (California), Orange (California), San Francisco (California), and additional locations.",
+          "NCTID": "NCT02715284",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "A Phase 1 Study of TSR-022, an Anti-TIM-3 Monoclonal Antibody, in Patients With Advanced Solid Tumors",
+          "Summary": null,
+          "StudyPhase": "PHASE 1",
+          "Condition": null,
+          "Target": "TIM-3, LAG-3, PD-1",
+          "Eligibility": null,
+          "Locations": "Goodyear (Arizona), Phoenix (Arizona), Scottsdale (Arizona), Tucson (Arizona), Encinitas (California), Fresno (California), Los Angeles (California), San Marcos (California), Whittier (California), Aurora (Colorado), and additional locations.",
+          "NCTID": "NCT02817633",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        },
+        {
+          "Gene": {
+            "content": [
+              "Microsatellite status"
+            ]
+          },
+          "Alteration": {
+            "content": [
+              "MS-Stable"
+            ]
+          },
+          "Title": "Study of MK-1454 Alone or in Combination With Pembrolizumab in Participants With Advanced/Metastatic Solid Tumors or Lymphomas (MK-1454-001)",
+          "Summary": null,
+          "StudyPhase": "PHASE 1",
+          "Condition": null,
+          "Target": "STING, PD-1",
+          "Eligibility": null,
+          "Locations": "San Francisco (California), New York (New York), Santa Monica (California), Villejuif (France), Ramat Gan (Israel), London (United Kingdom), Dallas (Texas), Birmingham (Alabama), Salt Lake City (Utah).",
+          "NCTID": "NCT03010176",
+          "Note": "High microsatellite instability (MSI) and mutational burden may predict response to anti-PD-1 and anti-PD-L1 immune checkpoint inhibitors.",
+          "Include": true
+        }
+      ]
+    },
+    "References": {
+      "Reference": [
+        {
+          "ReferenceId": "somereferenceid",
+          "FullCitation": "Pfeifer GP, You YH, Besaratinia A (2005) Mutations induced by ultraviolet light. Mutat. Res. 571 (1-2):19-31",
+          "Include": true,
+          "number": "0"
+        },
+        {
+          "ReferenceId": "somereferenceid",
+          "FullCitation": "McDermott DF, Sosman JA, Sznol M, et al. (2016) Atezolizumab, an Anti-Programmed Death-Ligand 1 Antibody, in Metastatic Renal Cell Carcinoma: Long-Term Safety, Clinical Activity, and Immune Correlates From a Phase Ia Study. J. Clin. Oncol. ePub Mar 2016",
+          "Include": true,
+          "number": "1"
+        }
+      ]
+    },
+    "Signatures": {
+      "Signature": [
+        {
+          "ServerTime": "2019-06-20 14:02:48",
+          "OpName": "Jhon Due, M.D. | Jeffrey Smith, M.D., Medical Director, , M.D.",
+          "Text": "Jhon Due, M.D. | Jeffrey Smith, M.D., Medical Director, , M.D."
+        }
+      ]
+    },
+    "reportProperties": {
+      "reportProperty": [
+        {
+          "value": "940x",
+          "identifier": "QualityControlMetrics",
+          "key": "MedianCoverageValue"
+        },
+        {
+          "value": "1 Muts/Mb",
+          "identifier": "AdditionalFindings",
+          "key": "TumorMutationBurdenScore"
+        }
+      ]
+    },
+    "comments": {
+      "comment": null
+    },
+    "AAC": {
+      "Amendmends": [
+        {
+          "Amendmend": []
+        }
+      ]
+    },
+    "Amendment": null,
+    "StagingId": "000000",
+    "clinicalId": "0000000",
+    "PerformanceDataId": null
+  }
+}

@@ -1,0 +1,2411 @@
+<FinalReport StagingId="346878" clinicalId="348366" isDeleted="false" isDirty="true" sqlCommandTimeout="30"
+             targetDatabase="Sql" typeName="TPatientReport">
+    <SaveCommand>KWTRZWGCPQuCrLeQ7UHmntriQiCjkTsr</SaveCommand>
+    <DeleteCommand />
+    <KeyFields />
+    <CommandParams>
+        <CommandParam>
+            <Key>ModifiedBy</Key>
+        </CommandParam>
+    </CommandParams>
+    <Application isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplication">
+        <SaveCommand />
+        <DeleteCommand />
+        <KeyFields />
+        <CommandParams />
+        <ApplicationId>5</ApplicationId>
+        <ApplicationType isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationType">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+        </ApplicationType>
+        <ApplicationSettings>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>DatasourceName</Name>
+                <Value>MedReport</Value>
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>OutputFileFormat</Name>
+                <Value>{0}.pdf</Value>
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="true" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>OutputFolderPath</Name>
+                <Value>\\nas\departments$\Reimbursement\Clinical Samples\Final Reports</Value>
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>TemplateFilePath</Name>
+                <Value>\\app012\Shared\ReportTemplates\FoundationOne.3.2.0.docx</Value>
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>TemplateVersion</Name>
+                <Value>3.2.0</Value>
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>Statement</Name>
+                <Value />
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>ImageLogo</Name>
+                <Value>Normal</Value>
+            </ApplicationSetting>
+            <ApplicationSetting isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TApplicationSetting">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <Name>ImageOrangeBall</Name>
+                <Value />
+            </ApplicationSetting>
+        </ApplicationSettings>
+    </Application>
+    <KbExportDate>2018-10-15T16:15:26.000-04:00</KbExportDate>
+    <ReportId>TRF300000</ReportId>
+    <SampleName>TRF300000.01</SampleName>
+    <Version>1</Version>
+    <IsAutoCount>true</IsAutoCount>
+    <IsPharmaCLIA>false</IsPharmaCLIA>
+    <Sample isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TSample">
+        <SaveCommand />
+        <DeleteCommand />
+        <CommandParams />
+        <FM_Id>TRF300000</FM_Id>
+        <SampleId>TRF300000.01</SampleId>
+        <BlockId>US18-11001 A1</BlockId>
+        <TRFNumber>TRF300000</TRFNumber>
+        <TestType>foundationonedx</TestType>
+        <SpecFormat>Slide</SpecFormat>
+        <ReceivedDate>2018-09-28T09:39:37.000-04:00</ReceivedDate>
+        <ReportStatus />
+        <NoveltyScore>0</NoveltyScore>
+        <BaitSet>T7</BaitSet>
+        <processSites>
+            <processSite address="7010 Kit Creek Road, Morrisville, NC 27560" cliaNumber="34D2044309" isDeleted="false" isDirty="false" locationID="2" locationName="RTP" processID="1" processName="Sample Preparation Site" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TProcessSite">
+                <SaveCommand />
+                <DeleteCommand />
+                <CommandParams />
+            </processSite>
+            <processSite address="150 Second St., 1st Floor, Cambridge, MA 02141" cliaNumber="22D2027531" isDeleted="false" isDirty="false" locationID="1" locationName="Cambridge" processID="2" processName="Sample Analysis Site" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TProcessSite">
+                <SaveCommand />
+                <DeleteCommand />
+                <CommandParams />
+            </processSite>
+        </processSites>
+    </Sample>
+    <PMI isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TPatientMedicalInfo">
+        <SaveCommand />
+        <DeleteCommand />
+        <CommandParams />
+        <ReportId>TRF300000</ReportId>
+        <MRN>123456789</MRN>
+        <FullName>Doe, John</FullName>
+        <FirstName>John</FirstName>
+        <LastName>Doe</LastName>
+        <SampleId>TRF300000.01</SampleId>
+        <SubmittedDiagnosis>Salivary gland mucoepidermoid carcinoma</SubmittedDiagnosis>
+        <Gender>Male</Gender>
+        <DOB>1970-01-01T00:00:00.000-04:00</DOB>
+        <OrderingMD>Howser, Doogie</OrderingMD>
+        <OrderingMDId>10000</OrderingMDId>
+        <Pathologist>Mr Pathologist</Pathologist>
+        <CopiedPhysician1>Mrs Pathologist</CopiedPhysician1>
+        <MedFacilName>Pathology Center</MedFacilName>
+        <MedFacilID>100000</MedFacilID>
+        <CollMethod />
+        <TumorSite />
+        <SpecSite>Parotid Gland</SpecSite>
+        <CollDate>2018-08-09T00:00:00.000-04:00</CollDate>
+        <RequestedDate>2018-09-28T09:39:38.000-04:00</RequestedDate>
+        <ReceivedDate>2018-09-28T09:39:37.000-04:00</ReceivedDate>
+        <CountryOfOrigin>US</CountryOfOrigin>
+    </PMI>
+    <Routing isDeleted="false" isDirty="false" routing="Clinical" sqlCommandTimeout="30" targetDatabase="Sql" trialType="Unblinded" typeName="TRouting">
+        <SaveCommand />
+        <DeleteCommand />
+        <CommandParams />
+    </Routing>
+    <PertinentNegatives />
+    <Summaries alterationCount="4" clinicalTrialCount="0" isDeleted="false" isDirty="false" resistiveCount="0" sensitizingCount="0" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TSummary">
+        <SaveCommand />
+        <DeleteCommand />
+        <KeyFields />
+        <CommandParams />
+        <TherapyImplications />
+        <FDANonApprovedSummary />
+    </Summaries>
+    <Study isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TStudy">
+        <SaveCommand />
+        <DeleteCommand />
+        <KeyFields />
+        <CommandParams />
+        <StudyId>0</StudyId>
+        <ClassNumber>0</ClassNumber>
+        <pdf isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TPdf">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <EcData isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TEcData">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <EnrollmentCriteria />
+                <pharmaFeatures />
+                <CancerRelatedAlterations />
+                <VariantProperties />
+            </EcData>
+            <ClientData isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TClientData">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+            </ClientData>
+            <PharmaSampleData isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TPharmaSampleData">
+                <SaveCommand />
+                <DeleteCommand />
+                <KeyFields />
+                <CommandParams />
+                <XmlSampleData isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TXmlSampleData">
+                    <SaveCommand />
+                    <DeleteCommand />
+                    <KeyFields />
+                    <CommandParams />
+                </XmlSampleData>
+            </PharmaSampleData>
+        </pdf>
+    </Study>
+    <VariantProperties>
+        <VariantProperty geneName="CIC" isDeleted="false" isDirty="false" isVUS="true" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TVariantProperty" variantName="A851V">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+        </VariantProperty>
+        <VariantProperty geneName="FGF3" isDeleted="false" isDirty="false" isVUS="true" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TVariantProperty" variantName="T79M">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+        </VariantProperty>
+        <VariantProperty geneName="MCL1" isDeleted="false" isDirty="false" isVUS="true" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TVariantProperty" variantName="M120V">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+        </VariantProperty>
+        <VariantProperty geneName="PBRM1" isDeleted="false" isDirty="false" isVUS="true" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TVariantProperty" variantName="L145F">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+        </VariantProperty>
+        <VariantProperty geneName="RAF1" isDeleted="false" isDirty="false" isVUS="true" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TVariantProperty" variantName="V312A">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+        </VariantProperty>
+    </VariantProperties>
+    <priorTests />
+    <Genes>
+        <Gene isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TGene">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <Name>CREBBP</Name>
+            <OriginalName>CREBBP</OriginalName>
+            <Include>true</Include>
+            <Alterations>
+                <Alteration isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlteration">
+                    <SaveCommand />
+                    <DeleteCommand />
+                    <CommandParams />
+                    <Name>Q355fs*12</Name>
+                    <OriginalName>Q355fs*12</OriginalName>
+                    <AlterationProperties>
+                        <AlterationProperty dnaFraction="52.5" isDeleted="false" isDirty="false" isEquivocal="false" isSubclonal="false" name="Q355fs*12" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlterationProperty">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <CommandParams />
+                        </AlterationProperty>
+                    </AlterationProperties>
+                    <Interpretation>CREBBP encodes a ubiquitously expressed transcriptional coregulatory protein.</Interpretation>
+                    <InterpretationRtf>&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Gene and Alteration:&lt;/b&gt; CREBBP encodes a ubiquitously expressed transcriptional coregulatory protein that interacts with multiple transcription factors and can couple control of gene expression to chromatin remodeling via its histone acetyltransferase activity. Inherited microdeletions and truncating point mutations in CREBBP are reported to be causal in approximately 20% of cases of Rubinstein-Taybi syndrome&lt;sup&gt;1&lt;/sup&gt;. The chromosomal rearrangement t(8;16)(p11;p13) is characteristic of the M4/M5 subtype of acute myeloid leukemia (AML) and results in a chimeric gene fusing MYST3/MOZ (a gene essential for development of the hematopoietic system and maintenance of hematopoietic stem cells) to CREBBP&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Frequency and Prognosis:&lt;/b&gt; CREBBP mutations have been observed at high frequency in follicular lymphoma (FL, 39%) and diffuse large B-cell lymphoma (DLBCL, 17%), and at lower frequency in acute lymphoblastic leukemia (ALL, 5%), and tumors of the urinary tract (11%), skin (9%), stomach (5%), large intestine (6%), endometrium (5%), and salivary gland (3%) (COSMIC, 2018). These mutations include missense substitutions clustered in the CREBBP histone acetyltransferase domain and truncating mutations throughout the gene sequence, suggesting a role for CREBBP inactivation in these diseases. CREBBP mutations have been reported to occur in the transition from prostate acinar carcinoma to squamous cell carcinoma (SCC)&lt;sup&gt;3&lt;/sup&gt;, which may indicate significance for CREBBP in SCC. In two cases of relapsed pediatric B-cell ALL, CREBBP mutation conferred resistance to glucocorticoid therapy&lt;sup&gt;4&lt;/sup&gt;. Reports have found CREBBP mutation in 62-68% of patients with FL&lt;sup&gt;5,6&lt;/sup&gt;, which was associated with immune evasion&lt;sup&gt;5&lt;/sup&gt;. AML with MYST3/CREBBP fusion was reported to occur in 60-80% of cases 9-72 months after adjuvant chemotherapy for breast cancer and was associated with a poor prognosis&lt;sup&gt;7,8&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Potential Treatment Strategies:&lt;/b&gt; There are no targeted therapies available to address genomic alterations in CREBBP. The use of histone deacetylase (HDAC) inhibitors are being investigated in clinical trials that are recruiting patients with either lymphoma or urothelial carcinoma harboring CREBBP alterations. However, it has been reported that there is no correlation between CREBBP mutation status and response to HDAC inhibitors in DLBCL&lt;sup&gt;9&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;</InterpretationRtf>
+                    <Include>true</Include>
+                    <ClinicalTrialNote />
+                    <ClinicalTrialNoteRtf />
+                    <IsInterpretationReviewed>false</IsInterpretationReviewed>
+                    <IsClinicalTrialNoteReviewed>false</IsClinicalTrialNoteReviewed>
+                    <InterpretationReviewedOnDate>2015-04-29T11:17:32.000-04:00</InterpretationReviewedOnDate>
+                    <ClinicalTrialNoteReviewedOnDate />
+                    <Therapies />
+                    <ReferenceLinks>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="10699051" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="8782817" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25735316" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25790293" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25713363" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25027518" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25713363" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="18528428" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="19194466" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25671298" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                    </ReferenceLinks>
+                    <ClinicalTrialLinks />
+                </Alteration>
+            </Alterations>
+            <ReferenceLinks />
+        </Gene>
+        <Gene isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TGene">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <Name>GNAS</Name>
+            <OriginalName>GNAS</OriginalName>
+            <Include>true</Include>
+            <Alterations>
+                <Alteration isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlteration">
+                    <SaveCommand />
+                    <DeleteCommand />
+                    <CommandParams />
+                    <Name>Q227L</Name>
+                    <OriginalName>Q227L</OriginalName>
+                    <AlterationProperties>
+                        <AlterationProperty dnaFraction="17.9" isDeleted="false" isDirty="false" isEquivocal="false" isSubclonal="false" name="Q227L" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlterationProperty">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <CommandParams />
+                        </AlterationProperty>
+                    </AlterationProperties>
+                    <Interpretation>GNAS encodes the alpha subunit of the stimulatory G protein (Gs-alpha) (Hayward et al., 1998; 9860993). Gs-alpha is a guanine-nucleotide binding protein (G protein) that is involved in hormonal regulation of adenylate cyclase (Hayward et al., 1998; 9860993). GNAS has been reported to be amplified in cancer (Gao et al., 2013; 23550210) and may be biologically relevant in this context (Zack et al., 2013; 24071852, Beroukhim et al., 2010; 20164920). GNAS alterations that have been shown to result in constitutive activation of adenylyl cyclase and an increase in cellular cAMP concentration (Masters et al., 1989; 2549064, Graziano and Gilman, 1989; 2549065, Jang and Juhnn, 2001; 11322485, Landis et al., 1989; 2549426, Tobar-Rubin et al., 2013; 23288949, Mariot et al., 2011; 20887824) are predicted to be activating. Mutations at R201 specifically are commonly associated with McCune-Albright syndrome, a disease that can co-occur with various cancers in patients with GNAS activating mutations (Weinstein et al., 1991; 1944469, Collins et al., 2003; 12970318, Nault et al., 2012; 21835143).
+
+                        The highest incidences of GNAS mutations have been reported in intraductal papillary mucinous neoplasms (40-66%)(Furukawa et al., 2011; 22355676, Wu et al., 2011; 21775669) and appendiceal mucinous neoplasms (50-72%)(Nishikawa et al., 2013; 23403822, Singhi et al., 2014; 24925222) as well as in tumors affecting the pituitary gland (27%), pancreas (16%), and bone (14%) (COSMIC, 2018). Amplification of GNAS has been reported in ovarian epithelial carcinomas (12-30%)(Cancer Genome Atlas Research Network., 2011; 21720365, Kan et al., 2010; 20668451, Tominaga et al., 2010; 20537689), colorectal adenocarcinoma (9%)(Cancer Genome Atlas Network., 2012; 22810696), stomach adenocarcinoma (7%)(Cancer Genome Atlas Research Network., 2014; 25079317), lung adenocarcinoma (6.5%)(Cancer Genome Atlas Research Network., 2014; 25079552), breast invasive carcinoma (6.5%)(Cancer Genome Atlas Network., 2012; 23000897), pancreatic adenocarcinoma (6%)(Bio-Witkiewicz et al., 2015; 25855536), and sarcomas (5.8%)(cBio-Barretina et al., 2010; 20601955). GNAS mutations are rare in hematological malignancies generally (COSMIC, 2018)(cBio-Lohr et al., 2014; 24434212, Chapman et al., 2011; 21430775). Activating GNAS mutations have been identified in gastrointestinal polyps in 75% (3/4) of patients with McCune-Albright syndrome (Zacharin et al., 2011; 21357941). Amplification of GNAS has been associated with shorter progression-free survival in patients with ovarian cancer (Kan et al., 2010; 20668451, Tominaga et al., 2010; 20537689), while activating GNAS mutations have been correlated with tumor progression and poor prognosis in patients with gastric cancer (Alakus et al., 2009; 20027678).
+
+                        There are no therapies targeted to GNAS mutation in cancer.</Interpretation>
+                    <InterpretationRtf>&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Gene and Alteration:&lt;/b&gt; GNAS encodes the alpha subunit of the stimulatory G protein (Gs-alpha)&lt;sup&gt;10&lt;/sup&gt;. Gs-alpha is a guanine-nucleotide binding protein (G protein) that is involved in hormonal regulation of adenylate cyclase&lt;sup&gt;10&lt;/sup&gt;. GNAS has been reported to be amplified in cancer&lt;sup&gt;11&lt;/sup&gt; and may be biologically relevant in this context&lt;sup&gt;12,13&lt;/sup&gt;. GNAS alterations that have been shown to result in constitutive activation of adenylyl cyclase and an increase in cellular cAMP concentration&lt;sup&gt;14,15,16,17,18,19&lt;/sup&gt; are predicted to be activating. Mutations at R201 specifically are commonly associated with McCune-Albright syndrome, a disease that can co-occur with various cancers in patients with GNAS activating mutations&lt;sup&gt;20,21,22&lt;/sup&gt;. &lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Frequency and Prognosis:&lt;/b&gt; The highest incidences of GNAS mutations have been reported in intraductal papillary mucinous neoplasms (40-66%)&lt;sup&gt;23,24&lt;/sup&gt; and appendiceal mucinous neoplasms (50-72%)&lt;sup&gt;25,26&lt;/sup&gt; as well as in tumors affecting the pituitary gland (27%), pancreas (16%), and bone (14%) (COSMIC, 2018). Amplification of GNAS has been reported in ovarian epithelial carcinomas (12-30%)&lt;sup&gt;27,28,29&lt;/sup&gt;, colorectal adenocarcinoma (9%)&lt;sup&gt;30&lt;/sup&gt;, stomach adenocarcinoma (7%)&lt;sup&gt;31&lt;/sup&gt;, lung adenocarcinoma (6.5%)&lt;sup&gt;32&lt;/sup&gt;, breast invasive carcinoma (6.5%)&lt;sup&gt;33&lt;/sup&gt;, pancreatic adenocarcinoma (6%)&lt;sup&gt;34&lt;/sup&gt;, and sarcomas (5.8%)&lt;sup&gt;35&lt;/sup&gt;. GNAS mutations are rare in hematological malignancies generally (COSMIC, 2018)&lt;sup&gt;36,37&lt;/sup&gt;. Activating GNAS mutations have been identified in gastrointestinal polyps in 75% (3/4) of patients with McCune-Albright syndrome&lt;sup&gt;38&lt;/sup&gt;. Amplification of GNAS has been associated with shorter progression-free survival in patients with ovarian cancer&lt;sup&gt;28,29&lt;/sup&gt;, while activating GNAS mutations have been correlated with tumor progression and poor prognosis in patients with gastric cancer&lt;sup&gt;39&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Potential Treatment Strategies:&lt;/b&gt; There are no therapies targeted to GNAS mutation in cancer.&lt;/p&gt;&lt;/font&gt;</InterpretationRtf>
+                    <Include>true</Include>
+                    <ClinicalTrialNote />
+                    <ClinicalTrialNoteRtf />
+                    <IsInterpretationReviewed>false</IsInterpretationReviewed>
+                    <IsClinicalTrialNoteReviewed>false</IsClinicalTrialNoteReviewed>
+                    <InterpretationReviewedOnDate />
+                    <ClinicalTrialNoteReviewedOnDate />
+                    <Therapies />
+                    <ReferenceLinks>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="9860993" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="9860993" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23550210" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="24071852" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20164920" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="2549064" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="2549065" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="11322485" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="2549426" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23288949" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20887824" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="1944469" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="12970318" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21835143" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22355676" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21775669" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23403822" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="24925222" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21720365" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20668451" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20537689" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22810696" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25079317" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25079552" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23000897" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25855536" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20601955" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="24434212" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21430775" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21357941" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20668451" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20537689" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20027678" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                    </ReferenceLinks>
+                    <ClinicalTrialLinks />
+                </Alteration>
+            </Alterations>
+            <ReferenceLinks />
+        </Gene>
+        <Gene isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TGene">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <Name>Microsatellite status</Name>
+            <OriginalName>Microsatellite status</OriginalName>
+            <Include>true</Include>
+            <Alterations>
+                <Alteration isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlteration">
+                    <SaveCommand />
+                    <DeleteCommand />
+                    <CommandParams />
+                    <Name>MS-Stable</Name>
+                    <OriginalName>MS-Stable</OriginalName>
+                    <AlterationProperties>
+                        <AlterationProperty isDeleted="false" isDirty="false" isEquivocal="false" isSubclonal="false" name="MS-Stable" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlterationProperty">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <CommandParams />
+                        </AlterationProperty>
+                    </AlterationProperties>
+                    <Interpretation>Microsatellite instability (MSI) is a condition of genetic hypermutability that generates excessive amounts of short insertion/deletion mutations in the genome; it generally occurs at microsatellite DNA sequences and is caused by a deficiency in DNA mismatch repair (MMR) in the tumor (Kocarnik et al., 2015; 26337942). Defective MMR and consequent MSI occur as a result of genetic or epigenetic inactivation of one of the MMR pathway proteins, primarily MLH1, MSH2, MSH6, or PMS2 (You et al., 2010; 21081928, Bairwa et al., 2014; 24623249, Kocarnik et al., 2015; 26337942). The tumor seen here is microsatellite-stable (MSS), equivalent to the clinical definition of an MSS tumor: one with mutations in none of the tested microsatellite markers (Boland et al., 1998; 9823339, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSS status indicates MMR proficiency and typically correlates with intact expression of all MMR family proteins (Kocarnik et al., 2015; 26337942, Bairwa et al., 2014; 24623249, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947).
+
+                        MSI-high (MSI-H) has been observed at high frequency in endometrial cancers (16-33%)(Santin et al., ASCO 2016; Abstract 414)(Zighelboim et al., 2007; 17513808, Hampel et al., 2006; 16885385, Stelloo et al., 2016; 27006490, Kanopiene et al., 2014; 25458958, Black et al., 2006; 16549821, Nout et al., 2012; 22609107, Steinbakk et al., 2016; 21547578, Bilbao et al., 2016; 20005452), colorectal cancers (CRCs; 10-15%)(Guastadisegni et al., 2010; 20627535, Pawlik et al., 2004; 15528785, Kocarnik et al., 2015; 26337942, Cancer Genome Atlas Network., 2012; 22810696, Lal et al., 2015; 25949894), and gastric cancers (12-35%)(Hiyama et al., 2004; 15209621, Wu et al., 1998; 9537253, dos Santos et al., 1996; 8536886, Fang et al., 2013; 23555086) and at lower frequencies in many other tumor types, including esophageal (Hall et al., 2016; ASCO Gastrointestinal Cancer Symposium Abstract 528)(Farris et al., 2011; 21422910), small bowel (Gingras et al., 2015; AACR Pancreatic Cancer Abstract PR06)(Agaramet al., 2010; 20395525, Ruemmele et al., 2009; 19252434, Planck et al., 2003; 12627520, Hibi et al., 1995; 7775257, Muneyuki et al., 2000; 11117578), hepatobiliary (Zhang et al., 2005; 15918185, Chiappini et al., 2004; 14656944, Suto et al., 2001; 11223838, Momoi et al., 2001; 11580146, Liengswangwong et al., 2003; 14506736, Moy et al., 2015; 25680569, Yoshida et al., 2000; 11063221), prostate (Cheng et al., 2016; Genitourinary Cancers Symposium Abstract 251)(Pritchard et al., 2014; 25255306, Azzouzi et al.,  2007; 17233803, Burger et al., 2006; 16924473), and urinary tract carcinomas (Harper et al., 2015; USCAP Abstract 905)(Bai et al., 2013; 23690119, Giedl et al., 2014; 25319978, Yamamoto et al., 2006; 16675567). In one study, MSI-H status was associated with a positive prognostic effect in patients with gastric cancer treated with surgery alone and a negative predictive effect in patients treated with chemotherapy (Smyth et al., 2015; ASCO Gastrointestinal Cancers Symposium Abstract 62). Data regarding the role of MSI-H on prognosis and survival in endometrial cancer are conflicting (Zighelboim et al., 2007; 17513808, Kanopiene et al., 2014; 25458958, Bilbao-Sieyro et al., 2014; 25026289, Mackay et al., 2010; 20304627, Steinbakk et al., 2011; 21547578, Arabi et al., 2009; 19275958, Black et al., 2006; 16549821). However, studies specifically analyzing early stage endometrial cancer have reported a correlation between MSI-H and decreased survival (Stelloo et al., 2016; 27006490, Mackay et al., 2010; 20304627, Nout et al., 2012; 22609107, Bilbao et al., 2010; 20005452), thereby suggesting that MSI-H predicts for poor prognosis in this subset of endometrial tumors.
+
+                        On the basis of clinical evidence, microsatellite stable (MSS) tumors are significantly less likely than MSI-high (MSI-H) tumors to respond to anti-PD-1 immune checkpoint inhibitors (Gatalica et al., 2014; 25392179, Kroemer et al., 2015; 26140250, Lal et al., 2015; 25949894), including approved therapies nivolumab and pembrolizumab (Overman et al., 2016; ASCO Abstract 3501)(Le et al., 2015; 26028255). In a retrospective analysis of 361 patients with solid tumors treated with pembrolizumab, 3% were MSI-H and experienced a significantly higher ORR compared with non-MSI-H cases (70% vs. 12%, p=0.001) (Ayers et al., ASCO-SITC 2016; Abstract P60). Pembrolizumab therapy resulted in a significantly lower objective response rate (ORR) in MSS colorectal cancer (CRC) compared with MSI-H CRC (0% vs. 40%)(Le et al., 2015; 26028255). Similarly, a clinical study of nivolumab, alone or in combination with ipilimumab, in patients with CRC reported a significantly higher response rate in patients with MSI-H tumors than those without (Overman et al., 2016; ASCO Abstract 3501).</Interpretation>
+                    <InterpretationRtf>&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Gene and Alteration:&lt;/b&gt; Microsatellite instability (MSI) is a condition of genetic hypermutability that generates excessive amounts of short insertion/deletion mutations in the genome; it generally occurs at microsatellite DNA sequences and is caused by a deficiency in DNA mismatch repair (MMR) in the tumor&lt;sup&gt;40&lt;/sup&gt;. Defective MMR and consequent MSI occur as a result of genetic or epigenetic inactivation of one of the MMR pathway proteins, primarily MLH1, MSH2, MSH6, or PMS2&lt;sup&gt;40,41,42&lt;/sup&gt;. The tumor seen here is microsatellite-stable (MSS), equivalent to the clinical definition of an MSS tumor: one with mutations in none of the tested microsatellite markers&lt;sup&gt;43,44,45&lt;/sup&gt;. MSS status indicates MMR proficiency and typically correlates with intact expression of all MMR family proteins&lt;sup&gt;40,42,44,45&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Frequency and Prognosis:&lt;/b&gt; MSI-high (MSI-H) has been observed at high frequency in endometrial cancers (16-33%)(Santin et al., ASCO 2016; Abstract 414)&lt;sup&gt;46,47,48,49,50,51,52,53&lt;/sup&gt;, colorectal cancers (CRCs; 10-15%)&lt;sup&gt;30,40,44,54,55&lt;/sup&gt;, and gastric cancers (12-35%)&lt;sup&gt;56,57,58,59&lt;/sup&gt; and at lower frequencies in many other tumor types, including esophageal (Hall et al., 2016; ASCO Gastrointestinal Cancer Symposium Abstract 528)&lt;sup&gt;60&lt;/sup&gt;, small bowel (Gingras et al., 2015; AACR Pancreatic Cancer Abstract PR06)&lt;sup&gt;61,62,63,64,65&lt;/sup&gt;, hepatobiliary&lt;sup&gt;66,67,68,69,70,71,72&lt;/sup&gt;, prostate (Cheng et al., 2016; Genitourinary Cancers Symposium Abstract 251)&lt;sup&gt;73,74,75&lt;/sup&gt;, and urinary tract carcinomas (Harper et al., 2015; USCAP Abstract 905)&lt;sup&gt;76,77,78&lt;/sup&gt;. In one study, MSI-H status was associated with a positive prognostic effect in patients with gastric cancer treated with surgery alone and a negative predictive effect in patients treated with chemotherapy (Smyth et al., 2015; ASCO Gastrointestinal Cancers Symposium Abstract 62). Data regarding the role of MSI-H on prognosis and survival in endometrial cancer are conflicting&lt;sup&gt;46,49,50,52,79,80,81&lt;/sup&gt;. However, studies specifically analyzing early stage endometrial cancer have reported a correlation between MSI-H and decreased survival&lt;sup&gt;48,51,53,80&lt;/sup&gt;, thereby suggesting that MSI-H predicts for poor prognosis in this subset of endometrial tumors. &lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Potential Treatment Strategies:&lt;/b&gt; On the basis of clinical evidence, microsatellite stable (MSS) tumors are significantly less likely than MSI-high (MSI-H) tumors to respond to anti-PD-1 immune checkpoint inhibitors&lt;sup&gt;55,82,83&lt;/sup&gt;, including approved therapies nivolumab and pembrolizumab (Overman et al., 2016; ASCO Abstract 3501)&lt;sup&gt;84&lt;/sup&gt;. In a retrospective analysis of 361 patients with solid tumors treated with pembrolizumab, 3% were MSI-H and experienced a significantly higher ORR compared with non-MSI-H cases (70% vs. 12%, p=0.001) (Ayers et al., ASCO-SITC 2016; Abstract P60). Pembrolizumab therapy resulted in a significantly lower objective response rate (ORR) in MSS colorectal cancer (CRC) compared with MSI-H CRC (0% vs. 40%)&lt;sup&gt;84&lt;/sup&gt;. Similarly, a clinical study of nivolumab, alone or in combination with ipilimumab, in patients with CRC reported a significantly higher response rate in patients with MSI-H tumors than those without (Overman et al., 2016; ASCO Abstract 3501).&lt;/p&gt;&lt;/font&gt;</InterpretationRtf>
+                    <Include>true</Include>
+                    <ClinicalTrialNote />
+                    <ClinicalTrialNoteRtf />
+                    <IsInterpretationReviewed>false</IsInterpretationReviewed>
+                    <IsClinicalTrialNoteReviewed>false</IsClinicalTrialNoteReviewed>
+                    <InterpretationReviewedOnDate>2017-06-22T22:21:18.000-04:00</InterpretationReviewedOnDate>
+                    <ClinicalTrialNoteReviewedOnDate />
+                    <Therapies />
+                    <ReferenceLinks>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26337942" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21081928" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="24623249" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26337942" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="9823339" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="15528785" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20420947" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26337942" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="24623249" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="15528785" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20420947" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="17513808" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="16885385" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27006490" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25458958" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="16549821" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22609107" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21547578" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20005452" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20627535" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="15528785" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26337942" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22810696" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25949894" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="15209621" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="9537253" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="8536886" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23555086" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21422910" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20395525" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="19252434" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="12627520" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="7775257" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="11117578" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="15918185" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="14656944" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="11223838" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="11580146" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="14506736" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25680569" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="11063221" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25255306" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="17233803" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="16924473" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23690119" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25319978" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="16675567" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="17513808" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25458958" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25026289" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20304627" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="21547578" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="19275958" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="16549821" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27006490" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20304627" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22609107" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="20005452" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25392179" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26140250" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25949894" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26028255" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26028255" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                    </ReferenceLinks>
+                    <ClinicalTrialLinks />
+                </Alteration>
+            </Alterations>
+            <ReferenceLinks />
+        </Gene>
+        <Gene isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TGene">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <Name>Tumor Mutation Burden</Name>
+            <OriginalName>Tumor Mutation Burden</OriginalName>
+            <Include>true</Include>
+            <Alterations>
+                <Alteration isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlteration">
+                    <SaveCommand />
+                    <DeleteCommand />
+                    <CommandParams />
+                    <Name>TMB-Low</Name>
+                    <OriginalName>TMB-Low</OriginalName>
+                    <AlterationProperties>
+                        <AlterationProperty isDeleted="false" isDirty="false" isEquivocal="false" isSubclonal="false" name="TMB-Low" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAlterationProperty">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <CommandParams />
+                        </AlterationProperty>
+                    </AlterationProperties>
+                    <Interpretation>Tumor mutation burden (TMB, also known as mutation load) is a measure of the number of somatic protein-coding base substitution and insertion/deletion mutations occurring in a tumor specimen. TMB is affected by a variety of causes, including exposure to mutagens such as ultraviolet light in melanoma (Pfeifer et al., 2005; 15748635, Hill et al., 2013; 23875803) and cigarette smoke in lung cancer (Pfeifer et al., 2002; 12379884, Rizvi et al., 2015; 25765070), mutations in the proofreading domains of DNA polymerases encoded by the POLE and POLD1 genes (Cancer Genome Atlas Research Network, 2013; 23636398, Briggs and Tomlinson, 2013; 23447401, Heitzer and Tomlinson, 2014; 24583393, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919), and microsatellite instability (MSI) (Cancer Genome Atlas Research Network, 2013; 23636398, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919). The tumor seen here harbors a low TMB. Compared to patients with tumors harboring higher TMB levels, patients with tumors harboring low TMB levels have experienced lower rates of clinical benefit from treatment with immune checkpoint inhibitors, including anti-CTLA-4 therapy in melanoma (Snyder et al., 2014; 25409260), anti-PD-L1 therapy in urothelial carcinoma (Rosenberg et al., 2016; 26952546), and anti-PD-1 therapy in non-small cell lung cancer and colorectal cancer (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255).
+
+                        Salivary gland mucoepidermoid carcinoma harbors a median TMB of 2.7 mutations per megabase (muts/Mb), and 7.3% of cases have high TMB (&gt;20 muts/Mb)(FMI-Chalmers et al., 2017; 28420421).
+
+                        On the basis of emerging clinical evidence, increased TMB may be associated with greater sensitivity to immunotherapeutic agents, including anti-CTLA-4 (Snyder et al., 2014; 25409260), anti-PD-L1 (Rosenberg et al., 2016; 26952546, Johnson et al., 2016; 27671167, Balar et al., 2017; 27939400, Miao et al., 2018; 30150660), and anti-PD-1 therapies (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255, Dong et al., 2016; 28039262); FDA-approved agents include ipilimumab, atezolizumab, avelumab, durvalumab, pembrolizumab, and nivolumab. In multiple solid tumor types, higher mutational burden has corresponded with response and improved prognosis. Pembrolizumab improved progression-free survival (14.5 vs. 3.4-3.7 months) for patients with non-small cell lung cancer (NSCLC) and higher mutational load (greater than 200 nonsynonymous mutations; hazard ratio = 0.19)(Rizvi et al., 2015; 25765070). In studies of patients with either NSCLC or colorectal cancer (CRC), patients whose tumors harbored elevated mutational burden reported higher overall response rates to pembrolizumab (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255, Dong et al., 2016; 28039262). Anti-PD-1 therapies have achieved clinical benefit for certain patients with high mutational burden, including 3 patients with endometrial adenocarcinoma who reported sustained partial responses (PRs) following treatment with pembrolizumab (Mehnert et al., 2016; 27159395) or nivolumab (Santin et al., 2016; 27486176), a patient with hypermutant glioblastoma who obtained clinical benefit from pembrolizumab (Johanns et al., 2016; 27683556), 2 pediatric patients with biallelic mismatch repair deficiency-associated ultrahypermutant glioblastoma who experienced clinically and radiologically significant responses to nivolumab (Bouffet et al., 2016; 27001570), and 2 patients with microsatellite-stable rectal cancers, 1 who achieved an ongoing PR to pembrolizumab and the other an ongoing complete response to nivolumab (Fabrizio et al., 2018; 30151257). For patients with melanoma, mutational load was associated with long-term clinical benefit from ipilimumab (Snyder et al., 2014; 25409260, Van Allen et al., 2015; 26359337) and anti-PD-1/anti-PD-L1 treatments (Johnson et al., 2016; 27671167). For patients with metastatic urothelial carcinoma, those who responded to atezolizumab treatment had a significantly increased mutational load (12.4 mutations [muts] per megabase [Mb]) compared to nonresponders (6.4 muts/Mb)(Rosenberg et al., 2016; 26952546), and mutational load of 16 muts/Mb or higher was associated with significantly longer overall survival (Balar et al., 2017; 27939400). In a retrospective analysis of 17 solid tumor types (comprised of 47% NSCLC, 40% mUC, and 13% encompassing 15 other solid tumors), a TMB of ≥16 muts/Mb associated with an objective response rate to atezolizumab of 30% vs. 14% for chemotherapy alone (Legrand et al., 2018; ASCO Abstract 12000).</Interpretation>
+                    <InterpretationRtf>&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Gene and Alteration:&lt;/b&gt; Tumor mutation burden (TMB, also known as mutation load) is a measure of the number of somatic protein-coding base substitution and insertion/deletion mutations occurring in a tumor specimen. TMB is affected by a variety of causes, including exposure to mutagens such as ultraviolet light in melanoma&lt;sup&gt;85,86&lt;/sup&gt; and cigarette smoke in lung cancer&lt;sup&gt;87,88&lt;/sup&gt;, mutations in the proofreading domains of DNA polymerases encoded by the POLE and POLD1 genes&lt;sup&gt;30,89,90,91,92&lt;/sup&gt;, and microsatellite instability (MSI)&lt;sup&gt;30,89,92&lt;/sup&gt;. The tumor seen here harbors a low TMB. Compared to patients with tumors harboring higher TMB levels, patients with tumors harboring low TMB levels have experienced lower rates of clinical benefit from treatment with immune checkpoint inhibitors, including anti-CTLA-4 therapy in melanoma&lt;sup&gt;93&lt;/sup&gt;, anti-PD-L1 therapy in urothelial carcinoma&lt;sup&gt;94&lt;/sup&gt;, and anti-PD-1 therapy in non-small cell lung cancer and colorectal cancer&lt;sup&gt;84,88&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Frequency and Prognosis:&lt;/b&gt; Salivary gland mucoepidermoid carcinoma harbors a median TMB of 2.7 mutations per megabase (muts/Mb), and 7.3% of cases have high TMB (&amp;gt;20 muts/Mb)&lt;sup&gt;95&lt;/sup&gt;.&lt;/p&gt;&lt;/font&gt;&lt;br/&gt;&lt;font face="calibri" color="#353e4a"&gt;&lt;p&gt;&lt;b&gt;Potential Treatment Strategies:&lt;/b&gt; On the basis of emerging clinical evidence, increased TMB may be associated with greater sensitivity to immunotherapeutic agents, including anti-CTLA-4&lt;sup&gt;93&lt;/sup&gt;, anti-PD-L1&lt;sup&gt;94,96,97,98&lt;/sup&gt;, and anti-PD-1 therapies&lt;sup&gt;84,88,99&lt;/sup&gt;; FDA-approved agents include ipilimumab, atezolizumab, avelumab, durvalumab, pembrolizumab, and nivolumab. In multiple solid tumor types, higher mutational burden has corresponded with response and improved prognosis. Pembrolizumab improved progression-free survival (14.5 vs. 3.4-3.7 months) for patients with non-small cell lung cancer (NSCLC) and higher mutational load (greater than 200 nonsynonymous mutations; hazard ratio = 0.19)&lt;sup&gt;88&lt;/sup&gt;. In studies of patients with either NSCLC or colorectal cancer (CRC), patients whose tumors harbored elevated mutational burden reported higher overall response rates to pembrolizumab&lt;sup&gt;84,88,99&lt;/sup&gt;. Anti-PD-1 therapies have achieved clinical benefit for certain patients with high mutational burden, including 3 patients with endometrial adenocarcinoma who reported sustained partial responses (PRs) following treatment with pembrolizumab&lt;sup&gt;100&lt;/sup&gt; or nivolumab&lt;sup&gt;101&lt;/sup&gt;, a patient with hypermutant glioblastoma who obtained clinical benefit from pembrolizumab&lt;sup&gt;102&lt;/sup&gt;, 2 pediatric patients with biallelic mismatch repair deficiency-associated ultrahypermutant glioblastoma who experienced clinically and radiologically significant responses to nivolumab&lt;sup&gt;103&lt;/sup&gt;, and 2 patients with microsatellite-stable rectal cancers, 1 who achieved an ongoing PR to pembrolizumab and the other an ongoing complete response to nivolumab&lt;sup&gt;104&lt;/sup&gt;. For patients with melanoma, mutational load was associated with long-term clinical benefit from ipilimumab&lt;sup&gt;93,105&lt;/sup&gt; and anti-PD-1/anti-PD-L1 treatments&lt;sup&gt;96&lt;/sup&gt;. For patients with metastatic urothelial carcinoma, those who responded to atezolizumab treatment had a significantly increased mutational load (12.4 mutations [muts] per megabase [Mb]) compared to nonresponders (6.4 muts/Mb)&lt;sup&gt;94&lt;/sup&gt;, and mutational load of 16 muts/Mb or higher was associated with significantly longer overall survival&lt;sup&gt;97&lt;/sup&gt;. In a retrospective analysis of 17 solid tumor types (comprised of 47% NSCLC, 40% mUC, and 13% encompassing 15 other solid tumors), a TMB of ≥16 muts/Mb associated with an objective response rate to atezolizumab of 30% vs. 14% for chemotherapy alone (Legrand et al., 2018; ASCO Abstract 12000).&lt;/p&gt;&lt;/font&gt;</InterpretationRtf>
+                    <Include>true</Include>
+                    <ClinicalTrialNote />
+                    <ClinicalTrialNoteRtf />
+                    <IsInterpretationReviewed>false</IsInterpretationReviewed>
+                    <IsClinicalTrialNoteReviewed>false</IsClinicalTrialNoteReviewed>
+                    <InterpretationReviewedOnDate>2017-09-12T14:19:53.800-04:00</InterpretationReviewedOnDate>
+                    <ClinicalTrialNoteReviewedOnDate />
+                    <Therapies>
+                        <Therapy>
+                            <Name>Sunitinib</Name>
+                            <GenericName>Sunitinib</GenericName>
+                            <FDAApproved>false</FDAApproved>
+                            <Rationale>Sunitinib is a small-molecule tyrosine kinase inhibitor that targets PDGFRs, VEGFRs, KIT, FLT3, CSF-1R, and RET. It is FDA approved for the treatment of advanced or metastatic pancreatic neuroendocrine tumors, gastrointestinal stromal tumors (GISTs) in patients who have progressed on or are intolerant to imatinib, and advanced renal cell carcinoma (RCC) as well as for the adjuvant treatment of patients at high risk of recurrent RCC after nephrectomy. On the basis of extensive clinical and preclinical data in multiple tumor types (Heinrich et al., 2008; 18955458, Mahipal et al., 2012; 23114504, Minor et al., 2012; 22261812, Buchbinder et al., 2015; 26264378, Song et al., 2015; 26228213, Reichardt et al., 2016; 26772734, Hirai et al., 2016; 27073655, Goemans et al., 2010; 20435347), KIT amplification or activating mutation may predict sensitivity to sunitinib. In several studies of patients with renal cell carcinoma (RCC), increased VEGFR2 expression or phosphorylation was associated with prolonged progression-free survival (Rubio et al., 2012; ASCO Abstract e15094, Song et al., 2015; 26228213) or response to sunitinib (Dornbusch et al., 2013; 24086736), and a patient with angiosarcoma of the breast and high VEGFR2 expression achieved a complete response to sunitinib, persisting for &gt;15 months (Silva et al., 2015; 25639617). A patient with angiosarcoma and amplification of the 4q12 chromosomal region that includes KDR, KIT, and PDGFRA had stable disease with tumor shrinkage following treatment with sunitinib (Prenen et al., 2015; 26474454). Activating RET alterations may predict sensitivity to sunitinib. In RET-rearranged non-small cell lung cancer, an objective response rate of 22% was reported for 10 patients treated with sunitinib (Gautschi et al., 2017; 28447912). A patient with lung adenocarcinoma and a KIF5B-RET fusion had a partial response to sunitinib (Wu et al., 2015; 26291023). A case study has reported an exceptional response to sunitinib in a patient with RET-amplified germ cell tumor (Subbiah et al., 2014; 25085632). Phase 1-2 trials evaluating sunitinib to treat patients with melanoma, including cutaneous, acral, mucosal, and uveal subtypes, have reported response rates of 5-20% and disease control rates [DCR; complete response (CR), partial response, and/or stable disease] of 40-65% (de Jonge et al., 2011; 21439816, Mahipal et al., 2012; 23114504, Minor et al., 2012; 22261812, Decoster et al., 2015; 26637913, Buchbinder et al., 2015; 26264378). Whereas clinical studies have shown that KIT expression is not a predictive marker for the efficacy of sunitinib in melanoma, KIT mutation may be associated with a greater likelihood of clinical benefit from sunitinib treatment of acral and mucosal melanoma (Mahipal et al., 2012; 23114504, Minor et al., 2012; 22261812, Buchbinder et al., 2015; 26264378). In one study, 3/4 patients with KIT-mutant acral or mucosal melanoma responded to sunitinib, including one prolonged CR, compared to 0/4 patients with acral or mucosal melanoma lacking KIT mutation (Minor et al., 2012; 22261812). Another study of patients with advanced melanoma of mucosal or acral origin treated with sunitinib reported a higher DCR and a greater proportion of patients alive and progression-free at 2 months among those with tumors positive for KIT mutation, compared to those with KIT wild-type tumors; however, these trends did not reach statistical significance (Buchbinder et al., 2015; 26264378).</Rationale>
+                            <ApprovedUses/>
+                            <Effect>Sensitizing</Effect>
+                            <Include>true</Include>
+                            <IncludeInSummary>true</IncludeInSummary>
+                            <ReferenceLinks>
+                                <ReferenceLink referenceId="18955458">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="23114504">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="22261812">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26264378">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26228213">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26772734">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="27073655">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="20435347">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26228213">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="24086736">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="25639617">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26474454">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="28447912">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26291023">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="25085632">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="21439816">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="23114504">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="22261812">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26637913">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26264378">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="23114504">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="22261812">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26264378">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="22261812">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                                <ReferenceLink referenceId="26264378">
+                                    <Include>true</Include>
+                                </ReferenceLink>
+                            </ReferenceLinks>
+                        </Therapy>
+                    </Therapies>
+                    <ReferenceLinks>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="15748635" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23875803" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="12379884" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25765070" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23636398" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23447401" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="24583393" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22810696" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25568919" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="23636398" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="22810696" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25568919" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25409260" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26952546" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25765070" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26028255" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="28420421" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25409260" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26952546" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27671167" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27939400" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="30150660" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25765070" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26028255" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="28039262" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25765070" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25765070" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26028255" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="28039262" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27159395" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27486176" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27683556" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27001570" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="30151257" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="25409260" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26359337" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27671167" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="26952546" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                        <ReferenceLink isDeleted="false" isDirty="false" referenceId="27939400" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReferenceLink">
+                            <SaveCommand />
+                            <DeleteCommand />
+                            <KeyFields />
+                            <CommandParams />
+                            <Include>true</Include>
+                        </ReferenceLink>
+                    </ReferenceLinks>
+                    <ClinicalTrialLinks />
+                </Alteration>
+            </Alterations>
+            <ReferenceLinks />
+        </Gene>
+    </Genes>
+    <Trials />
+    <References>
+        <Reference isDeleted="false" isDirty="false" number="60" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20395525</ReferenceId>
+            <FullCitation>Agaram NP, Shia J, Tang LH, et al. (2010) DNA mismatch repair deficiency in ampullary carcinoma: a morphologic and immunohistochemical study of 54 cases. Am J Clin Pathol 133(5):772-80</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="38" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20027678</ReferenceId>
+            <FullCitation>Alakus H, Mönig SP, Warnecke-Eberz U, et al. (2009) Association of the GNAS1 T393C polymorphism with tumor stage and survival in gastric cancer. World J Gastroenterol 15(48):6061-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="80" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>19275958</ReferenceId>
+            <FullCitation>Arabi H, Guan H, Kumar S, et al. (2009) Impact of microsatellite instability (MSI) on survival in high grade endometrial carcinoma. Gynecol Oncol 113(2):153-8</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="73" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>17233803</ReferenceId>
+            <FullCitation>Azzouzi AR, Catto JW, Rehman I, et al. (2007) Clinically localised prostate cancer is microsatellite stable. BJU Int 99(5):1031-5</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="75" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23690119</ReferenceId>
+            <FullCitation>Bai S, Nunez AL, Wei S, et al. (2013) Microsatellite instability and TARBP2 mutation study in upper urinary tract urothelial carcinoma. Am J Clin Pathol 139(6):765-70</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="41" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>24623249</ReferenceId>
+            <FullCitation>Bairwa NK, Saha A, Gochhait S, et al. (2014) Microsatellite instability: an indirect assay to detect defects in the cellular mismatch repair machinery. Methods Mol Biol 1105:497-509</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="96" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27939400</ReferenceId>
+            <FullCitation>Balar AV, Galsky MD, Rosenberg JE, et al. (2017) Atezolizumab as first-line treatment in cisplatin-ineligible patients with locally advanced and metastatic urothelial carcinoma: a single-arm, multicentre, phase 2 trial. Lancet 389(10064):67-76</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="34" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20601955</ReferenceId>
+            <FullCitation>Barretina J, Taylor BS, Banerji S, et al. (2010) Subtype-specific genomic alterations define new targets for soft-tissue sarcoma therapy. Nat Genet 42(8):715-21</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="12" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20164920</ReferenceId>
+            <FullCitation>Beroukhim R, Mermel CH, Porter D, et al. (2010) The landscape of somatic copy-number alteration across human cancers. Nature 463(7283):899-905</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="52" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20005452</ReferenceId>
+            <FullCitation>Bilbao C, Lara PC, Ramírez R, et al. (2010) Microsatellite instability predicts clinical outcome in radiation-treated endometrioid endometrial cancer. Int J Radiat Oncol Biol Phys 76(1):9-13</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="78" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25026289</ReferenceId>
+            <FullCitation>Bilbao-Sieyro C, Ramírez R, Rodríguez-González G, et al. (2014) Microsatellite instability and ploidy status define three categories with distinctive prognostic impact in endometrioid endometrial cancer. Oncotarget 5(15):6206-17</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="49" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>16549821</ReferenceId>
+            <FullCitation>Black D, Soslow RA, Levine DA, et al. (2006) Clinicopathologic significance of defective DNA mismatch repair in endometrial carcinoma. J Clin Oncol 24(11):1745-53</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="44" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20420947</ReferenceId>
+            <FullCitation>Boland CR, Goel A (2010) Microsatellite instability in colorectal cancer. Gastroenterology 138(6):2073-2087.e3</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="42" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>9823339</ReferenceId>
+            <FullCitation>Boland CR, Thibodeau SN, Hamilton SR, et al. (1998) A National Cancer Institute Workshop on Microsatellite Instability for cancer detection and familial predisposition: development of international criteria for the determination of microsatellite instability in colorectal cancer. Cancer Res 58(22):5248-57</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="1" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>8782817</ReferenceId>
+            <FullCitation>Borrow J, Stanton VP, Andresen JM, et al. (1996) The translocation t(8;16)(p11;p13) of acute myeloid leukaemia fuses a putative acetyltransferase to the CREB-binding protein. Nat Genet 14(1):33-41</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="102" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27001570</ReferenceId>
+            <FullCitation>Bouffet E, Larouche V, Campbell BB, et al. (2016) Immune Checkpoint Inhibition for Hypermutant Glioblastoma Multiforme Resulting From Germline Biallelic Mismatch Repair Deficiency. J Clin Oncol ePub Mar 2016</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="89" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23447401</ReferenceId>
+            <FullCitation>Briggs S, Tomlinson I (2013) Germline and somatic polymerase ε and δ mutations define a new class of hypermutated colorectal and endometrial cancers. J Pathol 230(2):148-53</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="74" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>16924473</ReferenceId>
+            <FullCitation>Burger M, Denzinger S, Hammerschmied CG, et al. (2006) Elevated microsatellite alterations at selected tetranucleotides (EMAST) and mismatch repair gene expression in prostate cancer. J Mol Med 84(10):833-41</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="29" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>22810696</ReferenceId>
+            <FullCitation>Cancer Genome Atlas Network (2012) Comprehensive molecular characterization of human colon and rectal cancer. Nature 487(7407):330-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="32" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23000897</ReferenceId>
+            <FullCitation>Cancer Genome Atlas Network (2012) Comprehensive molecular portraits of human breast tumours. Nature 490(7418):61-70</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="26" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21720365</ReferenceId>
+            <FullCitation>Cancer Genome Atlas Research Network (2011) Integrated genomic analyses of ovarian carcinoma. Nature 474(7353):609-15</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="31" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25079552</ReferenceId>
+            <FullCitation>Cancer Genome Atlas Research Network (2014) Comprehensive molecular profiling of lung adenocarcinoma. Nature 511(7511):543-50</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="88" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23636398</ReferenceId>
+            <FullCitation>Cancer Genome Atlas Research Network, Kandoth C, Schultz N, et al. (2013) Integrated genomic characterization of endometrial carcinoma. Nature 497(7447):67-73</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="94" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>28420421</ReferenceId>
+            <FullCitation>Chalmers ZR, Connelly CF, Fabrizio D, et al. (2017) Analysis of 100,000 human cancer genomes reveals the landscape of tumor mutational burden. Genome Med 9(1):34</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="36" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21430775</ReferenceId>
+            <FullCitation>Chapman MA, Lawrence MS, Keats JJ, et al. (2011) Initial genome sequencing and analysis of multiple myeloma. Nature 471(7339):467-72</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="66" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>14656944</ReferenceId>
+            <FullCitation>Chiappini F, Gross-Goupil M, Saffroy R, et al. (2004) Microsatellite instability mutator phenotype in hepatocellular carcinoma in non-alcoholic and non-virally infected normal livers. Carcinogenesis 25(4):541-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="20" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>12970318</ReferenceId>
+            <FullCitation>Collins MT, Sarlis NJ, Merino MJ, et al. (2003) Thyroid carcinoma in the McCune-Albright syndrome: contributory role of activating Gs alpha mutations. J Clin Endocrinol Metab 88(9):4413-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="98" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>28039262</ReferenceId>
+            <FullCitation>Dong ZY, Zhong WZ, Zhang XC, et al. (2016) Potential Predictive Value of TP53 and KRAS Mutation Status for Response to PD-1 Blockade Immunotherapy in Lung Adenocarcinoma. Clin Cancer Res</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="57" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>8536886</ReferenceId>
+            <FullCitation>dos Santos NR, Seruca R, Constância M, et al. (1996) Microsatellite instability at multiple loci in gastric carcinoma: clinicopathologic implications and prognosis. Gastroenterology 110(1):38-44</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="103" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>30151257</ReferenceId>
+            <FullCitation>Fabrizio DA, George TJ, Dunne RF, et al. (2018) Beyond microsatellite testing: assessment of tumor mutational burden identifies subsets of colorectal cancer who may respond to immune checkpoint inhibition. J Gastrointest Oncol 9(4):610-617</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="58" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23555086</ReferenceId>
+            <FullCitation>Fang WL, Chang SC, Lan YT, et al. (2013) Molecular and survival differences between familial and sporadic gastric cancers. Biomed Res Int 2013:396272</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="59" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21422910</ReferenceId>
+            <FullCitation>Farris AB, Demicco EG, Le LP, et al. (2011) Clinicopathologic and molecular profiles of microsatellite unstable Barrett Esophagus-associated adenocarcinoma. Am J Surg Pathol 35(5):647-55</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="22" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>22355676</ReferenceId>
+            <FullCitation>Furukawa T, Kuboki Y, Tanji E, et al. (2011) Whole-exome sequencing uncovers frequent GNAS mutations in intraductal papillary mucinous neoplasms of the pancreas. Sci Rep 1:161</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="10" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23550210</ReferenceId>
+            <FullCitation>Gao J, Aksoy BA, Dogrusoz U, et al. (2013) Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal. Sci Signal 6(269):pl1</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="81" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25392179</ReferenceId>
+            <FullCitation>Gatalica Z, Snyder C, Maney T, et al. (2014) Programmed cell death 1 (PD-1) and its ligand (PD-L1) in common cancers and their correlation with molecular cancer type. Cancer Epidemiol Biomarkers Prev 23(12):2965-70</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="6" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>18528428</ReferenceId>
+            <FullCitation>Gervais C, Murati A, Helias C, et al. (2008) Acute myeloid leukaemia with 8p11 (MYST3) rearrangement: an integrated cytologic, cytogenetic and molecular study by the groupe francophone de cytogénétique hématologique. Leukemia 22(8):1567-75</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="76" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25319978</ReferenceId>
+            <FullCitation>Giedl J, Schneckenpointner R, Filbeck T, et al. (2014) Low frequency of HNPCC-associated microsatellite instability and aberrant MMR protein expression in early-onset bladder cancer. Am J Clin Pathol 142(5):634-9</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="2" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25735316</ReferenceId>
+            <FullCitation>Grasso CS, Cani AK, Hovelson DH, et al. (2015) Integrative molecular profiling of routine clinical prostate cancer specimens. Ann Oncol ePub Mar 2015</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="14" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>2549065</ReferenceId>
+            <FullCitation>Graziano MP, Gilman AG (1989) Synthesis in Escherichia coli of GTPase-deficient mutants of Gs alpha. J Biol Chem 264(26):15475-82</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="4" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25713363</ReferenceId>
+            <FullCitation>Green MR, Kihira S, Liu CL, et al. (2015) Mutations in early follicular lymphoma progenitors are associated with suppressed antigen presentation. Proc Natl Acad Sci USA 112(10):E1116-25</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="53" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20627535</ReferenceId>
+            <FullCitation>Guastadisegni C, Colafranceschi M, Ottini L, et al. (2010) Microsatellite instability as a marker of prognosis and response to therapy: a meta-analysis of colorectal cancer survival data. Eur J Cancer 46(15):2788-98</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="7" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>19194466</ReferenceId>
+            <FullCitation>Haferlach T, Kohlmann A, Klein HU, et al. (2009) AML with translocation t(8;16)(p11;p13) demonstrates unique cytomorphological, cytogenetic, molecular and prognostic features. Leukemia 23(5):934-43</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="46" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>16885385</ReferenceId>
+            <FullCitation>Hampel H, Frankel W, Panescu J, et al. (2006) Screening for Lynch syndrome (hereditary nonpolyposis colorectal cancer) among endometrial cancer patients. Cancer Res 66(15):7810-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="9" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>9860993</ReferenceId>
+            <FullCitation>Hayward BE, Moran V, Strain L, et al. (1998) Bidirectional imprinting of a single gene: GNAS1 encodes maternally, paternally, and biallelically derived proteins. Proc Natl Acad Sci USA 95(26):15475-80</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="90" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>24583393</ReferenceId>
+            <FullCitation>Heitzer E, Tomlinson I (2014) Replicative DNA polymerase mutations in cancer. Curr Opin Genet Dev 24:107-13</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="63" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>7775257</ReferenceId>
+            <FullCitation>Hibi K, Kondo K, Akiyama S, et al. (1995) Frequent genetic instability in small intestinal carcinomas. Jpn J Cancer Res 86(4):357-60</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="85" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23875803</ReferenceId>
+            <FullCitation>Hill VK, Gartner JJ, Samuels Y, et al. (2013) The genetics of melanoma: recent advances. Annu Rev Genomics Hum Genet 14:257-79</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="55" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>15209621</ReferenceId>
+            <FullCitation>Hiyama T, Tanaka S, Yoshihara M, et al. (2004) Chromosomal and microsatellite instability in sporadic gastric cancer. J Gastroenterol Hepatol 19(7):756-60</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="15" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>11322485</ReferenceId>
+            <FullCitation>Jang IS, Juhnn YS (2001) Adaptation of cAMP signaling system in SH-SY5Y neuroblastoma cells following expression of a constitutively active stimulatory G protein alpha, Q227L Gsalpha. Exp Mol Med 33(1):37-45</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="101" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27683556</ReferenceId>
+            <FullCitation>Johanns TM, Miller CA, Dorward IG, et al. (2016) Immunogenomics of Hypermutated Glioblastoma: a Patient with Germline POLE Deficiency Treated with Checkpoint Blockade Immunotherapy. Cancer Discov ePub Sep 2016</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="95" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27671167</ReferenceId>
+            <FullCitation>Johnson DB, Frampton GM, Rioth MJ, et al. (2016) Targeted next generation sequencing identifies markers of response to PD-1 blockade. Cancer Immunol Res ePub Sep 2016</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="27" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20668451</ReferenceId>
+            <FullCitation>Kan Z, Jaiswal BS, Stinson J, et al. (2010) Diverse somatic mutation patterns and pathway alterations in human cancers. Nature 466(7308):869-73</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="48" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25458958</ReferenceId>
+            <FullCitation>Kanopienė D, Smailytė G, Vidugirienė J, et al. (2014) Impact of microsatellite instability on survival of endometrial cancer patients. Medicina (Kaunas) 50(4):216-21</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="39" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>26337942</ReferenceId>
+            <FullCitation>Kocarnik JM, Shiovitz S, Phipps AI (2015) Molecular phenotypes of colorectal cancer and potential clinical applications. Gastroenterol Rep (Oxf) 3(4):269-76</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="82" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>26140250</ReferenceId>
+            <FullCitation>Kroemer G, Galluzzi L, Zitvogel L, et al. (2015) Colorectal cancer: the first neoplasia found to be under immunosurveillance and the last one to respond to immunotherapy? Oncoimmunology 4(7):e1058597</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="54" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25949894</ReferenceId>
+            <FullCitation>Lal N, Beggs AD, Willcox BE, et al. (2015) An immunogenomic stratification of colorectal cancer: Implications for development of targeted immunotherapy. Oncoimmunology 4(3):e976052</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="16" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>2549426</ReferenceId>
+            <FullCitation>Landis CA, Masters SB, Spada A, et al. (1989) GTPase inhibiting mutations activate the alpha chain of Gs and stimulate adenylyl cyclase in human pituitary tumours. Nature 340(6236):692-6</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="83" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>26028255</ReferenceId>
+            <FullCitation>Le DT, Uram JN, Wang H, et al. (2015) PD-1 Blockade in Tumors with Mismatch-Repair Deficiency. N Engl J Med ePub May 2015</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="69" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>14506736</ReferenceId>
+            <FullCitation>Liengswangwong U, Nitta T, Kashiwagi H, et al. (2003) Infrequent microsatellite instability in liver fluke infection-associated intrahepatic cholangiocarcinomas from Thailand. Int J Cancer 107(3):375-80</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="5" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25027518</ReferenceId>
+            <FullCitation>Loeffler M, Kreuz M, Haake A, et al. (2015) Genomic and epigenomic co-evolution in follicular lymphomas. Leukemia 29(2):456-63</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="35" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>24434212</ReferenceId>
+            <FullCitation>Lohr JG, Stojanov P, Carter SL, et al. (2014) Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy. Cancer Cell 25(1):91-101</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="3" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25790293</ReferenceId>
+            <FullCitation>Ma X, Edmonson M, Yergeau D, et al. (2015) Rise and fall of subclones from diagnosis to relapse in pediatric B-acute lymphoblastic leukaemia. Nat Commun 6:6604</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="79" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20304627</ReferenceId>
+            <FullCitation>Mackay HJ, Gallinger S, Tsao MS, et al. (2010) Prognostic value of microsatellite instability (MSI) and PTEN expression in women with endometrial cancer: results from studies of the NCIC Clinical Trials Group (NCIC CTG). Eur J Cancer 46(8):1365-73</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="18" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20887824</ReferenceId>
+            <FullCitation>Mariot V, Wu JY, Aydin C, et al. (2011) Potent constitutive cyclic AMP-generating activity of XLαs implicates this imprinted GNAS product in the pathogenesis of McCune-Albright syndrome and fibrous dysplasia of bone. Bone 48(2):312-20</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="13" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>2549064</ReferenceId>
+            <FullCitation>Masters SB, Miller RT, Chi MH, et al. (1989) Mutations in the GTP-binding site of GS alpha alter stimulation of adenylyl cyclase. J Biol Chem 264(26):15467-74</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="99" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27159395</ReferenceId>
+            <FullCitation>Mehnert JM, Panda A, Zhong H, et al. (2016) Immune activation and response to pembrolizumab in POLE-mutant endometrial cancer. J Clin Invest 126(6):2334-40</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="8" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25671298</ReferenceId>
+            <FullCitation>Mensah AA, Kwee I, Gaudio E, et al. (2015) Novel HDAC inhibitors exhibit pre-clinical efficacy in lymphoma models and point to the importance of CDKN1A expression levels in mediating their anti-tumor response. Oncotarget 6(7):5059-71</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="97" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>30150660</ReferenceId>
+            <FullCitation>Miao D, Margolis CA, Vokes NI, et al. (2018) Genomic correlates of response to immune checkpoint blockade in microsatellite-stable solid tumors. Nat Genet 50(9):1271-1281</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="68" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>11580146</ReferenceId>
+            <FullCitation>Momoi H, Itoh T, Nozaki Y, et al. (2001) Microsatellite instability and alternative genetic pathway in intrahepatic cholangiocarcinoma. J Hepatol 35(2):235-44</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="70" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25680569</ReferenceId>
+            <FullCitation>Moy AP, Shahid M, Ferrone CR, et al. (2015) Microsatellite instability in gallbladder carcinoma. Virchows Arch ePub Feb 2015</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="64" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>11117578</ReferenceId>
+            <FullCitation>Muneyuki T, Watanabe M, Yamanaka M, et al. (2000) Combination analysis of genetic alterations and cell proliferation in small intestinal carcinomas. Dig Dis Sci 45(10):2022-8</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="21" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21835143</ReferenceId>
+            <FullCitation>Nault JC, Fabre M, Couchy G, et al. (2012) GNAS-activating mutations define a rare subgroup of inflammatory liver tumors characterized by STAT3 activation. J Hepatol 56(1):184-91</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="24" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23403822</ReferenceId>
+            <FullCitation>Nishikawa G, Sekine S, Ogawa R, et al. (2013) Frequent GNAS mutations in low-grade appendiceal mucinous neoplasms. Br J Cancer 108(4):951-8</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="50" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>22609107</ReferenceId>
+            <FullCitation>Nout RA, Bosse T, Creutzberg CL, et al. (2012) Improved risk assessment of endometrial cancer by combined analysis of MSI, PI3K-AKT, Wnt/β-catenin and P53 pathway activation. Gynecol Oncol 126(3):466-73</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="43" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>15528785</ReferenceId>
+            <FullCitation>Pawlik TM, Raut CP, Rodriguez-Bigas MA (2004) Colorectal carcinogenesis: MSI-H versus MSI-L. Dis Markers 20(4-5):199-206</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="0" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>10699051</ReferenceId>
+            <FullCitation>Petrij F, Dauwerse HG, Blough RI, et al. (2000) Diagnostic analysis of the Rubinstein-Taybi syndrome: five cosmids should be used for microdeletion detection and low number of protein truncating mutations. J Med Genet 37(3):168-76</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="86" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>12379884</ReferenceId>
+            <FullCitation>Pfeifer GP, Denissenko MF, Olivier M, et al. (2002) Tobacco smoke carcinogens, DNA damage and p53 mutations in smoking-associated cancers. Oncogene 21(48):7435-51</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="84" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>15748635</ReferenceId>
+            <FullCitation>Pfeifer GP, You YH, Besaratinia A (2005) Mutations induced by ultraviolet light. Mutat Res 571(1-2):19-31</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="62" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>12627520</ReferenceId>
+            <FullCitation>Planck M, Ericson K, Piotrowska Z, et al. (2003) Microsatellite instability and expression of MLH1 and MSH2 in carcinomas of the small intestine. Cancer 97(6):1551-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="72" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25255306</ReferenceId>
+            <FullCitation>Pritchard CC, Morrissey C, Kumar A, et al. (2014) Complex MSH2 and MSH6 mutations in hypermutated microsatellite unstable advanced prostate cancer. Nat Commun 5:4988</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="87" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25765070</ReferenceId>
+            <FullCitation>Rizvi NA, Hellmann MD, Snyder A, et al. (2015) Cancer immunology. Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer. Science 348(6230):124-8</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="91" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25568919</ReferenceId>
+            <FullCitation>Roberts SA, Gordenin DA (2014) Hypermutation in human cancer genomes: footprints and mechanisms. Nat Rev Cancer 14(12):786-800</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="93" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>26952546</ReferenceId>
+            <FullCitation>Rosenberg JE, Hoffman-Censits J, Powles T, et al. (2016) Atezolizumab in patients with locally advanced and metastatic urothelial carcinoma who have progressed following treatment with platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial. Lancet 387(10031):1909-20</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="61" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>19252434</ReferenceId>
+            <FullCitation>Ruemmele P, Dietmaier W, Terracciano L, et al. (2009) Histopathologic features and microsatellite instability of cancers of the papilla of vater and their precursor lesions. Am J Surg Pathol 33(5):691-704</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="100" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27486176</ReferenceId>
+            <FullCitation>Santin AD, Bellone S, Buza N, et al. (2016) Regression of chemotherapy-resistant Polymerase epsilon (POLE) ultra-mutated and MSH6 hyper-mutated endometrial tumors with nivolumab. Clin Cancer Res ePub Aug 2016</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="25" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>24925222</ReferenceId>
+            <FullCitation>Singhi AD, Davison JM, Choudry HA, et al. (2014) GNAS is frequently mutated in both low-grade and high-grade disseminated appendiceal mucinous neoplasms but does not affect survival. Hum Pathol ePub May 2014</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="92" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25409260</ReferenceId>
+            <FullCitation>Snyder A, Makarov V, Merghoub T, et al. (2014) Genetic basis for clinical response to CTLA-4 blockade in melanoma. N Engl J Med 371(23):2189-99</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="51" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21547578</ReferenceId>
+            <FullCitation>Steinbakk A, Malpica A, Slewa A, et al. (2011) High frequency microsatellite instability has a prognostic value in endometrial endometrioid adenocarcinoma, but only in FIGO stage 1 cases. Cell Oncol (Dordr) 34(5):457-65</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="47" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>27006490</ReferenceId>
+            <FullCitation>Stelloo E, Nout RA, Osse EM, et al. (2016) Improved Risk Assessment by Integrating Molecular and Clinicopathological Factors in Early-stage Endometrial Cancer-Combined Analysis of the PORTEC Cohorts. Clin Cancer Res ePub Mar 2016</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="67" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>11223838</ReferenceId>
+            <FullCitation>Suto T, Habano W, Sugai T, et al. (2001) Infrequent microsatellite instability in biliary tract cancer. J Surg Oncol 76(2):121-6</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="30" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25079317</ReferenceId>
+            <FullCitation>The Cancer Genome Atlas Research Network, Analysis Working Group: Dana-Farber Cancer Institute, Institute for Systems Biology, et al. (2014) Comprehensive molecular characterization of gastric adenocarcinoma. Nature ePub Jul 2014</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="17" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>23288949</ReferenceId>
+            <FullCitation>Tobar-Rubin R, Sultan D, Janevska D, et al. (2013) Intragenic suppression of a constitutively active allele of Gsα associated with McCune-Albright syndrome. J Mol Endocrinol 50(2):193-201</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="28" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>20537689</ReferenceId>
+            <FullCitation>Tominaga E, Tsuda H, Arao T, et al. (2010) Amplification of GNAS may be an independent, qualitative, and reproducible biomarker to predict progression-free survival in epithelial ovarian cancer. Gynecol Oncol 118(2):160-6</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="104" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>26359337</ReferenceId>
+            <FullCitation>Van Allen EM, Miao D, Schilling B, et al. (2015) Genomic correlates of response to CTLA-4 blockade in metastatic melanoma. Science 350(6257):207-11</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="19" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>1944469</ReferenceId>
+            <FullCitation>Weinstein LS, Shenker A, Gejman PV, et al. (1991) Activating mutations of the stimulatory G protein in the McCune-Albright syndrome. N Engl J Med 325(24):1688-95</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="33" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>25855536</ReferenceId>
+            <FullCitation>Witkiewicz AK, McMillan EA, Balaji U, et al. (2015) Whole-exome sequencing of pancreatic cancer defines genetic diversity and therapeutic targets. Nat Commun 6:6744</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="23" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21775669</ReferenceId>
+            <FullCitation>Wu J, Matthaei H, Maitra A, et al. (2011) Recurrent GNAS mutations define an unexpected pathway for pancreatic cyst development. Sci Transl Med 3(92):92ra66</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="56" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>9537253</ReferenceId>
+            <FullCitation>Wu MS, Lee CW, Shun CT, et al. (1998) Clinicopathological significance of altered loci of replication error and microsatellite instability-associated mutations in gastric cancer. Cancer Res 58(7):1494-7</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="77" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>16675567</ReferenceId>
+            <FullCitation>Yamamoto Y, Matsuyama H, Kawauchi S, et al. (2006) Biological characteristics in bladder cancer depend on the type of genetic instability. Clin Cancer Res 12(9):2752-8</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="71" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>11063221</ReferenceId>
+            <FullCitation>Yoshida T, Sugai T, Habano W, et al. (2000) Microsatellite instability in gallbladder carcinoma: two independent genetic pathways of gallbladder carcinogenesis. J Gastroenterol 35(10):768-74</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="40" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21081928</ReferenceId>
+            <FullCitation>You JF, Buhard O, Ligtenberg MJ, et al. (2010) Tumours with loss of MSH6 expression are MSI-H when screened with a pentaplex of five mononucleotide repeats. Br J Cancer 103(12):1840-5</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="37" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>21357941</ReferenceId>
+            <FullCitation>Zacharin M, Bajpai A, Chow CW, et al. (2011) Gastrointestinal polyps in McCune Albright syndrome. J Med Genet 48(7):458-61</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="11" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>24071852</ReferenceId>
+            <FullCitation>Zack TI, Schumacher SE, Carter SL, et al. (2013) Pan-cancer patterns of somatic copy number alteration. Nat Genet 45(10):1134-1140</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="65" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>15918185</ReferenceId>
+            <FullCitation>Zhang SH, Cong WM, Xian ZH, et al. (2005) Clinicopathological significance of loss of heterozygosity and microsatellite instability in hepatocellular carcinoma in China. World J Gastroenterol 11(20):3034-9</FullCitation>
+            <Include>true</Include>
+        </Reference>
+        <Reference isDeleted="false" isDirty="false" number="45" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReference">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ReferenceId>17513808</ReferenceId>
+            <FullCitation>Zighelboim I, Goodfellow PJ, Gao F, et al. (2007) Microsatellite instability and epigenetic inactivation of MLH1 and outcome of patients with endometrial carcinomas of the endometrioid type. J Clin Oncol 25(15):2042-8</FullCitation>
+            <Include>true</Include>
+        </Reference>
+    </References>
+    <Signatures>
+        <Signature isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TSignature">
+            <SaveCommand />
+            <DeleteCommand />
+            <CommandParams />
+            <ModifiedBy>CORP\jvergilio</ModifiedBy>
+            <ServerTime>2018-10-15 22:08:15</ServerTime>
+            <OpName>Jo-Anne Vergilio</OpName>
+            <Text>Jo-Anne Vergilio, M.D. | Jeffrey S. Ross, M.D., Medical Director </Text>
+        </Signature>
+    </Signatures>
+    <reportProperties>
+        <reportProperty identifier="OptOut" isDeleted="false" isDirty="false" key="ExcludeClinicalTrials" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReportProperty">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <value>False</value>
+        </reportProperty>
+        <reportProperty identifier="OptOut" isDeleted="false" isDirty="false" key="ExcludeTherapiesOnTumorType" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReportProperty">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <value>False</value>
+        </reportProperty>
+        <reportProperty identifier="OptOut" isDeleted="false" isDirty="false" key="ExcludeTherapiesOnOtherTumorType" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReportProperty">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <value>False</value>
+        </reportProperty>
+        <reportProperty identifier="AdditionalFindings" isDeleted="false" isDirty="false" key="TumorMutationBurdenScore" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReportProperty">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <value>1 Muts/Mb</value>
+        </reportProperty>
+        <reportProperty identifier="QualityControlMetrics" isDeleted="false" isDirty="false" key="MedianCoverageValue" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReportProperty">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <value>853x</value>
+        </reportProperty>
+        <reportProperty identifier="SampleTracking" isDeleted="false" isDirty="false" key="CurationStartedSent" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TReportProperty">
+            <SaveCommand />
+            <DeleteCommand />
+            <KeyFields />
+            <CommandParams />
+            <value>true</value>
+        </reportProperty>
+    </reportProperties>
+    <comments />
+    <AAC isDeleted="false" isDirty="false" sqlCommandTimeout="30" targetDatabase="Sql" typeName="TAAC">
+        <SaveCommand />
+        <DeleteCommand />
+        <KeyFields />
+        <CommandParams />
+        <Amendmends />
+    </AAC>
+    <CancerRelatedAlterations />
+    <EnrollmentCriteria />
+</FinalReport>
