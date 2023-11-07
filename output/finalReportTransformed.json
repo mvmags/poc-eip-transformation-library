@@ -1,0 +1,1589 @@
+{
+  "finalReport": {
+    "StagingId": "346878",
+    "clinicalId": "348366",
+    "Application": {
+      "ApplicationSettings": {
+        "ApplicationSetting": {
+          "Name": "Statement",
+          "Value": ""
+        }
+      }
+    },
+    "ReportId": "TRF300000",
+    "SampleName": "TRF300000.01",
+    "Version": "1",
+    "Sample": {
+      "FM_Id": "TRF300000",
+      "SampleId": "TRF300000.01",
+      "BlockId": "US18-11001 A1",
+      "TRFNumber": "TRF300000",
+      "TestType": "FoundationOneCDx",
+      "SpecFormat": "Slide",
+      "ReceivedDate": "2018-09-28",
+      "processSites": {
+        "processSite": [
+          {
+            "address": "7010 Kit Creek Road, Morrisville, NC 27560",
+            "cliaNumber": "34D2044309",
+            "locationID": "2",
+            "locationName": "RTP",
+            "processID": "1",
+            "processName": "Sample Preparation Site"
+          },
+          {
+            "address": "150 Second St., 1st Floor, Cambridge, MA 02141",
+            "cliaNumber": "22D2027531",
+            "locationID": "1",
+            "locationName": "Cambridge",
+            "processID": "2",
+            "processName": "Sample Analysis Site"
+          }
+        ]
+      }
+    },
+    "PMI": {
+      "ReportId": "TRF300000",
+      "MRN": "123456789",
+      "FullName": "Doe, John",
+      "FirstName": "John",
+      "LastName": "Doe",
+      "SampleId": "TRF300000.01",
+      "SubmittedDiagnosis": "Salivary gland mucoepidermoid carcinoma",
+      "Gender": "Male",
+      "DOB": "1970-01-01",
+      "OrderingMD": "Howser, Doogie",
+      "OrderingMDId": "10000",
+      "Pathologist": "Mr Pathologist",
+      "CopiedPhysician1": "Mrs Pathologist",
+      "MedFacilName": "Pathology Center",
+      "MedFacilID": "100000",
+      "SpecSite": "Parotid Gland",
+      "CollDate": "2018-08-09",
+      "ReceivedDate": "2018-09-28",
+      "CountryOfOrigin": "US"
+    },
+    "PertinentNegatives": "",
+    "Summaries": {
+      "alterationCount": "4",
+      "clinicalTrialCount": "0",
+      "resistiveCount": "0",
+      "sensitizingCount": "0"
+    },
+    "VariantProperties": {
+      "VariantProperty": [
+        {
+          "geneName": "CIC",
+          "isVUS": "true",
+          "variantName": "A851V"
+        },
+        {
+          "geneName": "FGF3",
+          "isVUS": "true",
+          "variantName": "T79M"
+        },
+        {
+          "geneName": "MCL1",
+          "isVUS": "true",
+          "variantName": "M120V"
+        },
+        {
+          "geneName": "PBRM1",
+          "isVUS": "true",
+          "variantName": "L145F"
+        },
+        {
+          "geneName": "RAF1",
+          "isVUS": "true",
+          "variantName": "V312A"
+        }
+      ]
+    },
+    "priorTests": "",
+    "Genes": {
+      "Gene": [
+        {
+          "Name": "CREBBP",
+          "Include": "true",
+          "Alterations": {
+            "Alteration": {
+              "Name": "Q355fs*12",
+              "AlterationProperties": {
+                "AlterationProperty": {
+                  "dnaFraction": "52.5",
+                  "isEquivocal": "false",
+                  "isSubclonal": "false",
+                  "name": "Q355fs*12"
+                }
+              },
+              "Interpretation": "CREBBP encodes a ubiquitously expressed transcriptional coregulatory protein.",
+              "Include": "true",
+              "ClinicalTrialNote": "",
+              "Therapies": "",
+              "ReferenceLinks": {
+                "ReferenceLink": [
+                  {
+                    "referenceId": "10699051",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "8782817",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25735316",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25790293",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25713363",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25027518",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25713363",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "18528428",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "19194466",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25671298",
+                    "Include": "true"
+                  }
+                ]
+              },
+              "ClinicalTrialLinks": ""
+            }
+          },
+          "ReferenceLinks": ""
+        },
+        {
+          "Name": "GNAS",
+          "Include": "true",
+          "Alterations": {
+            "Alteration": {
+              "Name": "Q227L",
+              "AlterationProperties": {
+                "AlterationProperty": {
+                  "dnaFraction": "17.9",
+                  "isEquivocal": "false",
+                  "isSubclonal": "false",
+                  "name": "Q227L"
+                }
+              },
+              "Interpretation": "GNAS encodes the alpha subunit of the stimulatory G protein (Gs-alpha) (Hayward et al., 1998; 9860993). Gs-alpha is a guanine-nucleotide binding protein (G protein) that is involved in hormonal regulation of adenylate cyclase (Hayward et al., 1998; 9860993). GNAS has been reported to be amplified in cancer (Gao et al., 2013; 23550210) and may be biologically relevant in this context (Zack et al., 2013; 24071852, Beroukhim et al., 2010; 20164920). GNAS alterations that have been shown to result in constitutive activation of adenylyl cyclase and an increase in cellular cAMP concentration (Masters et al., 1989; 2549064, Graziano and Gilman, 1989; 2549065, Jang and Juhnn, 2001; 11322485, Landis et al., 1989; 2549426, Tobar-Rubin et al., 2013; 23288949, Mariot et al., 2011; 20887824) are predicted to be activating. Mutations at R201 specifically are commonly associated with McCune-Albright syndrome, a disease that can co-occur with various cancers in patients with GNAS activating mutations (Weinstein et al., 1991; 1944469, Collins et al., 2003; 12970318, Nault et al., 2012; 21835143).\n\n                        The highest incidences of GNAS mutations have been reported in intraductal papillary mucinous neoplasms (40-66%)(Furukawa et al., 2011; 22355676, Wu et al., 2011; 21775669) and appendiceal mucinous neoplasms (50-72%)(Nishikawa et al., 2013; 23403822, Singhi et al., 2014; 24925222) as well as in tumors affecting the pituitary gland (27%), pancreas (16%), and bone (14%) (COSMIC, 2018). Amplification of GNAS has been reported in ovarian epithelial carcinomas (12-30%)(Cancer Genome Atlas Research Network., 2011; 21720365, Kan et al., 2010; 20668451, Tominaga et al., 2010; 20537689), colorectal adenocarcinoma (9%)(Cancer Genome Atlas Network., 2012; 22810696), stomach adenocarcinoma (7%)(Cancer Genome Atlas Research Network., 2014; 25079317), lung adenocarcinoma (6.5%)(Cancer Genome Atlas Research Network., 2014; 25079552), breast invasive carcinoma (6.5%)(Cancer Genome Atlas Network., 2012; 23000897), pancreatic adenocarcinoma (6%)(Bio-Witkiewicz et al., 2015; 25855536), and sarcomas (5.8%)(cBio-Barretina et al., 2010; 20601955). GNAS mutations are rare in hematological malignancies generally (COSMIC, 2018)(cBio-Lohr et al., 2014; 24434212, Chapman et al., 2011; 21430775). Activating GNAS mutations have been identified in gastrointestinal polyps in 75% (3/4) of patients with McCune-Albright syndrome (Zacharin et al., 2011; 21357941). Amplification of GNAS has been associated with shorter progression-free survival in patients with ovarian cancer (Kan et al., 2010; 20668451, Tominaga et al., 2010; 20537689), while activating GNAS mutations have been correlated with tumor progression and poor prognosis in patients with gastric cancer (Alakus et al., 2009; 20027678).\n\n                        There are no therapies targeted to GNAS mutation in cancer.",
+              "Include": "true",
+              "ClinicalTrialNote": "",
+              "Therapies": "",
+              "ReferenceLinks": {
+                "ReferenceLink": [
+                  {
+                    "referenceId": "9860993",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "9860993",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23550210",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "24071852",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20164920",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "2549064",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "2549065",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "11322485",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "2549426",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23288949",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20887824",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "1944469",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "12970318",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21835143",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22355676",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21775669",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23403822",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "24925222",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21720365",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20668451",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20537689",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22810696",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25079317",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25079552",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23000897",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25855536",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20601955",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "24434212",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21430775",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21357941",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20668451",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20537689",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20027678",
+                    "Include": "true"
+                  }
+                ]
+              },
+              "ClinicalTrialLinks": ""
+            }
+          },
+          "ReferenceLinks": ""
+        },
+        {
+          "Name": "Microsatellite status",
+          "Include": "true",
+          "Alterations": {
+            "Alteration": {
+              "Name": "MS-Stable",
+              "AlterationProperties": {
+                "AlterationProperty": {
+                  "isEquivocal": "false",
+                  "isSubclonal": "false",
+                  "name": "MS-Stable"
+                }
+              },
+              "Interpretation": "Microsatellite instability (MSI) is a condition of genetic hypermutability that generates excessive amounts of short insertion/deletion mutations in the genome; it generally occurs at microsatellite DNA sequences and is caused by a deficiency in DNA mismatch repair (MMR) in the tumor (Kocarnik et al., 2015; 26337942). Defective MMR and consequent MSI occur as a result of genetic or epigenetic inactivation of one of the MMR pathway proteins, primarily MLH1, MSH2, MSH6, or PMS2 (You et al., 2010; 21081928, Bairwa et al., 2014; 24623249, Kocarnik et al., 2015; 26337942). The tumor seen here is microsatellite-stable (MSS), equivalent to the clinical definition of an MSS tumor: one with mutations in none of the tested microsatellite markers (Boland et al., 1998; 9823339, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSS status indicates MMR proficiency and typically correlates with intact expression of all MMR family proteins (Kocarnik et al., 2015; 26337942, Bairwa et al., 2014; 24623249, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947).\n\n                        MSI-high (MSI-H) has been observed at high frequency in endometrial cancers (16-33%)(Santin et al., ASCO 2016; Abstract 414)(Zighelboim et al., 2007; 17513808, Hampel et al., 2006; 16885385, Stelloo et al., 2016; 27006490, Kanopiene et al., 2014; 25458958, Black et al., 2006; 16549821, Nout et al., 2012; 22609107, Steinbakk et al., 2016; 21547578, Bilbao et al., 2016; 20005452), colorectal cancers (CRCs; 10-15%)(Guastadisegni et al., 2010; 20627535, Pawlik et al., 2004; 15528785, Kocarnik et al., 2015; 26337942, Cancer Genome Atlas Network., 2012; 22810696, Lal et al., 2015; 25949894), and gastric cancers (12-35%)(Hiyama et al., 2004; 15209621, Wu et al., 1998; 9537253, dos Santos et al., 1996; 8536886, Fang et al., 2013; 23555086) and at lower frequencies in many other tumor types, including esophageal (Hall et al., 2016; ASCO Gastrointestinal Cancer Symposium Abstract 528)(Farris et al., 2011; 21422910), small bowel (Gingras et al., 2015; AACR Pancreatic Cancer Abstract PR06)(Agaramet al., 2010; 20395525, Ruemmele et al., 2009; 19252434, Planck et al., 2003; 12627520, Hibi et al., 1995; 7775257, Muneyuki et al., 2000; 11117578), hepatobiliary (Zhang et al., 2005; 15918185, Chiappini et al., 2004; 14656944, Suto et al., 2001; 11223838, Momoi et al., 2001; 11580146, Liengswangwong et al., 2003; 14506736, Moy et al., 2015; 25680569, Yoshida et al., 2000; 11063221), prostate (Cheng et al., 2016; Genitourinary Cancers Symposium Abstract 251)(Pritchard et al., 2014; 25255306, Azzouzi et al.,  2007; 17233803, Burger et al., 2006; 16924473), and urinary tract carcinomas (Harper et al., 2015; USCAP Abstract 905)(Bai et al., 2013; 23690119, Giedl et al., 2014; 25319978, Yamamoto et al., 2006; 16675567). In one study, MSI-H status was associated with a positive prognostic effect in patients with gastric cancer treated with surgery alone and a negative predictive effect in patients treated with chemotherapy (Smyth et al., 2015; ASCO Gastrointestinal Cancers Symposium Abstract 62). Data regarding the role of MSI-H on prognosis and survival in endometrial cancer are conflicting (Zighelboim et al., 2007; 17513808, Kanopiene et al., 2014; 25458958, Bilbao-Sieyro et al., 2014; 25026289, Mackay et al., 2010; 20304627, Steinbakk et al., 2011; 21547578, Arabi et al., 2009; 19275958, Black et al., 2006; 16549821). However, studies specifically analyzing early stage endometrial cancer have reported a correlation between MSI-H and decreased survival (Stelloo et al., 2016; 27006490, Mackay et al., 2010; 20304627, Nout et al., 2012; 22609107, Bilbao et al., 2010; 20005452), thereby suggesting that MSI-H predicts for poor prognosis in this subset of endometrial tumors.\n\n                        On the basis of clinical evidence, microsatellite stable (MSS) tumors are significantly less likely than MSI-high (MSI-H) tumors to respond to anti-PD-1 immune checkpoint inhibitors (Gatalica et al., 2014; 25392179, Kroemer et al., 2015; 26140250, Lal et al., 2015; 25949894), including approved therapies nivolumab and pembrolizumab (Overman et al., 2016; ASCO Abstract 3501)(Le et al., 2015; 26028255). In a retrospective analysis of 361 patients with solid tumors treated with pembrolizumab, 3% were MSI-H and experienced a significantly higher ORR compared with non-MSI-H cases (70% vs. 12%, p=0.001) (Ayers et al., ASCO-SITC 2016; Abstract P60). Pembrolizumab therapy resulted in a significantly lower objective response rate (ORR) in MSS colorectal cancer (CRC) compared with MSI-H CRC (0% vs. 40%)(Le et al., 2015; 26028255). Similarly, a clinical study of nivolumab, alone or in combination with ipilimumab, in patients with CRC reported a significantly higher response rate in patients with MSI-H tumors than those without (Overman et al., 2016; ASCO Abstract 3501).",
+              "Include": "true",
+              "ClinicalTrialNote": "",
+              "Therapies": "",
+              "ReferenceLinks": {
+                "ReferenceLink": [
+                  {
+                    "referenceId": "26337942",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21081928",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "24623249",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26337942",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "9823339",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "15528785",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20420947",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26337942",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "24623249",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "15528785",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20420947",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "17513808",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "16885385",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27006490",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25458958",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "16549821",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22609107",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21547578",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20005452",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20627535",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "15528785",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26337942",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22810696",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25949894",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "15209621",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "9537253",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "8536886",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23555086",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21422910",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20395525",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "19252434",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "12627520",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "7775257",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "11117578",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "15918185",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "14656944",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "11223838",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "11580146",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "14506736",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25680569",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "11063221",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25255306",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "17233803",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "16924473",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23690119",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25319978",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "16675567",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "17513808",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25458958",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25026289",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20304627",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "21547578",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "19275958",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "16549821",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27006490",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20304627",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22609107",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "20005452",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25392179",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26140250",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25949894",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26028255",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26028255",
+                    "Include": "true"
+                  }
+                ]
+              },
+              "ClinicalTrialLinks": ""
+            }
+          },
+          "ReferenceLinks": ""
+        },
+        {
+          "Name": "Tumor Mutation Burden",
+          "Include": "true",
+          "Alterations": {
+            "Alteration": {
+              "Name": "TMB-Low",
+              "AlterationProperties": {
+                "AlterationProperty": {
+                  "isEquivocal": "false",
+                  "isSubclonal": "false",
+                  "name": "TMB-Low"
+                }
+              },
+              "Interpretation": "Tumor mutation burden (TMB, also known as mutation load) is a measure of the number of somatic protein-coding base substitution and insertion/deletion mutations occurring in a tumor specimen. TMB is affected by a variety of causes, including exposure to mutagens such as ultraviolet light in melanoma (Pfeifer et al., 2005; 15748635, Hill et al., 2013; 23875803) and cigarette smoke in lung cancer (Pfeifer et al., 2002; 12379884, Rizvi et al., 2015; 25765070), mutations in the proofreading domains of DNA polymerases encoded by the POLE and POLD1 genes (Cancer Genome Atlas Research Network, 2013; 23636398, Briggs and Tomlinson, 2013; 23447401, Heitzer and Tomlinson, 2014; 24583393, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919), and microsatellite instability (MSI) (Cancer Genome Atlas Research Network, 2013; 23636398, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919). The tumor seen here harbors a low TMB. Compared to patients with tumors harboring higher TMB levels, patients with tumors harboring low TMB levels have experienced lower rates of clinical benefit from treatment with immune checkpoint inhibitors, including anti-CTLA-4 therapy in melanoma (Snyder et al., 2014; 25409260), anti-PD-L1 therapy in urothelial carcinoma (Rosenberg et al., 2016; 26952546), and anti-PD-1 therapy in non-small cell lung cancer and colorectal cancer (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255).\n\n                        Salivary gland mucoepidermoid carcinoma harbors a median TMB of 2.7 mutations per megabase (muts/Mb), and 7.3% of cases have high TMB (>20 muts/Mb)(FMI-Chalmers et al., 2017; 28420421).\n\n                        On the basis of emerging clinical evidence, increased TMB may be associated with greater sensitivity to immunotherapeutic agents, including anti-CTLA-4 (Snyder et al., 2014; 25409260), anti-PD-L1 (Rosenberg et al., 2016; 26952546, Johnson et al., 2016; 27671167, Balar et al., 2017; 27939400, Miao et al., 2018; 30150660), and anti-PD-1 therapies (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255, Dong et al., 2016; 28039262); FDA-approved agents include ipilimumab, atezolizumab, avelumab, durvalumab, pembrolizumab, and nivolumab. In multiple solid tumor types, higher mutational burden has corresponded with response and improved prognosis. Pembrolizumab improved progression-free survival (14.5 vs. 3.4-3.7 months) for patients with non-small cell lung cancer (NSCLC) and higher mutational load (greater than 200 nonsynonymous mutations; hazard ratio = 0.19)(Rizvi et al., 2015; 25765070). In studies of patients with either NSCLC or colorectal cancer (CRC), patients whose tumors harbored elevated mutational burden reported higher overall response rates to pembrolizumab (Rizvi et al., 2015; 25765070, Le et al., 2015; 26028255, Dong et al., 2016; 28039262). Anti-PD-1 therapies have achieved clinical benefit for certain patients with high mutational burden, including 3 patients with endometrial adenocarcinoma who reported sustained partial responses (PRs) following treatment with pembrolizumab (Mehnert et al., 2016; 27159395) or nivolumab (Santin et al., 2016; 27486176), a patient with hypermutant glioblastoma who obtained clinical benefit from pembrolizumab (Johanns et al., 2016; 27683556), 2 pediatric patients with biallelic mismatch repair deficiency-associated ultrahypermutant glioblastoma who experienced clinically and radiologically significant responses to nivolumab (Bouffet et al., 2016; 27001570), and 2 patients with microsatellite-stable rectal cancers, 1 who achieved an ongoing PR to pembrolizumab and the other an ongoing complete response to nivolumab (Fabrizio et al., 2018; 30151257). For patients with melanoma, mutational load was associated with long-term clinical benefit from ipilimumab (Snyder et al., 2014; 25409260, Van Allen et al., 2015; 26359337) and anti-PD-1/anti-PD-L1 treatments (Johnson et al., 2016; 27671167). For patients with metastatic urothelial carcinoma, those who responded to atezolizumab treatment had a significantly increased mutational load (12.4 mutations [muts] per megabase [Mb]) compared to nonresponders (6.4 muts/Mb)(Rosenberg et al., 2016; 26952546), and mutational load of 16 muts/Mb or higher was associated with significantly longer overall survival (Balar et al., 2017; 27939400). In a retrospective analysis of 17 solid tumor types (comprised of 47% NSCLC, 40% mUC, and 13% encompassing 15 other solid tumors), a TMB of ≥16 muts/Mb associated with an objective response rate to atezolizumab of 30% vs. 14% for chemotherapy alone (Legrand et al., 2018; ASCO Abstract 12000).",
+              "Include": "true",
+              "ClinicalTrialNote": "",
+              "Therapies": {
+                "Therapy": {
+                  "Name": "Sunitinib",
+                  "GenericName": "Sunitinib",
+                  "FDAApproved": "false",
+                  "Rationale": "Sunitinib is a small-molecule tyrosine kinase inhibitor that targets PDGFRs, VEGFRs, KIT, FLT3, CSF-1R, and RET. It is FDA approved for the treatment of advanced or metastatic pancreatic neuroendocrine tumors, gastrointestinal stromal tumors (GISTs) in patients who have progressed on or are intolerant to imatinib, and advanced renal cell carcinoma (RCC) as well as for the adjuvant treatment of patients at high risk of recurrent RCC after nephrectomy. On the basis of extensive clinical and preclinical data in multiple tumor types (Heinrich et al., 2008; 18955458, Mahipal et al., 2012; 23114504, Minor et al., 2012; 22261812, Buchbinder et al., 2015; 26264378, Song et al., 2015; 26228213, Reichardt et al., 2016; 26772734, Hirai et al., 2016; 27073655, Goemans et al., 2010; 20435347), KIT amplification or activating mutation may predict sensitivity to sunitinib. In several studies of patients with renal cell carcinoma (RCC), increased VEGFR2 expression or phosphorylation was associated with prolonged progression-free survival (Rubio et al., 2012; ASCO Abstract e15094, Song et al., 2015; 26228213) or response to sunitinib (Dornbusch et al., 2013; 24086736), and a patient with angiosarcoma of the breast and high VEGFR2 expression achieved a complete response to sunitinib, persisting for >15 months (Silva et al., 2015; 25639617). A patient with angiosarcoma and amplification of the 4q12 chromosomal region that includes KDR, KIT, and PDGFRA had stable disease with tumor shrinkage following treatment with sunitinib (Prenen et al., 2015; 26474454). Activating RET alterations may predict sensitivity to sunitinib. In RET-rearranged non-small cell lung cancer, an objective response rate of 22% was reported for 10 patients treated with sunitinib (Gautschi et al., 2017; 28447912). A patient with lung adenocarcinoma and a KIF5B-RET fusion had a partial response to sunitinib (Wu et al., 2015; 26291023). A case study has reported an exceptional response to sunitinib in a patient with RET-amplified germ cell tumor (Subbiah et al., 2014; 25085632). Phase 1-2 trials evaluating sunitinib to treat patients with melanoma, including cutaneous, acral, mucosal, and uveal subtypes, have reported response rates of 5-20% and disease control rates [DCR; complete response (CR), partial response, and/or stable disease] of 40-65% (de Jonge et al., 2011; 21439816, Mahipal et al., 2012; 23114504, Minor et al., 2012; 22261812, Decoster et al., 2015; 26637913, Buchbinder et al., 2015; 26264378). Whereas clinical studies have shown that KIT expression is not a predictive marker for the efficacy of sunitinib in melanoma, KIT mutation may be associated with a greater likelihood of clinical benefit from sunitinib treatment of acral and mucosal melanoma (Mahipal et al., 2012; 23114504, Minor et al., 2012; 22261812, Buchbinder et al., 2015; 26264378). In one study, 3/4 patients with KIT-mutant acral or mucosal melanoma responded to sunitinib, including one prolonged CR, compared to 0/4 patients with acral or mucosal melanoma lacking KIT mutation (Minor et al., 2012; 22261812). Another study of patients with advanced melanoma of mucosal or acral origin treated with sunitinib reported a higher DCR and a greater proportion of patients alive and progression-free at 2 months among those with tumors positive for KIT mutation, compared to those with KIT wild-type tumors; however, these trends did not reach statistical significance (Buchbinder et al., 2015; 26264378).",
+                  "ApprovedUses": "",
+                  "Effect": "Sensitizing",
+                  "Include": "true",
+                  "IncludeInSummary": "true",
+                  "ReferenceLinks": {
+                    "ReferenceLink": [
+                      {
+                        "referenceId": "18955458",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "23114504",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "22261812",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26264378",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26228213",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26772734",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "27073655",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "20435347",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26228213",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "24086736",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "25639617",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26474454",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "28447912",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26291023",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "25085632",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "21439816",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "23114504",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "22261812",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26637913",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26264378",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "23114504",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "22261812",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26264378",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "22261812",
+                        "Include": "true"
+                      },
+                      {
+                        "referenceId": "26264378",
+                        "Include": "true"
+                      }
+                    ]
+                  }
+                }
+              },
+              "ReferenceLinks": {
+                "ReferenceLink": [
+                  {
+                    "referenceId": "15748635",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23875803",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "12379884",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25765070",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23636398",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23447401",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "24583393",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22810696",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25568919",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "23636398",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "22810696",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25568919",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25409260",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26952546",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25765070",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26028255",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "28420421",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25409260",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26952546",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27671167",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27939400",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "30150660",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25765070",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26028255",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "28039262",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25765070",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25765070",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26028255",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "28039262",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27159395",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27486176",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27683556",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27001570",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "30151257",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "25409260",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26359337",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27671167",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "26952546",
+                    "Include": "true"
+                  },
+                  {
+                    "referenceId": "27939400",
+                    "Include": "true"
+                  }
+                ]
+              },
+              "ClinicalTrialLinks": ""
+            }
+          },
+          "ReferenceLinks": ""
+        }
+      ]
+    },
+    "Trials": "",
+    "References": {
+      "Reference": [
+        {
+          "number": "60",
+          "ReferenceId": "20395525",
+          "FullCitation": "Agaram NP, Shia J, Tang LH, et al. (2010) DNA mismatch repair deficiency in ampullary carcinoma: a morphologic and immunohistochemical study of 54 cases. Am J Clin Pathol 133(5):772-80",
+          "Include": "true"
+        },
+        {
+          "number": "38",
+          "ReferenceId": "20027678",
+          "FullCitation": "Alakus H, Mönig SP, Warnecke-Eberz U, et al. (2009) Association of the GNAS1 T393C polymorphism with tumor stage and survival in gastric cancer. World J Gastroenterol 15(48):6061-7",
+          "Include": "true"
+        },
+        {
+          "number": "80",
+          "ReferenceId": "19275958",
+          "FullCitation": "Arabi H, Guan H, Kumar S, et al. (2009) Impact of microsatellite instability (MSI) on survival in high grade endometrial carcinoma. Gynecol Oncol 113(2):153-8",
+          "Include": "true"
+        },
+        {
+          "number": "73",
+          "ReferenceId": "17233803",
+          "FullCitation": "Azzouzi AR, Catto JW, Rehman I, et al. (2007) Clinically localised prostate cancer is microsatellite stable. BJU Int 99(5):1031-5",
+          "Include": "true"
+        },
+        {
+          "number": "75",
+          "ReferenceId": "23690119",
+          "FullCitation": "Bai S, Nunez AL, Wei S, et al. (2013) Microsatellite instability and TARBP2 mutation study in upper urinary tract urothelial carcinoma. Am J Clin Pathol 139(6):765-70",
+          "Include": "true"
+        },
+        {
+          "number": "41",
+          "ReferenceId": "24623249",
+          "FullCitation": "Bairwa NK, Saha A, Gochhait S, et al. (2014) Microsatellite instability: an indirect assay to detect defects in the cellular mismatch repair machinery. Methods Mol Biol 1105:497-509",
+          "Include": "true"
+        },
+        {
+          "number": "96",
+          "ReferenceId": "27939400",
+          "FullCitation": "Balar AV, Galsky MD, Rosenberg JE, et al. (2017) Atezolizumab as first-line treatment in cisplatin-ineligible patients with locally advanced and metastatic urothelial carcinoma: a single-arm, multicentre, phase 2 trial. Lancet 389(10064):67-76",
+          "Include": "true"
+        },
+        {
+          "number": "34",
+          "ReferenceId": "20601955",
+          "FullCitation": "Barretina J, Taylor BS, Banerji S, et al. (2010) Subtype-specific genomic alterations define new targets for soft-tissue sarcoma therapy. Nat Genet 42(8):715-21",
+          "Include": "true"
+        },
+        {
+          "number": "12",
+          "ReferenceId": "20164920",
+          "FullCitation": "Beroukhim R, Mermel CH, Porter D, et al. (2010) The landscape of somatic copy-number alteration across human cancers. Nature 463(7283):899-905",
+          "Include": "true"
+        },
+        {
+          "number": "52",
+          "ReferenceId": "20005452",
+          "FullCitation": "Bilbao C, Lara PC, Ramírez R, et al. (2010) Microsatellite instability predicts clinical outcome in radiation-treated endometrioid endometrial cancer. Int J Radiat Oncol Biol Phys 76(1):9-13",
+          "Include": "true"
+        },
+        {
+          "number": "78",
+          "ReferenceId": "25026289",
+          "FullCitation": "Bilbao-Sieyro C, Ramírez R, Rodríguez-González G, et al. (2014) Microsatellite instability and ploidy status define three categories with distinctive prognostic impact in endometrioid endometrial cancer. Oncotarget 5(15):6206-17",
+          "Include": "true"
+        },
+        {
+          "number": "49",
+          "ReferenceId": "16549821",
+          "FullCitation": "Black D, Soslow RA, Levine DA, et al. (2006) Clinicopathologic significance of defective DNA mismatch repair in endometrial carcinoma. J Clin Oncol 24(11):1745-53",
+          "Include": "true"
+        },
+        {
+          "number": "44",
+          "ReferenceId": "20420947",
+          "FullCitation": "Boland CR, Goel A (2010) Microsatellite instability in colorectal cancer. Gastroenterology 138(6):2073-2087.e3",
+          "Include": "true"
+        },
+        {
+          "number": "42",
+          "ReferenceId": "9823339",
+          "FullCitation": "Boland CR, Thibodeau SN, Hamilton SR, et al. (1998) A National Cancer Institute Workshop on Microsatellite Instability for cancer detection and familial predisposition: development of international criteria for the determination of microsatellite instability in colorectal cancer. Cancer Res 58(22):5248-57",
+          "Include": "true"
+        },
+        {
+          "number": "1",
+          "ReferenceId": "8782817",
+          "FullCitation": "Borrow J, Stanton VP, Andresen JM, et al. (1996) The translocation t(8;16)(p11;p13) of acute myeloid leukaemia fuses a putative acetyltransferase to the CREB-binding protein. Nat Genet 14(1):33-41",
+          "Include": "true"
+        },
+        {
+          "number": "102",
+          "ReferenceId": "27001570",
+          "FullCitation": "Bouffet E, Larouche V, Campbell BB, et al. (2016) Immune Checkpoint Inhibition for Hypermutant Glioblastoma Multiforme Resulting From Germline Biallelic Mismatch Repair Deficiency. J Clin Oncol ePub Mar 2016",
+          "Include": "true"
+        },
+        {
+          "number": "89",
+          "ReferenceId": "23447401",
+          "FullCitation": "Briggs S, Tomlinson I (2013) Germline and somatic polymerase ε and δ mutations define a new class of hypermutated colorectal and endometrial cancers. J Pathol 230(2):148-53",
+          "Include": "true"
+        },
+        {
+          "number": "74",
+          "ReferenceId": "16924473",
+          "FullCitation": "Burger M, Denzinger S, Hammerschmied CG, et al. (2006) Elevated microsatellite alterations at selected tetranucleotides (EMAST) and mismatch repair gene expression in prostate cancer. J Mol Med 84(10):833-41",
+          "Include": "true"
+        },
+        {
+          "number": "29",
+          "ReferenceId": "22810696",
+          "FullCitation": "Cancer Genome Atlas Network (2012) Comprehensive molecular characterization of human colon and rectal cancer. Nature 487(7407):330-7",
+          "Include": "true"
+        },
+        {
+          "number": "32",
+          "ReferenceId": "23000897",
+          "FullCitation": "Cancer Genome Atlas Network (2012) Comprehensive molecular portraits of human breast tumours. Nature 490(7418):61-70",
+          "Include": "true"
+        },
+        {
+          "number": "26",
+          "ReferenceId": "21720365",
+          "FullCitation": "Cancer Genome Atlas Research Network (2011) Integrated genomic analyses of ovarian carcinoma. Nature 474(7353):609-15",
+          "Include": "true"
+        },
+        {
+          "number": "31",
+          "ReferenceId": "25079552",
+          "FullCitation": "Cancer Genome Atlas Research Network (2014) Comprehensive molecular profiling of lung adenocarcinoma. Nature 511(7511):543-50",
+          "Include": "true"
+        },
+        {
+          "number": "88",
+          "ReferenceId": "23636398",
+          "FullCitation": "Cancer Genome Atlas Research Network, Kandoth C, Schultz N, et al. (2013) Integrated genomic characterization of endometrial carcinoma. Nature 497(7447):67-73",
+          "Include": "true"
+        },
+        {
+          "number": "94",
+          "ReferenceId": "28420421",
+          "FullCitation": "Chalmers ZR, Connelly CF, Fabrizio D, et al. (2017) Analysis of 100,000 human cancer genomes reveals the landscape of tumor mutational burden. Genome Med 9(1):34",
+          "Include": "true"
+        },
+        {
+          "number": "36",
+          "ReferenceId": "21430775",
+          "FullCitation": "Chapman MA, Lawrence MS, Keats JJ, et al. (2011) Initial genome sequencing and analysis of multiple myeloma. Nature 471(7339):467-72",
+          "Include": "true"
+        },
+        {
+          "number": "66",
+          "ReferenceId": "14656944",
+          "FullCitation": "Chiappini F, Gross-Goupil M, Saffroy R, et al. (2004) Microsatellite instability mutator phenotype in hepatocellular carcinoma in non-alcoholic and non-virally infected normal livers. Carcinogenesis 25(4):541-7",
+          "Include": "true"
+        },
+        {
+          "number": "20",
+          "ReferenceId": "12970318",
+          "FullCitation": "Collins MT, Sarlis NJ, Merino MJ, et al. (2003) Thyroid carcinoma in the McCune-Albright syndrome: contributory role of activating Gs alpha mutations. J Clin Endocrinol Metab 88(9):4413-7",
+          "Include": "true"
+        },
+        {
+          "number": "98",
+          "ReferenceId": "28039262",
+          "FullCitation": "Dong ZY, Zhong WZ, Zhang XC, et al. (2016) Potential Predictive Value of TP53 and KRAS Mutation Status for Response to PD-1 Blockade Immunotherapy in Lung Adenocarcinoma. Clin Cancer Res",
+          "Include": "true"
+        },
+        {
+          "number": "57",
+          "ReferenceId": "8536886",
+          "FullCitation": "dos Santos NR, Seruca R, Constância M, et al. (1996) Microsatellite instability at multiple loci in gastric carcinoma: clinicopathologic implications and prognosis. Gastroenterology 110(1):38-44",
+          "Include": "true"
+        },
+        {
+          "number": "103",
+          "ReferenceId": "30151257",
+          "FullCitation": "Fabrizio DA, George TJ, Dunne RF, et al. (2018) Beyond microsatellite testing: assessment of tumor mutational burden identifies subsets of colorectal cancer who may respond to immune checkpoint inhibition. J Gastrointest Oncol 9(4):610-617",
+          "Include": "true"
+        },
+        {
+          "number": "58",
+          "ReferenceId": "23555086",
+          "FullCitation": "Fang WL, Chang SC, Lan YT, et al. (2013) Molecular and survival differences between familial and sporadic gastric cancers. Biomed Res Int 2013:396272",
+          "Include": "true"
+        },
+        {
+          "number": "59",
+          "ReferenceId": "21422910",
+          "FullCitation": "Farris AB, Demicco EG, Le LP, et al. (2011) Clinicopathologic and molecular profiles of microsatellite unstable Barrett Esophagus-associated adenocarcinoma. Am J Surg Pathol 35(5):647-55",
+          "Include": "true"
+        },
+        {
+          "number": "22",
+          "ReferenceId": "22355676",
+          "FullCitation": "Furukawa T, Kuboki Y, Tanji E, et al. (2011) Whole-exome sequencing uncovers frequent GNAS mutations in intraductal papillary mucinous neoplasms of the pancreas. Sci Rep 1:161",
+          "Include": "true"
+        },
+        {
+          "number": "10",
+          "ReferenceId": "23550210",
+          "FullCitation": "Gao J, Aksoy BA, Dogrusoz U, et al. (2013) Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal. Sci Signal 6(269):pl1",
+          "Include": "true"
+        },
+        {
+          "number": "81",
+          "ReferenceId": "25392179",
+          "FullCitation": "Gatalica Z, Snyder C, Maney T, et al. (2014) Programmed cell death 1 (PD-1) and its ligand (PD-L1) in common cancers and their correlation with molecular cancer type. Cancer Epidemiol Biomarkers Prev 23(12):2965-70",
+          "Include": "true"
+        },
+        {
+          "number": "6",
+          "ReferenceId": "18528428",
+          "FullCitation": "Gervais C, Murati A, Helias C, et al. (2008) Acute myeloid leukaemia with 8p11 (MYST3) rearrangement: an integrated cytologic, cytogenetic and molecular study by the groupe francophone de cytogénétique hématologique. Leukemia 22(8):1567-75",
+          "Include": "true"
+        },
+        {
+          "number": "76",
+          "ReferenceId": "25319978",
+          "FullCitation": "Giedl J, Schneckenpointner R, Filbeck T, et al. (2014) Low frequency of HNPCC-associated microsatellite instability and aberrant MMR protein expression in early-onset bladder cancer. Am J Clin Pathol 142(5):634-9",
+          "Include": "true"
+        },
+        {
+          "number": "2",
+          "ReferenceId": "25735316",
+          "FullCitation": "Grasso CS, Cani AK, Hovelson DH, et al. (2015) Integrative molecular profiling of routine clinical prostate cancer specimens. Ann Oncol ePub Mar 2015",
+          "Include": "true"
+        },
+        {
+          "number": "14",
+          "ReferenceId": "2549065",
+          "FullCitation": "Graziano MP, Gilman AG (1989) Synthesis in Escherichia coli of GTPase-deficient mutants of Gs alpha. J Biol Chem 264(26):15475-82",
+          "Include": "true"
+        },
+        {
+          "number": "4",
+          "ReferenceId": "25713363",
+          "FullCitation": "Green MR, Kihira S, Liu CL, et al. (2015) Mutations in early follicular lymphoma progenitors are associated with suppressed antigen presentation. Proc Natl Acad Sci USA 112(10):E1116-25",
+          "Include": "true"
+        },
+        {
+          "number": "53",
+          "ReferenceId": "20627535",
+          "FullCitation": "Guastadisegni C, Colafranceschi M, Ottini L, et al. (2010) Microsatellite instability as a marker of prognosis and response to therapy: a meta-analysis of colorectal cancer survival data. Eur J Cancer 46(15):2788-98",
+          "Include": "true"
+        },
+        {
+          "number": "7",
+          "ReferenceId": "19194466",
+          "FullCitation": "Haferlach T, Kohlmann A, Klein HU, et al. (2009) AML with translocation t(8;16)(p11;p13) demonstrates unique cytomorphological, cytogenetic, molecular and prognostic features. Leukemia 23(5):934-43",
+          "Include": "true"
+        },
+        {
+          "number": "46",
+          "ReferenceId": "16885385",
+          "FullCitation": "Hampel H, Frankel W, Panescu J, et al. (2006) Screening for Lynch syndrome (hereditary nonpolyposis colorectal cancer) among endometrial cancer patients. Cancer Res 66(15):7810-7",
+          "Include": "true"
+        },
+        {
+          "number": "9",
+          "ReferenceId": "9860993",
+          "FullCitation": "Hayward BE, Moran V, Strain L, et al. (1998) Bidirectional imprinting of a single gene: GNAS1 encodes maternally, paternally, and biallelically derived proteins. Proc Natl Acad Sci USA 95(26):15475-80",
+          "Include": "true"
+        },
+        {
+          "number": "90",
+          "ReferenceId": "24583393",
+          "FullCitation": "Heitzer E, Tomlinson I (2014) Replicative DNA polymerase mutations in cancer. Curr Opin Genet Dev 24:107-13",
+          "Include": "true"
+        },
+        {
+          "number": "63",
+          "ReferenceId": "7775257",
+          "FullCitation": "Hibi K, Kondo K, Akiyama S, et al. (1995) Frequent genetic instability in small intestinal carcinomas. Jpn J Cancer Res 86(4):357-60",
+          "Include": "true"
+        },
+        {
+          "number": "85",
+          "ReferenceId": "23875803",
+          "FullCitation": "Hill VK, Gartner JJ, Samuels Y, et al. (2013) The genetics of melanoma: recent advances. Annu Rev Genomics Hum Genet 14:257-79",
+          "Include": "true"
+        },
+        {
+          "number": "55",
+          "ReferenceId": "15209621",
+          "FullCitation": "Hiyama T, Tanaka S, Yoshihara M, et al. (2004) Chromosomal and microsatellite instability in sporadic gastric cancer. J Gastroenterol Hepatol 19(7):756-60",
+          "Include": "true"
+        },
+        {
+          "number": "15",
+          "ReferenceId": "11322485",
+          "FullCitation": "Jang IS, Juhnn YS (2001) Adaptation of cAMP signaling system in SH-SY5Y neuroblastoma cells following expression of a constitutively active stimulatory G protein alpha, Q227L Gsalpha. Exp Mol Med 33(1):37-45",
+          "Include": "true"
+        },
+        {
+          "number": "101",
+          "ReferenceId": "27683556",
+          "FullCitation": "Johanns TM, Miller CA, Dorward IG, et al. (2016) Immunogenomics of Hypermutated Glioblastoma: a Patient with Germline POLE Deficiency Treated with Checkpoint Blockade Immunotherapy. Cancer Discov ePub Sep 2016",
+          "Include": "true"
+        },
+        {
+          "number": "95",
+          "ReferenceId": "27671167",
+          "FullCitation": "Johnson DB, Frampton GM, Rioth MJ, et al. (2016) Targeted next generation sequencing identifies markers of response to PD-1 blockade. Cancer Immunol Res ePub Sep 2016",
+          "Include": "true"
+        },
+        {
+          "number": "27",
+          "ReferenceId": "20668451",
+          "FullCitation": "Kan Z, Jaiswal BS, Stinson J, et al. (2010) Diverse somatic mutation patterns and pathway alterations in human cancers. Nature 466(7308):869-73",
+          "Include": "true"
+        },
+        {
+          "number": "48",
+          "ReferenceId": "25458958",
+          "FullCitation": "Kanopienė D, Smailytė G, Vidugirienė J, et al. (2014) Impact of microsatellite instability on survival of endometrial cancer patients. Medicina (Kaunas) 50(4):216-21",
+          "Include": "true"
+        },
+        {
+          "number": "39",
+          "ReferenceId": "26337942",
+          "FullCitation": "Kocarnik JM, Shiovitz S, Phipps AI (2015) Molecular phenotypes of colorectal cancer and potential clinical applications. Gastroenterol Rep (Oxf) 3(4):269-76",
+          "Include": "true"
+        },
+        {
+          "number": "82",
+          "ReferenceId": "26140250",
+          "FullCitation": "Kroemer G, Galluzzi L, Zitvogel L, et al. (2015) Colorectal cancer: the first neoplasia found to be under immunosurveillance and the last one to respond to immunotherapy? Oncoimmunology 4(7):e1058597",
+          "Include": "true"
+        },
+        {
+          "number": "54",
+          "ReferenceId": "25949894",
+          "FullCitation": "Lal N, Beggs AD, Willcox BE, et al. (2015) An immunogenomic stratification of colorectal cancer: Implications for development of targeted immunotherapy. Oncoimmunology 4(3):e976052",
+          "Include": "true"
+        },
+        {
+          "number": "16",
+          "ReferenceId": "2549426",
+          "FullCitation": "Landis CA, Masters SB, Spada A, et al. (1989) GTPase inhibiting mutations activate the alpha chain of Gs and stimulate adenylyl cyclase in human pituitary tumours. Nature 340(6236):692-6",
+          "Include": "true"
+        },
+        {
+          "number": "83",
+          "ReferenceId": "26028255",
+          "FullCitation": "Le DT, Uram JN, Wang H, et al. (2015) PD-1 Blockade in Tumors with Mismatch-Repair Deficiency. N Engl J Med ePub May 2015",
+          "Include": "true"
+        },
+        {
+          "number": "69",
+          "ReferenceId": "14506736",
+          "FullCitation": "Liengswangwong U, Nitta T, Kashiwagi H, et al. (2003) Infrequent microsatellite instability in liver fluke infection-associated intrahepatic cholangiocarcinomas from Thailand. Int J Cancer 107(3):375-80",
+          "Include": "true"
+        },
+        {
+          "number": "5",
+          "ReferenceId": "25027518",
+          "FullCitation": "Loeffler M, Kreuz M, Haake A, et al. (2015) Genomic and epigenomic co-evolution in follicular lymphomas. Leukemia 29(2):456-63",
+          "Include": "true"
+        },
+        {
+          "number": "35",
+          "ReferenceId": "24434212",
+          "FullCitation": "Lohr JG, Stojanov P, Carter SL, et al. (2014) Widespread genetic heterogeneity in multiple myeloma: implications for targeted therapy. Cancer Cell 25(1):91-101",
+          "Include": "true"
+        },
+        {
+          "number": "3",
+          "ReferenceId": "25790293",
+          "FullCitation": "Ma X, Edmonson M, Yergeau D, et al. (2015) Rise and fall of subclones from diagnosis to relapse in pediatric B-acute lymphoblastic leukaemia. Nat Commun 6:6604",
+          "Include": "true"
+        },
+        {
+          "number": "79",
+          "ReferenceId": "20304627",
+          "FullCitation": "Mackay HJ, Gallinger S, Tsao MS, et al. (2010) Prognostic value of microsatellite instability (MSI) and PTEN expression in women with endometrial cancer: results from studies of the NCIC Clinical Trials Group (NCIC CTG). Eur J Cancer 46(8):1365-73",
+          "Include": "true"
+        },
+        {
+          "number": "18",
+          "ReferenceId": "20887824",
+          "FullCitation": "Mariot V, Wu JY, Aydin C, et al. (2011) Potent constitutive cyclic AMP-generating activity of XLαs implicates this imprinted GNAS product in the pathogenesis of McCune-Albright syndrome and fibrous dysplasia of bone. Bone 48(2):312-20",
+          "Include": "true"
+        },
+        {
+          "number": "13",
+          "ReferenceId": "2549064",
+          "FullCitation": "Masters SB, Miller RT, Chi MH, et al. (1989) Mutations in the GTP-binding site of GS alpha alter stimulation of adenylyl cyclase. J Biol Chem 264(26):15467-74",
+          "Include": "true"
+        },
+        {
+          "number": "99",
+          "ReferenceId": "27159395",
+          "FullCitation": "Mehnert JM, Panda A, Zhong H, et al. (2016) Immune activation and response to pembrolizumab in POLE-mutant endometrial cancer. J Clin Invest 126(6):2334-40",
+          "Include": "true"
+        },
+        {
+          "number": "8",
+          "ReferenceId": "25671298",
+          "FullCitation": "Mensah AA, Kwee I, Gaudio E, et al. (2015) Novel HDAC inhibitors exhibit pre-clinical efficacy in lymphoma models and point to the importance of CDKN1A expression levels in mediating their anti-tumor response. Oncotarget 6(7):5059-71",
+          "Include": "true"
+        },
+        {
+          "number": "97",
+          "ReferenceId": "30150660",
+          "FullCitation": "Miao D, Margolis CA, Vokes NI, et al. (2018) Genomic correlates of response to immune checkpoint blockade in microsatellite-stable solid tumors. Nat Genet 50(9):1271-1281",
+          "Include": "true"
+        },
+        {
+          "number": "68",
+          "ReferenceId": "11580146",
+          "FullCitation": "Momoi H, Itoh T, Nozaki Y, et al. (2001) Microsatellite instability and alternative genetic pathway in intrahepatic cholangiocarcinoma. J Hepatol 35(2):235-44",
+          "Include": "true"
+        },
+        {
+          "number": "70",
+          "ReferenceId": "25680569",
+          "FullCitation": "Moy AP, Shahid M, Ferrone CR, et al. (2015) Microsatellite instability in gallbladder carcinoma. Virchows Arch ePub Feb 2015",
+          "Include": "true"
+        },
+        {
+          "number": "64",
+          "ReferenceId": "11117578",
+          "FullCitation": "Muneyuki T, Watanabe M, Yamanaka M, et al. (2000) Combination analysis of genetic alterations and cell proliferation in small intestinal carcinomas. Dig Dis Sci 45(10):2022-8",
+          "Include": "true"
+        },
+        {
+          "number": "21",
+          "ReferenceId": "21835143",
+          "FullCitation": "Nault JC, Fabre M, Couchy G, et al. (2012) GNAS-activating mutations define a rare subgroup of inflammatory liver tumors characterized by STAT3 activation. J Hepatol 56(1):184-91",
+          "Include": "true"
+        },
+        {
+          "number": "24",
+          "ReferenceId": "23403822",
+          "FullCitation": "Nishikawa G, Sekine S, Ogawa R, et al. (2013) Frequent GNAS mutations in low-grade appendiceal mucinous neoplasms. Br J Cancer 108(4):951-8",
+          "Include": "true"
+        },
+        {
+          "number": "50",
+          "ReferenceId": "22609107",
+          "FullCitation": "Nout RA, Bosse T, Creutzberg CL, et al. (2012) Improved risk assessment of endometrial cancer by combined analysis of MSI, PI3K-AKT, Wnt/β-catenin and P53 pathway activation. Gynecol Oncol 126(3):466-73",
+          "Include": "true"
+        },
+        {
+          "number": "43",
+          "ReferenceId": "15528785",
+          "FullCitation": "Pawlik TM, Raut CP, Rodriguez-Bigas MA (2004) Colorectal carcinogenesis: MSI-H versus MSI-L. Dis Markers 20(4-5):199-206",
+          "Include": "true"
+        },
+        {
+          "number": "0",
+          "ReferenceId": "10699051",
+          "FullCitation": "Petrij F, Dauwerse HG, Blough RI, et al. (2000) Diagnostic analysis of the Rubinstein-Taybi syndrome: five cosmids should be used for microdeletion detection and low number of protein truncating mutations. J Med Genet 37(3):168-76",
+          "Include": "true"
+        },
+        {
+          "number": "86",
+          "ReferenceId": "12379884",
+          "FullCitation": "Pfeifer GP, Denissenko MF, Olivier M, et al. (2002) Tobacco smoke carcinogens, DNA damage and p53 mutations in smoking-associated cancers. Oncogene 21(48):7435-51",
+          "Include": "true"
+        },
+        {
+          "number": "84",
+          "ReferenceId": "15748635",
+          "FullCitation": "Pfeifer GP, You YH, Besaratinia A (2005) Mutations induced by ultraviolet light. Mutat Res 571(1-2):19-31",
+          "Include": "true"
+        },
+        {
+          "number": "62",
+          "ReferenceId": "12627520",
+          "FullCitation": "Planck M, Ericson K, Piotrowska Z, et al. (2003) Microsatellite instability and expression of MLH1 and MSH2 in carcinomas of the small intestine. Cancer 97(6):1551-7",
+          "Include": "true"
+        },
+        {
+          "number": "72",
+          "ReferenceId": "25255306",
+          "FullCitation": "Pritchard CC, Morrissey C, Kumar A, et al. (2014) Complex MSH2 and MSH6 mutations in hypermutated microsatellite unstable advanced prostate cancer. Nat Commun 5:4988",
+          "Include": "true"
+        },
+        {
+          "number": "87",
+          "ReferenceId": "25765070",
+          "FullCitation": "Rizvi NA, Hellmann MD, Snyder A, et al. (2015) Cancer immunology. Mutational landscape determines sensitivity to PD-1 blockade in non-small cell lung cancer. Science 348(6230):124-8",
+          "Include": "true"
+        },
+        {
+          "number": "91",
+          "ReferenceId": "25568919",
+          "FullCitation": "Roberts SA, Gordenin DA (2014) Hypermutation in human cancer genomes: footprints and mechanisms. Nat Rev Cancer 14(12):786-800",
+          "Include": "true"
+        },
+        {
+          "number": "93",
+          "ReferenceId": "26952546",
+          "FullCitation": "Rosenberg JE, Hoffman-Censits J, Powles T, et al. (2016) Atezolizumab in patients with locally advanced and metastatic urothelial carcinoma who have progressed following treatment with platinum-based chemotherapy: a single-arm, multicentre, phase 2 trial. Lancet 387(10031):1909-20",
+          "Include": "true"
+        },
+        {
+          "number": "61",
+          "ReferenceId": "19252434",
+          "FullCitation": "Ruemmele P, Dietmaier W, Terracciano L, et al. (2009) Histopathologic features and microsatellite instability of cancers of the papilla of vater and their precursor lesions. Am J Surg Pathol 33(5):691-704",
+          "Include": "true"
+        },
+        {
+          "number": "100",
+          "ReferenceId": "27486176",
+          "FullCitation": "Santin AD, Bellone S, Buza N, et al. (2016) Regression of chemotherapy-resistant Polymerase epsilon (POLE) ultra-mutated and MSH6 hyper-mutated endometrial tumors with nivolumab. Clin Cancer Res ePub Aug 2016",
+          "Include": "true"
+        },
+        {
+          "number": "25",
+          "ReferenceId": "24925222",
+          "FullCitation": "Singhi AD, Davison JM, Choudry HA, et al. (2014) GNAS is frequently mutated in both low-grade and high-grade disseminated appendiceal mucinous neoplasms but does not affect survival. Hum Pathol ePub May 2014",
+          "Include": "true"
+        },
+        {
+          "number": "92",
+          "ReferenceId": "25409260",
+          "FullCitation": "Snyder A, Makarov V, Merghoub T, et al. (2014) Genetic basis for clinical response to CTLA-4 blockade in melanoma. N Engl J Med 371(23):2189-99",
+          "Include": "true"
+        },
+        {
+          "number": "51",
+          "ReferenceId": "21547578",
+          "FullCitation": "Steinbakk A, Malpica A, Slewa A, et al. (2011) High frequency microsatellite instability has a prognostic value in endometrial endometrioid adenocarcinoma, but only in FIGO stage 1 cases. Cell Oncol (Dordr) 34(5):457-65",
+          "Include": "true"
+        },
+        {
+          "number": "47",
+          "ReferenceId": "27006490",
+          "FullCitation": "Stelloo E, Nout RA, Osse EM, et al. (2016) Improved Risk Assessment by Integrating Molecular and Clinicopathological Factors in Early-stage Endometrial Cancer-Combined Analysis of the PORTEC Cohorts. Clin Cancer Res ePub Mar 2016",
+          "Include": "true"
+        },
+        {
+          "number": "67",
+          "ReferenceId": "11223838",
+          "FullCitation": "Suto T, Habano W, Sugai T, et al. (2001) Infrequent microsatellite instability in biliary tract cancer. J Surg Oncol 76(2):121-6",
+          "Include": "true"
+        },
+        {
+          "number": "30",
+          "ReferenceId": "25079317",
+          "FullCitation": "The Cancer Genome Atlas Research Network, Analysis Working Group: Dana-Farber Cancer Institute, Institute for Systems Biology, et al. (2014) Comprehensive molecular characterization of gastric adenocarcinoma. Nature ePub Jul 2014",
+          "Include": "true"
+        },
+        {
+          "number": "17",
+          "ReferenceId": "23288949",
+          "FullCitation": "Tobar-Rubin R, Sultan D, Janevska D, et al. (2013) Intragenic suppression of a constitutively active allele of Gsα associated with McCune-Albright syndrome. J Mol Endocrinol 50(2):193-201",
+          "Include": "true"
+        },
+        {
+          "number": "28",
+          "ReferenceId": "20537689",
+          "FullCitation": "Tominaga E, Tsuda H, Arao T, et al. (2010) Amplification of GNAS may be an independent, qualitative, and reproducible biomarker to predict progression-free survival in epithelial ovarian cancer. Gynecol Oncol 118(2):160-6",
+          "Include": "true"
+        },
+        {
+          "number": "104",
+          "ReferenceId": "26359337",
+          "FullCitation": "Van Allen EM, Miao D, Schilling B, et al. (2015) Genomic correlates of response to CTLA-4 blockade in metastatic melanoma. Science 350(6257):207-11",
+          "Include": "true"
+        },
+        {
+          "number": "19",
+          "ReferenceId": "1944469",
+          "FullCitation": "Weinstein LS, Shenker A, Gejman PV, et al. (1991) Activating mutations of the stimulatory G protein in the McCune-Albright syndrome. N Engl J Med 325(24):1688-95",
+          "Include": "true"
+        },
+        {
+          "number": "33",
+          "ReferenceId": "25855536",
+          "FullCitation": "Witkiewicz AK, McMillan EA, Balaji U, et al. (2015) Whole-exome sequencing of pancreatic cancer defines genetic diversity and therapeutic targets. Nat Commun 6:6744",
+          "Include": "true"
+        },
+        {
+          "number": "23",
+          "ReferenceId": "21775669",
+          "FullCitation": "Wu J, Matthaei H, Maitra A, et al. (2011) Recurrent GNAS mutations define an unexpected pathway for pancreatic cyst development. Sci Transl Med 3(92):92ra66",
+          "Include": "true"
+        },
+        {
+          "number": "56",
+          "ReferenceId": "9537253",
+          "FullCitation": "Wu MS, Lee CW, Shun CT, et al. (1998) Clinicopathological significance of altered loci of replication error and microsatellite instability-associated mutations in gastric cancer. Cancer Res 58(7):1494-7",
+          "Include": "true"
+        },
+        {
+          "number": "77",
+          "ReferenceId": "16675567",
+          "FullCitation": "Yamamoto Y, Matsuyama H, Kawauchi S, et al. (2006) Biological characteristics in bladder cancer depend on the type of genetic instability. Clin Cancer Res 12(9):2752-8",
+          "Include": "true"
+        },
+        {
+          "number": "71",
+          "ReferenceId": "11063221",
+          "FullCitation": "Yoshida T, Sugai T, Habano W, et al. (2000) Microsatellite instability in gallbladder carcinoma: two independent genetic pathways of gallbladder carcinogenesis. J Gastroenterol 35(10):768-74",
+          "Include": "true"
+        },
+        {
+          "number": "40",
+          "ReferenceId": "21081928",
+          "FullCitation": "You JF, Buhard O, Ligtenberg MJ, et al. (2010) Tumours with loss of MSH6 expression are MSI-H when screened with a pentaplex of five mononucleotide repeats. Br J Cancer 103(12):1840-5",
+          "Include": "true"
+        },
+        {
+          "number": "37",
+          "ReferenceId": "21357941",
+          "FullCitation": "Zacharin M, Bajpai A, Chow CW, et al. (2011) Gastrointestinal polyps in McCune Albright syndrome. J Med Genet 48(7):458-61",
+          "Include": "true"
+        },
+        {
+          "number": "11",
+          "ReferenceId": "24071852",
+          "FullCitation": "Zack TI, Schumacher SE, Carter SL, et al. (2013) Pan-cancer patterns of somatic copy number alteration. Nat Genet 45(10):1134-1140",
+          "Include": "true"
+        },
+        {
+          "number": "65",
+          "ReferenceId": "15918185",
+          "FullCitation": "Zhang SH, Cong WM, Xian ZH, et al. (2005) Clinicopathological significance of loss of heterozygosity and microsatellite instability in hepatocellular carcinoma in China. World J Gastroenterol 11(20):3034-9",
+          "Include": "true"
+        },
+        {
+          "number": "45",
+          "ReferenceId": "17513808",
+          "FullCitation": "Zighelboim I, Goodfellow PJ, Gao F, et al. (2007) Microsatellite instability and epigenetic inactivation of MLH1 and outcome of patients with endometrial carcinomas of the endometrioid type. J Clin Oncol 25(15):2042-8",
+          "Include": "true"
+        }
+      ]
+    },
+    "Signatures": {
+      "Signature": {
+        "ServerTime": "2018-10-15 22:08:15",
+        "OpName": "Jo-Anne Vergilio",
+        "Text": "Jo-Anne Vergilio, M.D. | Jeffrey S. Ross, M.D., Medical Director "
+      }
+    },
+    "reportProperties": {
+      "reportProperty": [
+        {
+          "identifier": "OptOut",
+          "key": "ExcludeClinicalTrials",
+          "value": "False"
+        },
+        {
+          "identifier": "OptOut",
+          "key": "ExcludeTherapiesOnTumorType",
+          "value": "False"
+        },
+        {
+          "identifier": "OptOut",
+          "key": "ExcludeTherapiesOnOtherTumorType",
+          "value": "False"
+        },
+        {
+          "identifier": "AdditionalFindings",
+          "key": "TumorMutationBurdenScore",
+          "value": "1 Muts/Mb"
+        },
+        {
+          "identifier": "QualityControlMetrics",
+          "key": "MedianCoverageValue",
+          "value": "853x"
+        },
+        {
+          "identifier": "SampleTracking",
+          "key": "CurationStartedSent",
+          "value": "true"
+        }
+      ]
+    },
+    "comments": "",
+    "AAC": {
+      "Amendmends": ""
+    }
+  }
+}

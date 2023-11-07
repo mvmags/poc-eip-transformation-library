@@ -1,0 +1,2149 @@
+<FinalReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://integration.foundationmedicine.com/reporting/ClinicalReport.1.1.xsd" StagingId="1345820" clinicalId="1347165">
+  <Application>
+    <ApplicationSettings>
+      <ApplicationSetting>
+        <Name>Statement</Name>
+        <Value/>
+      </ApplicationSetting>
+    </ApplicationSettings>
+  </Application>
+  <ReportId>ORD-1647329-01</ReportId>
+  <SampleName>US1592090.01</SampleName>
+  <Version>0</Version>
+  <DemographicCorrectionDate/>
+  <Sample>
+    <FM_Id>ORD-1647329-01</FM_Id>
+    <SampleId>US1592090.01</SampleId>
+    <BlockId>SP23-10497 D19</BlockId>
+    <TRFNumber>ORD-1647329-01</TRFNumber>
+    <TestType>FoundationOneCDx</TestType>
+    <SpecFormat>Block</SpecFormat>
+    <ReceivedDate>2023-07-07</ReceivedDate>
+    <processSites>
+      <processSite locationName="RTP" processID="2" locationID="2" processName="Extracted DNA" address="7010 Kit Creek Road, Morrisville, NC 27560" cliaNumber="34D2044309"/>
+      <processSite locationName="RTP" processID="2" locationID="2" processName="LC" address="7010 Kit Creek Road, Morrisville, NC 27560" cliaNumber="34D2044309"/>
+    </processSites>
+  </Sample>
+  <PMI>
+    <ReportId>ORD-1647329-01</ReportId>
+    <MRN>737464</MRN>
+    <FullName>Gordley, Bobby</FullName>
+    <FirstName>Bobby</FirstName>
+    <LastName>Gordley</LastName>
+    <SubmittedDiagnosis>Pancreas ductal adenocarcinoma</SubmittedDiagnosis>
+    <Gender>Male</Gender>
+    <DOB>1953-08-10</DOB>
+    <OrderingMD>Boatwright, Morgan</OrderingMD>
+    <OrderingMDId>53226</OrderingMDId>
+    <Pathologist>Not Provided</Pathologist>
+    <CopiedPhysician1/>
+    <MedFacilName>South Carolina Oncology Associates</MedFacilName>
+    <MedFacilID>201638</MedFacilID>
+    <SpecSite>Whipple Resection</SpecSite>
+    <CollDate>2023-05-02</CollDate>
+    <ReceivedDate>2023-07-07</ReceivedDate>
+    <CountryOfOrigin>US</CountryOfOrigin>
+  </PMI>
+  <PertinentNegatives>
+    <PertinentNegative>
+      <Gene>BRCA1</Gene>
+    </PertinentNegative>
+    <PertinentNegative>
+      <Gene>BRCA2</Gene>
+    </PertinentNegative>
+  </PertinentNegatives>
+  <Summaries alterationCount="21" clinicalTrialCount="18" resistiveCount="1" sensitizingCount="5"/>
+  <VariantProperties>
+    <VariantProperty geneName="AR" variantName="L193R" isVUS="true"/>
+    <VariantProperty geneName="CDK12" variantName="amplification" isVUS="true"/>
+    <VariantProperty geneName="CTCF" variantName="P315S" isVUS="true"/>
+    <VariantProperty geneName="DAXX" variantName="R190H" isVUS="true"/>
+    <VariantProperty geneName="FGF23" variantName="R176W" isVUS="true"/>
+    <VariantProperty geneName="FLT1" variantName="S733del" isVUS="true"/>
+    <VariantProperty geneName="KMT2D (MLL2)" variantName="T2699I" isVUS="true"/>
+    <VariantProperty geneName="MEN1" variantName="T351A" isVUS="true"/>
+    <VariantProperty geneName="MERTK" variantName="I292M" isVUS="true"/>
+    <VariantProperty geneName="NTRK1" variantName="L79Q" isVUS="true"/>
+    <VariantProperty geneName="TNFAIP3" variantName="P758L" isVUS="true"/>
+  </VariantProperties>
+  <priorTests/>
+  <Genes>
+    <Gene>
+      <Name>APC</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>E468*</Name>
+          <AlterationProperties>
+            <AlterationProperty name="E468*" isSubclonal="false" isEquivocal="false" dnaFraction="18.34"/>
+          </AlterationProperties>
+          <Interpretation>APC (adenomatous polyposis coli) encodes a tumor suppressor with critical roles in regulating cell division and adhesion. APC interacts with beta-catenin and controls signaling in the WNT pathway, which regulates embryonic development and cell differentiation (Logan and Nusse, 2004; 15473860). Alterations such as seen here may disrupt APC function or expression (Eklof et al., 2001; 11707392, Liu et al., 2006; 16753179, Dikovskaya et al., 2010; 20144988, Murphy et al., 2007; 17410430, Aretz et al., 2004; 15459959). APC mutation is uncommon in pancreatic adenocarcinoma, with a reported incidence of 0-4% (Borger et al., 2012; 22180306, Yashima et al., 1994; 7927902). Loss of heterozygosity (LOH) at 5q, which includes the APC locus, has been detected in 12% of pancreatic adenocarcinomas and has been reported to be associated with poor prognosis (Franko et al., 2008; 18677542). APC hypermethylation has been found to be a frequent event in pancreatic cancer, with a reported incidence of 59.5% (Ginestà et al., 2012; 23135349). Activation of WNT/beta-catenin signaling has been observed in 65% of pancreatic ductal adenocarcinoma tumors and has been implicated in tumorigenesis (Zeng et al., 2006; 16756720, Pasca et al., 2007; 17982507, White et al., 2012; 22155636). Published data investigating the prognostic implications of APC alterations in pancreatic carcinoma are limited (PubMed, Sep 2022). Solid tumors with WNT/beta-catenin pathway alterations, as seen here, were observed to have significantly less T-cell inflammation in one study (Luke et al., 2019; 30635339). There are no approved drugs targeting APC inactivation in cancer. Loss of APC function leads to accumulation of beta-catenin and upregulation of WNT pathway transcription programs (Zhan et al., 2017; 27617575), and potential therapeutic approaches to target this pathway include CBP/beta-catenin antagonists, which interfere with the ability of beta-catenin to interact with transcriptional co-activator CBP (Jung et al., 2020; 32037398, Krishnamurthy and Kurzrock, 2018; 29169144). In a Phase 1 trial of the CBP/beta-catenin antagonist E7386, 1 patient with APC-mutated small bowel adenocarcinoma achieved a PR with tumor shrinkage of -69% and response duration of 165 days (Kawazoe et al., 2021; ESMO Abstract 473P); preclinical data support sensitivity of APC-deficient gastric or colorectal cancer models to E7386 (Yamada et al., 2021; 33408116, Kanda et al., 2022; 34837838). One or more of the APC variants observed here has been described in the ClinVar database as a likely pathogenic or pathogenic germline mutation (by an expert panel or multiple submitters) associated with familial adenomatous polyposis (ClinVar, Apr 2023)(Landrum et al., 2018; 29165669). Follow-up germline testing would be needed to distinguish whether the finding in this patient is somatic or germline. Germline mutations in APC are found in more than 90% of patients with familial adenomatous polyposis (FAP) (Kerr et al., 2013; 23159591, Fearon, 2011; 21090969, Kastritis et al., 2009; 18844223). The prevalence for FAP in the general population is estimated to be 1:8,300 from birth (Half et al., 2009; 19822006), and in the appropriate clinical context germline testing of APC is recommended.</Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote>Based on preclinical and limited clinical data, APC inactivation may be associated with sensitivity to CBP/beta-catenin interaction inhibitors.</ClinicalTrialNote>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks>
+            <ClinicalTrialLink nctId="NCT04008797">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT03264664">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+          </ClinicalTrialLinks>
+        </Alteration>
+        <Alteration>
+          <Name>T1556fs*3</Name>
+          <AlterationProperties>
+            <AlterationProperty name="T1556fs*3" isSubclonal="false" isEquivocal="false" dnaFraction="20.41"/>
+          </AlterationProperties>
+          <Interpretation>APC (adenomatous polyposis coli) encodes a tumor suppressor with critical roles in regulating cell division and adhesion. APC interacts with beta-catenin and controls signaling in the WNT pathway, which regulates embryonic development and cell differentiation (Logan and Nusse, 2004; 15473860). Alterations such as seen here may disrupt APC function or expression (Eklof et al., 2001; 11707392, Liu et al., 2006; 16753179, Dikovskaya et al., 2010; 20144988, Murphy et al., 2007; 17410430, Aretz et al., 2004; 15459959). APC mutation is uncommon in pancreatic adenocarcinoma, with a reported incidence of 0-4% (Borger et al., 2012; 22180306, Yashima et al., 1994; 7927902). Loss of heterozygosity (LOH) at 5q, which includes the APC locus, has been detected in 12% of pancreatic adenocarcinomas and has been reported to be associated with poor prognosis (Franko et al., 2008; 18677542). APC hypermethylation has been found to be a frequent event in pancreatic cancer, with a reported incidence of 59.5% (Ginestà et al., 2012; 23135349). Activation of WNT/beta-catenin signaling has been observed in 65% of pancreatic ductal adenocarcinoma tumors and has been implicated in tumorigenesis (Zeng et al., 2006; 16756720, Pasca et al., 2007; 17982507, White et al., 2012; 22155636). Published data investigating the prognostic implications of APC alterations in pancreatic carcinoma are limited (PubMed, Sep 2022). Solid tumors with WNT/beta-catenin pathway alterations, as seen here, were observed to have significantly less T-cell inflammation in one study (Luke et al., 2019; 30635339). There are no approved drugs targeting APC inactivation in cancer. Loss of APC function leads to accumulation of beta-catenin and upregulation of WNT pathway transcription programs (Zhan et al., 2017; 27617575), and potential therapeutic approaches to target this pathway include CBP/beta-catenin antagonists, which interfere with the ability of beta-catenin to interact with transcriptional co-activator CBP (Jung et al., 2020; 32037398, Krishnamurthy and Kurzrock, 2018; 29169144). In a Phase 1 trial of the CBP/beta-catenin antagonist E7386, 1 patient with APC-mutated small bowel adenocarcinoma achieved a PR with tumor shrinkage of -69% and response duration of 165 days (Kawazoe et al., 2021; ESMO Abstract 473P); preclinical data support sensitivity of APC-deficient gastric or colorectal cancer models to E7386 (Yamada et al., 2021; 33408116, Kanda et al., 2022; 34837838). One or more of the APC variants observed here has been described in the ClinVar database as a likely pathogenic or pathogenic germline mutation (by an expert panel or multiple submitters) associated with familial adenomatous polyposis (ClinVar, Apr 2023)(Landrum et al., 2018; 29165669). Follow-up germline testing would be needed to distinguish whether the finding in this patient is somatic or germline. Germline mutations in APC are found in more than 90% of patients with familial adenomatous polyposis (FAP) (Kerr et al., 2013; 23159591, Fearon, 2011; 21090969, Kastritis et al., 2009; 18844223). The prevalence for FAP in the general population is estimated to be 1:8,300 from birth (Half et al., 2009; 19822006), and in the appropriate clinical context germline testing of APC is recommended.</Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote>Based on preclinical and limited clinical data, APC inactivation may be associated with sensitivity to CBP/beta-catenin interaction inhibitors.</ClinicalTrialNote>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks>
+            <ClinicalTrialLink nctId="NCT04008797">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT03264664">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+          </ClinicalTrialLinks>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+    <Gene>
+      <Name>ERBB2</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>L755S</Name>
+          <AlterationProperties>
+            <AlterationProperty name="L755S" isSubclonal="false" isEquivocal="false" dnaFraction="67.8"/>
+          </AlterationProperties>
+          <Interpretation>ERBB2 (also known as HER2) encodes a receptor tyrosine kinase which is in the same family as EGFR. Amplification or overexpression of ERBB2 can lead to excessive proliferation and tumor formation (Higgins and Baselga, 2011; 21965336). Missense mutations of the ERBB2 kinase domain at L755, as seen here, are predicted to be activating based on the functional characterization of L755S and L755P (Kancha et al., 2011; 22046346, Trowe et al., 2008; 18413839, Kavuri et al., 2015; 26243863). Clinical (Wagle et al., 2014; ASCO Abstract 536, Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991) and preclinical (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) evidence suggests that L755S predicts resistance to trastuzumab. ERBB2 L755S may also confer resistance to lapatinib, on the basis of limited clinical (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443) evidence. Preclinical studies suggest that L755S mutations are sensitive to irreversible EGFR/HER2 inhibitors such as afatinib (Kavuri et al., 2015; 26243863, Kloth et al., 2015; 26001389, Xu et al., 2017; 28487443) and neratinib (Bose et al., 2013; 23220880, Kavuri et al., 2015; 26243863, Kloth et al., 2015; 26001389, Zuo et al., 2016; 27697991, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443). Patients with breast cancer and ERBB2 L755S treated with neratinib achieved 1 CR, 3 PRs, and 1 SD (Hyman et al., 2016; AACR Abstract PD5-05, Ben-Baruch et al., 2015; 26358790, Ma et al., 2017; 28679771); however, 4 PDs were also reported (Ma et al., 2017; 28679771). S310 is located in the HER2 extracellular domain and mutations at this position, including S310F and S310Y, have been reported to be activating (Greulich et al., 2012; 22908275, Lee et al., 2006; 17177598). In clinical studies, patients with the ERBB2 S310F mutation have benefited from ERBB2-targeted therapies including trastuzumab, pertuzumab, and lapatinib (Chumsri et al., 2015; 26358791, Ali et al., 2014; 24516025); a patient with concurrent EGFR L858R and ERBB2 S310F mutations also reported a complete and durable response to the dual EGFR/ERBB2 inhibitor afatinib (Jia et al., 2014; 24835218). In the TCGA PanCancer Atlas dataset, ERBB2 amplification was observed in 4.9% of pancreatic adenocarcinoma cases (cBioPortal, Sep 2022)(Cerami et al., 2012; 22588877, Gao et al., 2013; 23550210). ERBB2 mutation has been observed in ~1% of pancreatic carcinomas (cBio-Bailey et al., 2016; 26909576). HER2 overexpression has been reported in 20-61% of pancreatic cancers (Harder et al., 2012; 22374460, Komoto et al., 2009; 19432892, Safran et al., 2001; 11586103, Tsiambas et al., 2006; 16685109), whereas ERBB2 gene amplification and/or increased copy number have been reported in 11-25% of pancreatic adenocarcinomas (Sharif et al., 2008; 18463983, Tsiambas et al., 2006; 16685109). HER2 overexpression in pancreatic carcinoma has been correlated with inferior prognosis (Harder et al., 2012; 22374460, Komoto et al., 2009; 19432892, Safran et al., 2001; 11586103, Tsiambas et al., 2006; 16685109), but ERBB2 amplification was not correlated with prognosis in two studies (Sharif et al., 2008; 18463983, Tsiambas et al., 2006; 16685109). On the basis of extensive clinical evidence, ERBB2 amplification or activating mutation may predict sensitivity to therapies targeting HER2, including antibodies such as trastuzumab (Slamon et al., 2001; 11248153, Bang et al., 2010; 20728210, Chumsri et al., 2015; 26358791, Cappuzzo et al., 2006; 16775247, Falchook et al., 2013; 23328556, Mazieres et al., 2013; 23610105), pertuzumab in combination with trastuzumab (Baselga et al., 2012; 22149875, Swain et al., 2015; 25693012, Chumsri et al., 2015; 26358791, Meric-Bernstam et al., 2019; 30857956), and zanidatamab (ZW25) (Meric-Bernstam et al., 2022; 36400106), as well as antibody-directed conjugates such as ado-trastuzumab emtansine (T-DM1) (Verma et al., 2012; 23020162) and fam-trastuzumab deruxtecan (T-DXd) (Modi et al., 2020; 31825192, Shitara et al., 2020; 32469182, Li et al., 2022; 34534430, Smit et al., 2021; ESMO Abstract 1361TiP), HER2 kinase inhibitors such as tucatinib (Murthy et al., 2020; 31825569, Borges et al., 2018; 29955792, Murthy et al., 2018; 29804905, Moulder et al., 2017; 28053022, Strickler et al., 2022; ESMO GI Abstract LBA-2), and dual EGFR/HER2 kinase inhibitors such as lapatinib (Fan et al., 2020; 32478891, Cameron et al., 2010; 20736298, Geyer et al., 2006; 17192538, Serra et al., 2013; 23950206, Ali et al., 2014; 24516025, Grellety et al., 2015; 26487584, Vornicova et al., 2014; 25085898, Ronellenfitsch et al., 2020; 32017710, Hou et al., 2020; 32405522), afatinib (Lin et al., 2012; 22418700, Schwab et al., 2014; 25268372, De Greve et al., 2015; 25682316, De Greve et al., 2012; 22325357, Li et al., 2015; 26559459, Mazieres et al., 2013; 23610105, Bedard et al., 2019; AACR Abstract CT139, Dziadziuszko et al., 2019; 30825613, Lai et al., 2019; 30685684, Liu et al., 2018; 30425522, Fang et al., 2019; 31748336, Yuan et al., 2020; 32477948), neratinib (Ben-Baruch et al., 2015; 26358790, Ma et al., 2017; 28679771, Hyman et al., 2018; 29420467, Smyth et al., 2020; 31806627, Li et al., 2020; WCLC Abstract FP14.15), dacomitinib (Kris et al., 2015; 25899785), and pyrotinib (Jiang et al., 2019; ASCO Abstract 1001, Xu et al., 2020; ASCO Abstract 1003). A Phase 1 trial of the HER2-selective TKI BI-1810631 for patients with HER2-altered or HER2-overexpressing metastatic solid tumors reported a 37% ORR (7/19) and an 84% DCR; for patients with NSCLC, a 45% ORR (5/11) and a 91% DCR were reported (Opdam et al., 2022; ENA Abstract 1LBA). A Phase 1 basket trial of pyrotinib demonstrated an ORR of 17% (4/23) for ERBB2-altered solid tumors, with PRs for 1 patient each with HER2-positive salivary, biliary, ovarian, or endometrial cancers (Li et al., 2020; ASCO Abstract 3510). Patients with ERBB2-mutated non-small cell lung cancer (NSCLC) have also benefited from pyrotinib (30-53% ORR) (Wang et al., 2019; 30596880, Zhou et al. 2020; 32614698). On the basis of clinical and preclinical support, the ERBB2 L755S mutation may predict resistance to trastuzumab (Wagle et al., 2014; ASCO Abstract 536, Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863); limited clinical (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical evidence suggests that this mutation may also confer resistance to lapatinib (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443). Combination treatment with lapatinib and trastuzumab did not lead to a pathologic CR in a patient with breast cancer with the ERBB2 L755S mutation (Xu et al., 2014; AACR Abstract P5-05-03). However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, and pertuzumab. Other ERBB2 L755 mutations are less characterized, but limited preclinical data demonstrate that L755P also confers reduced sensitivity to lapatinib (Kancha et al., 2011; 22046346; Yang et al., 2015; 25620423). </Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</ClinicalTrialNote>
+          <Therapies>
+            <Therapy>
+              <Name/>
+              <GenericName>Neratinib</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Neratinib is an irreversible tyrosine kinase inhibitor that targets EGFR, ERBB2/HER2, and ERBB4. It is FDA approved for the extended adjuvant treatment of early-stage HER2-positive (HER2+) breast cancer following adjuvant trastuzumab. Neratinib is also approved in combination with capecitabine to treat patients with advanced or metastatic HER2+ breast cancer who have been previously treated with 2 or more anti-HER2 regimens. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of extensive clinical (Li et al., 2020; WCLC Abstract FP14.15, Ma et al., 2017; 28679771, Chan et al., 2016; 26874901, Ben-Baruch et al., 2015; 26358790, Park et al., 2016; 27406346, Hyman et al., 2018; 29420467, Smyth et al., 2020; 31806627) and preclinical (Schwab et al., 2015; 26260909, Menderes et al., 2017; 28397106, Hu et al., 2015; 26375550, Kavuri et al., 2015; 26243863, Bose et al., 2013; 23220880) evidence, ERBB2 amplification or activating mutations may confer sensitivity to neratinib. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of neratinib for the treatment of pancreatic cancer are limited (PubMed, May 2023). Neratinib has been largely evaluated in the context of breast cancer and non-small cell lung cancer (NSCLC). For patients with advanced HER2-positive breast cancer, neratinib treatment resulted in PFS of 22.3 weeks for patients with prior trastuzumab treatment and 39.6 weeks for those with no prior trastuzumab treatment (Burstein et al., 2010; 20142587). In patients with HER2-positive breast cancer with brain metastases, neratinib elicited a CNS ORR of 8% (3/40) (Freedman et al., 2016; 26834058). In a Phase 3 study of patients with HER2-positive, early stage breast cancer previously treated with trastuzumab, neratinib significantly improved the 2-year invasive disease-free survival compared to placebo (HR=0.67, p=0.0091)(Chan et al., 2016; 26874901). In Phase 2 trials of single-agent neratinib for patients with ERBB2-mutated, non-amplified metastatic breast cancer, clinical benefit rates of 31-40% and median PFS of 3.5-4 months have been achieved (Ma et al., 2017; 28679771, Hyman et al., 2018; 29420467, Smyth et al., 2019; 31806627). Neratinib in combination with various other agents has also shown significant clinical activity against breast cancer (Hyman et al., 2016; SABCS Abstract PD2-08)(Saura et al., 2014; 25287822, Awada et al., 2012; 22967996, Martin et al., 2013; 23953056, Chow et al., 2013; 23632474, Park et al., 2016; 27406346, Awada et al., 2016; 27078022). In patients with ERBB2-mutated NSCLC, where the majority of cases harbor inhibitor-resistant exon 20 insertions, neratinib monotherapy has resulted in ORRs of 0-4% (Gandhi et al. 2017; WCLC Abstract MA04.02, Gandhi et al., 2014; 24323026, Hyman et al., 2018; 29420467, Li et al., 2020; WCLC Abstract FP14.15). However, clinical outcomes have been improved by combination of neratinib with other targeted agents, such as temsirolimus or trastuzumab (Gandhi et al., 2014; 24323026, Gandhi et al. 2017; WCLC Abstract MA04.02, Li et al., 2020; WCLC Abstract FP14.15). Trials of neratinib have shown high ORRs (up to 44%) in ERBB2-mutated cervical cancer (Hyman et al., 2018; 29420467, D'Souza et al., 2019; SGO Abstract 18) but very low ORRs in colorectal and bladder cancer (Hyman et al., 2018; 29420467). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Lapatinib</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Lapatinib is a tyrosine kinase inhibitor that targets EGFR, ERBB2/HER2, and to a lesser degree, ERBB4. It is FDA approved in combination with capecitabine to treat patients with HER2-overexpressing (HER2+) metastatic breast cancer. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; Activation or amplification of ERBB2 may predict sensitivity to lapatinib (Cameron et al., 2010; 20736298, Geyer et al., 2006; 17192538, Serra et al., 2013; 23950206, Ali et al., 2014; 24516025, Grellety et al., 2015; 26487584, Fan et al., 2020; 32478891, Vornicova et al., 2014; 25085898, Ronellenfitsch et al., 2020; 32017710, Hou et al., 2020; 32405522). As limited clinical evidence (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical evidence (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443) indicate that ERBB2 L755S and L755P mutations reduce sensitivity to lapatinib, it is not known whether this therapeutic approach would be beneficial. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Phase 2 studies have indicated limited benefit from the addition of lapatinib to chemotherapy for genomically unselected pancreatic cancer (Safran et al., 2011; 24757739, McDermott et al., 2011; ASCO GI Abstract 315, Wu et al., 2015; 26507197). In a Phase 2 study for treatment-naive metastatic pancreatic adenocarcinoma, the combination of lapatinib with capecitabine elicited a PR rate of 10% (3/29) and median OS (mOS) of 4 months (Safran et al., 2011; 24757739); similar results were reported in a smaller study (McDermott et al., 2011; ASCO GI Abstract 315). For patients with progression on gemcitabine, this combination achieved SD as the best response in 35% (6/17) of patients, with a median PFS of 2.6 months and mOS of 5.2 months (Wu et al., 2015; 26507197). The results of Phase 1 studies investigating lapatinib as a treatment for pancreatic cancer were encouraging (Safran et al., 2008; 18391597, Dennie et al., 2011; 21609937), but Phase 2 studies of lapatinib in combination with either gemcitabine or capecitabine reported limited efficacy (median OS 4.0-5.2 months) for unselected and pretreated patients (Safran et al., 2011; 24757739, Wu et al., 2015; 26507197). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Unclear_Resistance</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Fam-trastuzumab deruxtecan</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Fam-trastuzumab deruxtecan is an antibody-drug conjugate that targets the protein ERBB2/HER2 on the cell surface and delivers the cytotoxic payload DXd, which inhibits DNA topoisomerase I to induce DNA damage. Fam-trastuzumab deruxtecan is FDA approved to treat patients with HER2-positive breast cancer and gastric or gastroesophageal junction adenocarcinoma. It is also approved for patients with HER2-low advanced breast cancer who have previously been treated with chemotherapy, as well as for patients with advanced ERBB2-mutated non-small cell lung cancer (NSCLC) who have received systemic therapy. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical data in solid cancers, including breast (Modi et al., 2019; 31825192, Tamura et al., 2019; 31047803), gastric (Shitara et al., 2019; 31047804, Shitara et al., 2020; 32469182), non-small cell lung (Tsurutani et al., 2018; IASLC WCLC Abstract OA02.07, Nakagawa et al., 2021; WCLC Abstract OA04.05), and colon (Yoshino et al., 2018; ESMO Abstract 563P) cancers, ERBB2 amplification may predict sensitivity to fam-trastuzumab deruxtecan. On the basis of clinical data in non-small cell lung cancer (NSCLC) (Tsurutani et al., 2020; 32213540, Li et al., 2022; 34534430), ERBB2 missense or exon 20 insertion mutations may predict sensitivity to fam-trastuzumab deruxtecan. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Only 1 response was reported among 25 patients with human epidermal growth factor receptor 2-positive (HER2+) pancreatic cancer treated with fam-trastuzumab deruxtecan in the Phase 2 DESTINY-PanTumor02 trial (Meric-Bernstam et al., 2023; ASCO Abstract LBA3000). A Phase 1 study of fam-trastuzumab deruxtecan for patients with HER2-expressing or HER2-mutated solid tumors observed tumor shrinkage for a patient with pancreatic cancer after 6 weeks of treatment (Tsurutani et al., 2020; 32213540). Pan-tumor trials evaluating fam-trastuzumab deruxtecan have shown activity across various HER2+ tumor types, including tumors of the biliary tract, bladder, cervix, endometrium, esophagus, head and neck, lung, and ovary, with HER2+ determined by ERBB2 amplification (56% [35/62]) (Taniguchi et al., 2023; ASCO Abstract 3014), IHC (61% [46/75] ORR for IHC 3+, 27% [34/125] for IHC 2+) (Meric-Bernstam et al., 2023; ASCO Abstract LBA3000), or ERBB2 mutation (28% [17/60]) (Tsurutani et al., 2020; 32213540). In tumor-specific Phase 2 trials, clinical benefit was shown for patients treated with fam-trastuzumab deruxtecan monotherapy who had previously treated, HER2-expressing breast (61% ORR, median PFS 16.4 months) (Modi et al., 2019; 31825192), colorectal (45% ORR, median PFS 6.9 months) (Siena et al., 2020; ASCO Abstract 4000), or gastric or gastroesophageal cancer (43% ORR, median PFS 5.6 months) (Shitara et al., 2020; 32469182), as well as HER2-mutated lung cancer (62% ORR, median PFS 14.0 months) (Smit et al., 2020; ASCO Abstract 9504). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Trastuzumab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trastuzumab is a monoclonal antibody that targets the protein ERBB2/HER2. It is FDA approved as monotherapy and in combination with other therapies for HER2+ metastatic and early breast cancer and in combination with chemotherapy for HER2+ metastatic gastric or gastroesophageal adenocarcinoma. Trastuzumab biosimilars are also FDA approved for these indications. Please see the drug label(s) for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification, overexpression, or activating mutations may confer sensitivity to trastuzumab (Gianni et al., 2014; 24657003, Morris et al., 2013; 24037735, Hainsworth et al., 2018; 29320312, Mazières et al., 2013; 23610105, Ali et al., 2014; 24516025, Wang et al., 2016; 27334835, Nishikawa et al., 2017; 27521503, Bang et al., 2010; 20728210, Slamon et al., 2001; 11248153). Trastuzumab-involving regimens elicited significant responses in patients with certain ERBB2 mutations (Mazières et al., 2013; 23610105, Ali et al., 2014; 24516025, Wang et al., 2016; 27334835, Mazières et al., 2016; 26598547, Tomizawa et al., 2011; 21353324, Falchook et al., 2013; 23328556). On the basis of clinical data (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536) and preclinical support (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) in the context of breast and colorectal cancer, ERBB2 L755S may predict resistance to trastuzumab. Clinical resistance to trastuzumab was observed in 7/7 patients with primary or emergent ERBB2 L755S mutations (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Trastuzumab was shown to inhibit tumor growth in pancreatic cancer xenografts with high expression of HER2 (Kimura et al., 2006; 16914581). However, in a clinical trial in pancreatic cancer, the response rate to trastuzumab and gemcitabine was found to be similar to gemcitabine alone (Safran et al., 2004; 15581051). Similarly, a Phase 2 clinical trial of trastuzumab and capecitabine noted similar PFS and OS to standard chemotherapy (Harder et al., 2012; 22374460). A series of case studies reported preferential clinical activity for trastuzumab treatment of gallbladder adenocarcinoma versus cholangiocarcinoma, with the adenocarcinoma subgroup of 9 patients achieving 1 CR, 4 PRs, and 3 instances of SD in response to regimens involving trastuzumab; all samples from responsive patients had ERBB2 amplification or overexpression, and clinical responses lasted 8-168 weeks (Javle et al., 2015; 26022204). In a Phase 2a umbrella basket trial, out of 8 patients with biliary cancer and HER2 alteration, 3 patients had a PR and 5 patients had SDs (Hainsworth et al., 2016; ASCO Abstract LBA11511). Case reports have described responses for patients with HER2+ cholangiocarcinoma to treatment with trastuzumab and paclitaxel (Law et al., 2012; 22851567) or trastuzumab alone (Sorscher et al., 2013; 24376362). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Resistant</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Margetuximab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Margetuximab is an Fc-engineered antibody targeting ERBB2/HER2 that was designed to enhance the anti-tumor immune response. Margetuximab is FDA approved for the treatment of patients with HER2-positive breast cancer. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification may predict sensitivity to margetuximab (Rugo et al., 2019; ASCO Abstract 1000, Bang et al., 2017; 28119295, Burris et al., 2013; ASCO Abstract 3004, Catenacci et al., 2019; ESMO Abstract 2812). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of margetuximab for the treatment of pancreatic cancer are limited (PubMed, May 2023). The Phase 3 SOPHIA trial of margetuximab for HER2+ metastatic breast cancer reported improved median PFS (5.8 vs. 4.9 months, HR=0.76) and ORR (22% vs. 16%) when combining margetuximab with chemotherapy, compared with trastuzumab and chemotherapy, for patients who had progressed on ≥2 prior HER2-directed therapies (Rugo et al., 2019; ASCO Abstract 1000); however, median OS was not statistically different between the 2 treatment arms (21.6 vs. 21.9 months, HR=0.62) (Rugo et al., 2021; SABCS Abstract PD8-01). In a Phase 1 trial for HER2-overexpressing solid tumors, 12% (7/60) of patients, including 4 with breast, 2 with gastroesophageal, and 1 with lacrimal gland cancers, experienced PRs, and a further 52% (31/60) of the cohort experienced SD (Bang et al., 2017; 28119295). In a study of margetuximab for HER2+ cancers, a patient with salivary gland cancer reported a PR (Burris et al., 2013; ASCO Abstract 3004). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Trastuzumab + Pertuzumab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trastuzumab is a monoclonal antibody that targets ERBB2/HER2, and pertuzumab is a monoclonal antibody that interferes with the interaction between HER2 and ERBB3. These therapies are FDA approved in combination for the treatment of patients with HER2-positive (HER2+) metastatic breast cancer who have not received prior chemotherapy or HER2-targeted therapy. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification or activating mutations may predict sensitivity to trastuzumab in combination with pertuzumab (Hurvitz et al., 2017; 29175149, von Minckwitz et al., 2017; 28581356, Hainsworth et al., 2018; 29320312, Swain et al., 2015; 25693012, Swain et al., 2018; 29253081, Gianni et al., 2016; 27179402, Shao et al., 2020; 31647503). On the basis of clinical data (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536) and preclinical support (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) in the context of breast and colorectal cancer, ERBB2 L755S may predict resistance to trastuzumab. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; A Phase 2 basket study of pertuzumab combined with trastuzumab for patients with HER2-positive pancreatic cancer reported an ORR of 10% (1/10) (Meric-Bernstam et al., 2021; ASCO Abstract 3004). The Phase 2 MyPathway basket trial for patients with HER2-positive solid tumors treated with trastuzumab plus pertuzumab reported a 23% ORR (60/258), a 45% DCR (115/258), a 7.9 month median duration of response, 2.8 months mPFS, and 10.9 months mOS; clinical responses were observed across multiple tumor types, including CRC, lung, urothelial, biliary, and ovarian (Hainsworth et al., 2018; 2932031, Meric-Bernstam et al., 2019; 30857956, Meric-Bernstam et al., 2021; ASCO Abstract 3004). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Ado-trastuzumab emtansine</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Ado-trastuzumab emtansine (T-DM1) is an antibody-drug conjugate that targets the protein ERBB2/HER2 on the cell surface, which inhibits HER2 signaling; it also releases the cytotoxic therapy DM1 into cells, leading to cell death. T-DM1 is FDA approved to treat patients with HER2-positive (HER2+) metastatic breast cancer and disease progression on prior therapy as well as patients with HER2+ early breast cancer who have residual invasive disease after neoadjuvant taxane and trastuzumab-based treatment. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; ERBB2 amplification or activating mutations may predict sensitivity to T-DM1 (Jhaveri et al., 2019; 31504139, Li et al., 2018; ASCO Abstract 2502, Li et al., 2020; 32213539, Hotta et al., 2018; 29313813, Krop et al., 2014; 24793816, Verma et al., 2012; 23020162, Welslau et al., 2014; 24222194, Krop et al., 2012; 22649126, Burris et al., 2011; 21172893, Jhaveri et al., 2018; ASCO Abstract 100, Baselga et al., 2016; 26920887, Perez et al., 2016; 28056202, Hurvitz et al., 2013; 23382472, von Minckwitz et al., 2019; 30516102, Hurvitz et al., 2019; 31157583, Martin et al., 2016; 27052654, Mondaca et al., 2019; 32923849). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of ado-trastuzumab emtansine for the treatment of pancreatic cancer are limited (PubMed, May 2023). The vast majority of data on the therapeutic use of T-DM1 have been collected in the context of breast cancer, although clinical trials investigating T-DM1 are under way in several tumor types, primarily in HER2+ cancers. Phase 2 basket trials for HER2-amplified cancers have reported ORRs of 8-28% with T-DM1, including responses in salivary gland, lung, endometrial, biliary tract, and ovarian cancers (Li et al., 2018; ASCO Abstract 2502)(Jhaveri et al., 2018; ASCO Abstract 100). A Phase 3 trial in 602 patients with HER2+ breast cancer reported that those who received T-DM1 showed an improved PFS and a lower rate of adverse events than patients who received the physician’s choice of therapy (Krop et al., 2014; 24793816). A second Phase 3 trial in 991 patients with HER2+ breast cancer reported that T-DM1 brought about significantly longer OS and PFS, as compared with lapatinib plus capecitabine, in patients previously treated with trastuzumab plus a taxane (Verma et al., 2012; 23020162, Welslau et al., 2014; 24222194). Two separate Phase 2 trials reported robust activity for single-agent T-DM1 as a treatment for HER2+ metastatic breast cancer in patients previously treated with standard HER2-directed therapies or HER2-directed therapies plus chemotherapy, with ORRs of 35% and 26%, respectively, and PFS of 6.9 months and 4.9 months, respectively (Krop et al., 2012; 22649126, Burris et al., 2011; 21172893). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+          </Therapies>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks>
+            <ClinicalTrialLink nctId="NCT02693535">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04589845">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04446260">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05150691">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05097599">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04585958">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05027139">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05650879">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05372614">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04502602">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+          </ClinicalTrialLinks>
+        </Alteration>
+        <Alteration>
+          <Name>S310F</Name>
+          <AlterationProperties>
+            <AlterationProperty name="S310F" isSubclonal="false" isEquivocal="false" dnaFraction="68.36"/>
+          </AlterationProperties>
+          <Interpretation>ERBB2 (also known as HER2) encodes a receptor tyrosine kinase which is in the same family as EGFR. Amplification or overexpression of ERBB2 can lead to excessive proliferation and tumor formation (Higgins and Baselga, 2011; 21965336). Missense mutations of the ERBB2 kinase domain at L755, as seen here, are predicted to be activating based on the functional characterization of L755S and L755P (Kancha et al., 2011; 22046346, Trowe et al., 2008; 18413839, Kavuri et al., 2015; 26243863). Clinical (Wagle et al., 2014; ASCO Abstract 536, Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991) and preclinical (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) evidence suggests that L755S predicts resistance to trastuzumab. ERBB2 L755S may also confer resistance to lapatinib, on the basis of limited clinical (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443) evidence. Preclinical studies suggest that L755S mutations are sensitive to irreversible EGFR/HER2 inhibitors such as afatinib (Kavuri et al., 2015; 26243863, Kloth et al., 2015; 26001389, Xu et al., 2017; 28487443) and neratinib (Bose et al., 2013; 23220880, Kavuri et al., 2015; 26243863, Kloth et al., 2015; 26001389, Zuo et al., 2016; 27697991, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443). Patients with breast cancer and ERBB2 L755S treated with neratinib achieved 1 CR, 3 PRs, and 1 SD (Hyman et al., 2016; AACR Abstract PD5-05, Ben-Baruch et al., 2015; 26358790, Ma et al., 2017; 28679771); however, 4 PDs were also reported (Ma et al., 2017; 28679771). S310 is located in the HER2 extracellular domain and mutations at this position, including S310F and S310Y, have been reported to be activating (Greulich et al., 2012; 22908275, Lee et al., 2006; 17177598). In clinical studies, patients with the ERBB2 S310F mutation have benefited from ERBB2-targeted therapies including trastuzumab, pertuzumab, and lapatinib (Chumsri et al., 2015; 26358791, Ali et al., 2014; 24516025); a patient with concurrent EGFR L858R and ERBB2 S310F mutations also reported a complete and durable response to the dual EGFR/ERBB2 inhibitor afatinib (Jia et al., 2014; 24835218). In the TCGA PanCancer Atlas dataset, ERBB2 amplification was observed in 4.9% of pancreatic adenocarcinoma cases (cBioPortal, Sep 2022)(Cerami et al., 2012; 22588877, Gao et al., 2013; 23550210). ERBB2 mutation has been observed in ~1% of pancreatic carcinomas (cBio-Bailey et al., 2016; 26909576). HER2 overexpression has been reported in 20-61% of pancreatic cancers (Harder et al., 2012; 22374460, Komoto et al., 2009; 19432892, Safran et al., 2001; 11586103, Tsiambas et al., 2006; 16685109), whereas ERBB2 gene amplification and/or increased copy number have been reported in 11-25% of pancreatic adenocarcinomas (Sharif et al., 2008; 18463983, Tsiambas et al., 2006; 16685109). HER2 overexpression in pancreatic carcinoma has been correlated with inferior prognosis (Harder et al., 2012; 22374460, Komoto et al., 2009; 19432892, Safran et al., 2001; 11586103, Tsiambas et al., 2006; 16685109), but ERBB2 amplification was not correlated with prognosis in two studies (Sharif et al., 2008; 18463983, Tsiambas et al., 2006; 16685109). On the basis of extensive clinical evidence, ERBB2 amplification or activating mutation may predict sensitivity to therapies targeting HER2, including antibodies such as trastuzumab (Slamon et al., 2001; 11248153, Bang et al., 2010; 20728210, Chumsri et al., 2015; 26358791, Cappuzzo et al., 2006; 16775247, Falchook et al., 2013; 23328556, Mazieres et al., 2013; 23610105), pertuzumab in combination with trastuzumab (Baselga et al., 2012; 22149875, Swain et al., 2015; 25693012, Chumsri et al., 2015; 26358791, Meric-Bernstam et al., 2019; 30857956), and zanidatamab (ZW25) (Meric-Bernstam et al., 2022; 36400106), as well as antibody-directed conjugates such as ado-trastuzumab emtansine (T-DM1) (Verma et al., 2012; 23020162) and fam-trastuzumab deruxtecan (T-DXd) (Modi et al., 2020; 31825192, Shitara et al., 2020; 32469182, Li et al., 2022; 34534430, Smit et al., 2021; ESMO Abstract 1361TiP), HER2 kinase inhibitors such as tucatinib (Murthy et al., 2020; 31825569, Borges et al., 2018; 29955792, Murthy et al., 2018; 29804905, Moulder et al., 2017; 28053022, Strickler et al., 2022; ESMO GI Abstract LBA-2), and dual EGFR/HER2 kinase inhibitors such as lapatinib (Fan et al., 2020; 32478891, Cameron et al., 2010; 20736298, Geyer et al., 2006; 17192538, Serra et al., 2013; 23950206, Ali et al., 2014; 24516025, Grellety et al., 2015; 26487584, Vornicova et al., 2014; 25085898, Ronellenfitsch et al., 2020; 32017710, Hou et al., 2020; 32405522), afatinib (Lin et al., 2012; 22418700, Schwab et al., 2014; 25268372, De Greve et al., 2015; 25682316, De Greve et al., 2012; 22325357, Li et al., 2015; 26559459, Mazieres et al., 2013; 23610105, Bedard et al., 2019; AACR Abstract CT139, Dziadziuszko et al., 2019; 30825613, Lai et al., 2019; 30685684, Liu et al., 2018; 30425522, Fang et al., 2019; 31748336, Yuan et al., 2020; 32477948), neratinib (Ben-Baruch et al., 2015; 26358790, Ma et al., 2017; 28679771, Hyman et al., 2018; 29420467, Smyth et al., 2020; 31806627, Li et al., 2020; WCLC Abstract FP14.15), dacomitinib (Kris et al., 2015; 25899785), and pyrotinib (Jiang et al., 2019; ASCO Abstract 1001, Xu et al., 2020; ASCO Abstract 1003). A Phase 1 trial of the HER2-selective TKI BI-1810631 for patients with HER2-altered or HER2-overexpressing metastatic solid tumors reported a 37% ORR (7/19) and an 84% DCR; for patients with NSCLC, a 45% ORR (5/11) and a 91% DCR were reported (Opdam et al., 2022; ENA Abstract 1LBA). A Phase 1 basket trial of pyrotinib demonstrated an ORR of 17% (4/23) for ERBB2-altered solid tumors, with PRs for 1 patient each with HER2-positive salivary, biliary, ovarian, or endometrial cancers (Li et al., 2020; ASCO Abstract 3510). Patients with ERBB2-mutated non-small cell lung cancer (NSCLC) have also benefited from pyrotinib (30-53% ORR) (Wang et al., 2019; 30596880, Zhou et al. 2020; 32614698). On the basis of clinical and preclinical support, the ERBB2 L755S mutation may predict resistance to trastuzumab (Wagle et al., 2014; ASCO Abstract 536, Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863); limited clinical (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical evidence suggests that this mutation may also confer resistance to lapatinib (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443). Combination treatment with lapatinib and trastuzumab did not lead to a pathologic CR in a patient with breast cancer with the ERBB2 L755S mutation (Xu et al., 2014; AACR Abstract P5-05-03). However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, and pertuzumab. Other ERBB2 L755 mutations are less characterized, but limited preclinical data demonstrate that L755P also confers reduced sensitivity to lapatinib (Kancha et al., 2011; 22046346; Yang et al., 2015; 25620423). </Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</ClinicalTrialNote>
+          <Therapies>
+            <Therapy>
+              <Name/>
+              <GenericName>Neratinib</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Neratinib is an irreversible tyrosine kinase inhibitor that targets EGFR, ERBB2/HER2, and ERBB4. It is FDA approved for the extended adjuvant treatment of early-stage HER2-positive (HER2+) breast cancer following adjuvant trastuzumab. Neratinib is also approved in combination with capecitabine to treat patients with advanced or metastatic HER2+ breast cancer who have been previously treated with 2 or more anti-HER2 regimens. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of extensive clinical (Li et al., 2020; WCLC Abstract FP14.15, Ma et al., 2017; 28679771, Chan et al., 2016; 26874901, Ben-Baruch et al., 2015; 26358790, Park et al., 2016; 27406346, Hyman et al., 2018; 29420467, Smyth et al., 2020; 31806627) and preclinical (Schwab et al., 2015; 26260909, Menderes et al., 2017; 28397106, Hu et al., 2015; 26375550, Kavuri et al., 2015; 26243863, Bose et al., 2013; 23220880) evidence, ERBB2 amplification or activating mutations may confer sensitivity to neratinib. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of neratinib for the treatment of pancreatic cancer are limited (PubMed, May 2023). Neratinib has been largely evaluated in the context of breast cancer and non-small cell lung cancer (NSCLC). For patients with advanced HER2-positive breast cancer, neratinib treatment resulted in PFS of 22.3 weeks for patients with prior trastuzumab treatment and 39.6 weeks for those with no prior trastuzumab treatment (Burstein et al., 2010; 20142587). In patients with HER2-positive breast cancer with brain metastases, neratinib elicited a CNS ORR of 8% (3/40) (Freedman et al., 2016; 26834058). In a Phase 3 study of patients with HER2-positive, early stage breast cancer previously treated with trastuzumab, neratinib significantly improved the 2-year invasive disease-free survival compared to placebo (HR=0.67, p=0.0091)(Chan et al., 2016; 26874901). In Phase 2 trials of single-agent neratinib for patients with ERBB2-mutated, non-amplified metastatic breast cancer, clinical benefit rates of 31-40% and median PFS of 3.5-4 months have been achieved (Ma et al., 2017; 28679771, Hyman et al., 2018; 29420467, Smyth et al., 2019; 31806627). Neratinib in combination with various other agents has also shown significant clinical activity against breast cancer (Hyman et al., 2016; SABCS Abstract PD2-08)(Saura et al., 2014; 25287822, Awada et al., 2012; 22967996, Martin et al., 2013; 23953056, Chow et al., 2013; 23632474, Park et al., 2016; 27406346, Awada et al., 2016; 27078022). In patients with ERBB2-mutated NSCLC, where the majority of cases harbor inhibitor-resistant exon 20 insertions, neratinib monotherapy has resulted in ORRs of 0-4% (Gandhi et al. 2017; WCLC Abstract MA04.02, Gandhi et al., 2014; 24323026, Hyman et al., 2018; 29420467, Li et al., 2020; WCLC Abstract FP14.15). However, clinical outcomes have been improved by combination of neratinib with other targeted agents, such as temsirolimus or trastuzumab (Gandhi et al., 2014; 24323026, Gandhi et al. 2017; WCLC Abstract MA04.02, Li et al., 2020; WCLC Abstract FP14.15). Trials of neratinib have shown high ORRs (up to 44%) in ERBB2-mutated cervical cancer (Hyman et al., 2018; 29420467, D'Souza et al., 2019; SGO Abstract 18) but very low ORRs in colorectal and bladder cancer (Hyman et al., 2018; 29420467). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Lapatinib</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Lapatinib is a tyrosine kinase inhibitor that targets EGFR, ERBB2/HER2, and to a lesser degree, ERBB4. It is FDA approved in combination with capecitabine to treat patients with HER2-overexpressing (HER2+) metastatic breast cancer. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; Activation or amplification of ERBB2 may predict sensitivity to lapatinib (Cameron et al., 2010; 20736298, Geyer et al., 2006; 17192538, Serra et al., 2013; 23950206, Ali et al., 2014; 24516025, Grellety et al., 2015; 26487584, Fan et al., 2020; 32478891, Vornicova et al., 2014; 25085898, Ronellenfitsch et al., 2020; 32017710, Hou et al., 2020; 32405522). As limited clinical evidence (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical evidence (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443) indicate that ERBB2 L755S and L755P mutations reduce sensitivity to lapatinib, it is not known whether this therapeutic approach would be beneficial. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Phase 2 studies have indicated limited benefit from the addition of lapatinib to chemotherapy for genomically unselected pancreatic cancer (Safran et al., 2011; 24757739, McDermott et al., 2011; ASCO GI Abstract 315, Wu et al., 2015; 26507197). In a Phase 2 study for treatment-naive metastatic pancreatic adenocarcinoma, the combination of lapatinib with capecitabine elicited a PR rate of 10% (3/29) and median OS (mOS) of 4 months (Safran et al., 2011; 24757739); similar results were reported in a smaller study (McDermott et al., 2011; ASCO GI Abstract 315). For patients with progression on gemcitabine, this combination achieved SD as the best response in 35% (6/17) of patients, with a median PFS of 2.6 months and mOS of 5.2 months (Wu et al., 2015; 26507197). The results of Phase 1 studies investigating lapatinib as a treatment for pancreatic cancer were encouraging (Safran et al., 2008; 18391597, Dennie et al., 2011; 21609937), but Phase 2 studies of lapatinib in combination with either gemcitabine or capecitabine reported limited efficacy (median OS 4.0-5.2 months) for unselected and pretreated patients (Safran et al., 2011; 24757739, Wu et al., 2015; 26507197). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Unclear_Resistance</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Fam-trastuzumab deruxtecan</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Fam-trastuzumab deruxtecan is an antibody-drug conjugate that targets the protein ERBB2/HER2 on the cell surface and delivers the cytotoxic payload DXd, which inhibits DNA topoisomerase I to induce DNA damage. Fam-trastuzumab deruxtecan is FDA approved to treat patients with HER2-positive breast cancer and gastric or gastroesophageal junction adenocarcinoma. It is also approved for patients with HER2-low advanced breast cancer who have previously been treated with chemotherapy, as well as for patients with advanced ERBB2-mutated non-small cell lung cancer (NSCLC) who have received systemic therapy. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical data in solid cancers, including breast (Modi et al., 2019; 31825192, Tamura et al., 2019; 31047803), gastric (Shitara et al., 2019; 31047804, Shitara et al., 2020; 32469182), non-small cell lung (Tsurutani et al., 2018; IASLC WCLC Abstract OA02.07, Nakagawa et al., 2021; WCLC Abstract OA04.05), and colon (Yoshino et al., 2018; ESMO Abstract 563P) cancers, ERBB2 amplification may predict sensitivity to fam-trastuzumab deruxtecan. On the basis of clinical data in non-small cell lung cancer (NSCLC) (Tsurutani et al., 2020; 32213540, Li et al., 2022; 34534430), ERBB2 missense or exon 20 insertion mutations may predict sensitivity to fam-trastuzumab deruxtecan. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Only 1 response was reported among 25 patients with human epidermal growth factor receptor 2-positive (HER2+) pancreatic cancer treated with fam-trastuzumab deruxtecan in the Phase 2 DESTINY-PanTumor02 trial (Meric-Bernstam et al., 2023; ASCO Abstract LBA3000). A Phase 1 study of fam-trastuzumab deruxtecan for patients with HER2-expressing or HER2-mutated solid tumors observed tumor shrinkage for a patient with pancreatic cancer after 6 weeks of treatment (Tsurutani et al., 2020; 32213540). Pan-tumor trials evaluating fam-trastuzumab deruxtecan have shown activity across various HER2+ tumor types, including tumors of the biliary tract, bladder, cervix, endometrium, esophagus, head and neck, lung, and ovary, with HER2+ determined by ERBB2 amplification (56% [35/62]) (Taniguchi et al., 2023; ASCO Abstract 3014), IHC (61% [46/75] ORR for IHC 3+, 27% [34/125] for IHC 2+) (Meric-Bernstam et al., 2023; ASCO Abstract LBA3000), or ERBB2 mutation (28% [17/60]) (Tsurutani et al., 2020; 32213540). In tumor-specific Phase 2 trials, clinical benefit was shown for patients treated with fam-trastuzumab deruxtecan monotherapy who had previously treated, HER2-expressing breast (61% ORR, median PFS 16.4 months) (Modi et al., 2019; 31825192), colorectal (45% ORR, median PFS 6.9 months) (Siena et al., 2020; ASCO Abstract 4000), or gastric or gastroesophageal cancer (43% ORR, median PFS 5.6 months) (Shitara et al., 2020; 32469182), as well as HER2-mutated lung cancer (62% ORR, median PFS 14.0 months) (Smit et al., 2020; ASCO Abstract 9504). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Trastuzumab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trastuzumab is a monoclonal antibody that targets the protein ERBB2/HER2. It is FDA approved as monotherapy and in combination with other therapies for HER2+ metastatic and early breast cancer and in combination with chemotherapy for HER2+ metastatic gastric or gastroesophageal adenocarcinoma. Trastuzumab biosimilars are also FDA approved for these indications. Please see the drug label(s) for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification, overexpression, or activating mutations may confer sensitivity to trastuzumab (Gianni et al., 2014; 24657003, Morris et al., 2013; 24037735, Hainsworth et al., 2018; 29320312, Mazières et al., 2013; 23610105, Ali et al., 2014; 24516025, Wang et al., 2016; 27334835, Nishikawa et al., 2017; 27521503, Bang et al., 2010; 20728210, Slamon et al., 2001; 11248153). Trastuzumab-involving regimens elicited significant responses in patients with certain ERBB2 mutations (Mazières et al., 2013; 23610105, Ali et al., 2014; 24516025, Wang et al., 2016; 27334835, Mazières et al., 2016; 26598547, Tomizawa et al., 2011; 21353324, Falchook et al., 2013; 23328556). On the basis of clinical data (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536) and preclinical support (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) in the context of breast and colorectal cancer, ERBB2 L755S may predict resistance to trastuzumab. Clinical resistance to trastuzumab was observed in 7/7 patients with primary or emergent ERBB2 L755S mutations (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Trastuzumab was shown to inhibit tumor growth in pancreatic cancer xenografts with high expression of HER2 (Kimura et al., 2006; 16914581). However, in a clinical trial in pancreatic cancer, the response rate to trastuzumab and gemcitabine was found to be similar to gemcitabine alone (Safran et al., 2004; 15581051). Similarly, a Phase 2 clinical trial of trastuzumab and capecitabine noted similar PFS and OS to standard chemotherapy (Harder et al., 2012; 22374460). A series of case studies reported preferential clinical activity for trastuzumab treatment of gallbladder adenocarcinoma versus cholangiocarcinoma, with the adenocarcinoma subgroup of 9 patients achieving 1 CR, 4 PRs, and 3 instances of SD in response to regimens involving trastuzumab; all samples from responsive patients had ERBB2 amplification or overexpression, and clinical responses lasted 8-168 weeks (Javle et al., 2015; 26022204). In a Phase 2a umbrella basket trial, out of 8 patients with biliary cancer and HER2 alteration, 3 patients had a PR and 5 patients had SDs (Hainsworth et al., 2016; ASCO Abstract LBA11511). Case reports have described responses for patients with HER2+ cholangiocarcinoma to treatment with trastuzumab and paclitaxel (Law et al., 2012; 22851567) or trastuzumab alone (Sorscher et al., 2013; 24376362). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Resistant</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Margetuximab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Margetuximab is an Fc-engineered antibody targeting ERBB2/HER2 that was designed to enhance the anti-tumor immune response. Margetuximab is FDA approved for the treatment of patients with HER2-positive breast cancer. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification may predict sensitivity to margetuximab (Rugo et al., 2019; ASCO Abstract 1000, Bang et al., 2017; 28119295, Burris et al., 2013; ASCO Abstract 3004, Catenacci et al., 2019; ESMO Abstract 2812). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of margetuximab for the treatment of pancreatic cancer are limited (PubMed, May 2023). The Phase 3 SOPHIA trial of margetuximab for HER2+ metastatic breast cancer reported improved median PFS (5.8 vs. 4.9 months, HR=0.76) and ORR (22% vs. 16%) when combining margetuximab with chemotherapy, compared with trastuzumab and chemotherapy, for patients who had progressed on ≥2 prior HER2-directed therapies (Rugo et al., 2019; ASCO Abstract 1000); however, median OS was not statistically different between the 2 treatment arms (21.6 vs. 21.9 months, HR=0.62) (Rugo et al., 2021; SABCS Abstract PD8-01). In a Phase 1 trial for HER2-overexpressing solid tumors, 12% (7/60) of patients, including 4 with breast, 2 with gastroesophageal, and 1 with lacrimal gland cancers, experienced PRs, and a further 52% (31/60) of the cohort experienced SD (Bang et al., 2017; 28119295). In a study of margetuximab for HER2+ cancers, a patient with salivary gland cancer reported a PR (Burris et al., 2013; ASCO Abstract 3004). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Trastuzumab + Pertuzumab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trastuzumab is a monoclonal antibody that targets ERBB2/HER2, and pertuzumab is a monoclonal antibody that interferes with the interaction between HER2 and ERBB3. These therapies are FDA approved in combination for the treatment of patients with HER2-positive (HER2+) metastatic breast cancer who have not received prior chemotherapy or HER2-targeted therapy. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification or activating mutations may predict sensitivity to trastuzumab in combination with pertuzumab (Hurvitz et al., 2017; 29175149, von Minckwitz et al., 2017; 28581356, Hainsworth et al., 2018; 29320312, Swain et al., 2015; 25693012, Swain et al., 2018; 29253081, Gianni et al., 2016; 27179402, Shao et al., 2020; 31647503). On the basis of clinical data (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536) and preclinical support (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) in the context of breast and colorectal cancer, ERBB2 L755S may predict resistance to trastuzumab. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; A Phase 2 basket study of pertuzumab combined with trastuzumab for patients with HER2-positive pancreatic cancer reported an ORR of 10% (1/10) (Meric-Bernstam et al., 2021; ASCO Abstract 3004). The Phase 2 MyPathway basket trial for patients with HER2-positive solid tumors treated with trastuzumab plus pertuzumab reported a 23% ORR (60/258), a 45% DCR (115/258), a 7.9 month median duration of response, 2.8 months mPFS, and 10.9 months mOS; clinical responses were observed across multiple tumor types, including CRC, lung, urothelial, biliary, and ovarian (Hainsworth et al., 2018; 2932031, Meric-Bernstam et al., 2019; 30857956, Meric-Bernstam et al., 2021; ASCO Abstract 3004). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Ado-trastuzumab emtansine</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Ado-trastuzumab emtansine (T-DM1) is an antibody-drug conjugate that targets the protein ERBB2/HER2 on the cell surface, which inhibits HER2 signaling; it also releases the cytotoxic therapy DM1 into cells, leading to cell death. T-DM1 is FDA approved to treat patients with HER2-positive (HER2+) metastatic breast cancer and disease progression on prior therapy as well as patients with HER2+ early breast cancer who have residual invasive disease after neoadjuvant taxane and trastuzumab-based treatment. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; ERBB2 amplification or activating mutations may predict sensitivity to T-DM1 (Jhaveri et al., 2019; 31504139, Li et al., 2018; ASCO Abstract 2502, Li et al., 2020; 32213539, Hotta et al., 2018; 29313813, Krop et al., 2014; 24793816, Verma et al., 2012; 23020162, Welslau et al., 2014; 24222194, Krop et al., 2012; 22649126, Burris et al., 2011; 21172893, Jhaveri et al., 2018; ASCO Abstract 100, Baselga et al., 2016; 26920887, Perez et al., 2016; 28056202, Hurvitz et al., 2013; 23382472, von Minckwitz et al., 2019; 30516102, Hurvitz et al., 2019; 31157583, Martin et al., 2016; 27052654, Mondaca et al., 2019; 32923849). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of ado-trastuzumab emtansine for the treatment of pancreatic cancer are limited (PubMed, May 2023). The vast majority of data on the therapeutic use of T-DM1 have been collected in the context of breast cancer, although clinical trials investigating T-DM1 are under way in several tumor types, primarily in HER2+ cancers. Phase 2 basket trials for HER2-amplified cancers have reported ORRs of 8-28% with T-DM1, including responses in salivary gland, lung, endometrial, biliary tract, and ovarian cancers (Li et al., 2018; ASCO Abstract 2502)(Jhaveri et al., 2018; ASCO Abstract 100). A Phase 3 trial in 602 patients with HER2+ breast cancer reported that those who received T-DM1 showed an improved PFS and a lower rate of adverse events than patients who received the physician’s choice of therapy (Krop et al., 2014; 24793816). A second Phase 3 trial in 991 patients with HER2+ breast cancer reported that T-DM1 brought about significantly longer OS and PFS, as compared with lapatinib plus capecitabine, in patients previously treated with trastuzumab plus a taxane (Verma et al., 2012; 23020162, Welslau et al., 2014; 24222194). Two separate Phase 2 trials reported robust activity for single-agent T-DM1 as a treatment for HER2+ metastatic breast cancer in patients previously treated with standard HER2-directed therapies or HER2-directed therapies plus chemotherapy, with ORRs of 35% and 26%, respectively, and PFS of 6.9 months and 4.9 months, respectively (Krop et al., 2012; 22649126, Burris et al., 2011; 21172893). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+          </Therapies>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks>
+            <ClinicalTrialLink nctId="NCT02693535">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04589845">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04446260">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05150691">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05097599">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04585958">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05027139">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05650879">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05372614">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04502602">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+          </ClinicalTrialLinks>
+        </Alteration>
+        <Alteration>
+          <Name>amplification</Name>
+          <AlterationProperties>
+            <AlterationProperty name="amplification" isSubclonal="false" isEquivocal="true"/>
+          </AlterationProperties>
+          <Interpretation>ERBB2 (also known as HER2) encodes a receptor tyrosine kinase which is in the same family as EGFR. Amplification or overexpression of ERBB2 can lead to excessive proliferation and tumor formation (Higgins and Baselga, 2011; 21965336). Missense mutations of the ERBB2 kinase domain at L755, as seen here, are predicted to be activating based on the functional characterization of L755S and L755P (Kancha et al., 2011; 22046346, Trowe et al., 2008; 18413839, Kavuri et al., 2015; 26243863). Clinical (Wagle et al., 2014; ASCO Abstract 536, Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991) and preclinical (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) evidence suggests that L755S predicts resistance to trastuzumab. ERBB2 L755S may also confer resistance to lapatinib, on the basis of limited clinical (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443) evidence. Preclinical studies suggest that L755S mutations are sensitive to irreversible EGFR/HER2 inhibitors such as afatinib (Kavuri et al., 2015; 26243863, Kloth et al., 2015; 26001389, Xu et al., 2017; 28487443) and neratinib (Bose et al., 2013; 23220880, Kavuri et al., 2015; 26243863, Kloth et al., 2015; 26001389, Zuo et al., 2016; 27697991, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443). Patients with breast cancer and ERBB2 L755S treated with neratinib achieved 1 CR, 3 PRs, and 1 SD (Hyman et al., 2016; AACR Abstract PD5-05, Ben-Baruch et al., 2015; 26358790, Ma et al., 2017; 28679771); however, 4 PDs were also reported (Ma et al., 2017; 28679771). S310 is located in the HER2 extracellular domain and mutations at this position, including S310F and S310Y, have been reported to be activating (Greulich et al., 2012; 22908275, Lee et al., 2006; 17177598). In clinical studies, patients with the ERBB2 S310F mutation have benefited from ERBB2-targeted therapies including trastuzumab, pertuzumab, and lapatinib (Chumsri et al., 2015; 26358791, Ali et al., 2014; 24516025); a patient with concurrent EGFR L858R and ERBB2 S310F mutations also reported a complete and durable response to the dual EGFR/ERBB2 inhibitor afatinib (Jia et al., 2014; 24835218). In the TCGA PanCancer Atlas dataset, ERBB2 amplification was observed in 4.9% of pancreatic adenocarcinoma cases (cBioPortal, Sep 2022)(Cerami et al., 2012; 22588877, Gao et al., 2013; 23550210). ERBB2 mutation has been observed in ~1% of pancreatic carcinomas (cBio-Bailey et al., 2016; 26909576). HER2 overexpression has been reported in 20-61% of pancreatic cancers (Harder et al., 2012; 22374460, Komoto et al., 2009; 19432892, Safran et al., 2001; 11586103, Tsiambas et al., 2006; 16685109), whereas ERBB2 gene amplification and/or increased copy number have been reported in 11-25% of pancreatic adenocarcinomas (Sharif et al., 2008; 18463983, Tsiambas et al., 2006; 16685109). HER2 overexpression in pancreatic carcinoma has been correlated with inferior prognosis (Harder et al., 2012; 22374460, Komoto et al., 2009; 19432892, Safran et al., 2001; 11586103, Tsiambas et al., 2006; 16685109), but ERBB2 amplification was not correlated with prognosis in two studies (Sharif et al., 2008; 18463983, Tsiambas et al., 2006; 16685109). On the basis of extensive clinical evidence, ERBB2 amplification or activating mutation may predict sensitivity to therapies targeting HER2, including antibodies such as trastuzumab (Slamon et al., 2001; 11248153, Bang et al., 2010; 20728210, Chumsri et al., 2015; 26358791, Cappuzzo et al., 2006; 16775247, Falchook et al., 2013; 23328556, Mazieres et al., 2013; 23610105), pertuzumab in combination with trastuzumab (Baselga et al., 2012; 22149875, Swain et al., 2015; 25693012, Chumsri et al., 2015; 26358791, Meric-Bernstam et al., 2019; 30857956), and zanidatamab (ZW25) (Meric-Bernstam et al., 2022; 36400106), as well as antibody-directed conjugates such as ado-trastuzumab emtansine (T-DM1) (Verma et al., 2012; 23020162) and fam-trastuzumab deruxtecan (T-DXd) (Modi et al., 2020; 31825192, Shitara et al., 2020; 32469182, Li et al., 2022; 34534430, Smit et al., 2021; ESMO Abstract 1361TiP), HER2 kinase inhibitors such as tucatinib (Murthy et al., 2020; 31825569, Borges et al., 2018; 29955792, Murthy et al., 2018; 29804905, Moulder et al., 2017; 28053022, Strickler et al., 2022; ESMO GI Abstract LBA-2), and dual EGFR/HER2 kinase inhibitors such as lapatinib (Fan et al., 2020; 32478891, Cameron et al., 2010; 20736298, Geyer et al., 2006; 17192538, Serra et al., 2013; 23950206, Ali et al., 2014; 24516025, Grellety et al., 2015; 26487584, Vornicova et al., 2014; 25085898, Ronellenfitsch et al., 2020; 32017710, Hou et al., 2020; 32405522), afatinib (Lin et al., 2012; 22418700, Schwab et al., 2014; 25268372, De Greve et al., 2015; 25682316, De Greve et al., 2012; 22325357, Li et al., 2015; 26559459, Mazieres et al., 2013; 23610105, Bedard et al., 2019; AACR Abstract CT139, Dziadziuszko et al., 2019; 30825613, Lai et al., 2019; 30685684, Liu et al., 2018; 30425522, Fang et al., 2019; 31748336, Yuan et al., 2020; 32477948), neratinib (Ben-Baruch et al., 2015; 26358790, Ma et al., 2017; 28679771, Hyman et al., 2018; 29420467, Smyth et al., 2020; 31806627, Li et al., 2020; WCLC Abstract FP14.15), dacomitinib (Kris et al., 2015; 25899785), and pyrotinib (Jiang et al., 2019; ASCO Abstract 1001, Xu et al., 2020; ASCO Abstract 1003). A Phase 1 trial of the HER2-selective TKI BI-1810631 for patients with HER2-altered or HER2-overexpressing metastatic solid tumors reported a 37% ORR (7/19) and an 84% DCR; for patients with NSCLC, a 45% ORR (5/11) and a 91% DCR were reported (Opdam et al., 2022; ENA Abstract 1LBA). A Phase 1 basket trial of pyrotinib demonstrated an ORR of 17% (4/23) for ERBB2-altered solid tumors, with PRs for 1 patient each with HER2-positive salivary, biliary, ovarian, or endometrial cancers (Li et al., 2020; ASCO Abstract 3510). Patients with ERBB2-mutated non-small cell lung cancer (NSCLC) have also benefited from pyrotinib (30-53% ORR) (Wang et al., 2019; 30596880, Zhou et al. 2020; 32614698). On the basis of clinical and preclinical support, the ERBB2 L755S mutation may predict resistance to trastuzumab (Wagle et al., 2014; ASCO Abstract 536, Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863); limited clinical (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical evidence suggests that this mutation may also confer resistance to lapatinib (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443). Combination treatment with lapatinib and trastuzumab did not lead to a pathologic CR in a patient with breast cancer with the ERBB2 L755S mutation (Xu et al., 2014; AACR Abstract P5-05-03). However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, and pertuzumab. Other ERBB2 L755 mutations are less characterized, but limited preclinical data demonstrate that L755P also confers reduced sensitivity to lapatinib (Kancha et al., 2011; 22046346; Yang et al., 2015; 25620423). </Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</ClinicalTrialNote>
+          <Therapies>
+            <Therapy>
+              <Name/>
+              <GenericName>Neratinib</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Neratinib is an irreversible tyrosine kinase inhibitor that targets EGFR, ERBB2/HER2, and ERBB4. It is FDA approved for the extended adjuvant treatment of early-stage HER2-positive (HER2+) breast cancer following adjuvant trastuzumab. Neratinib is also approved in combination with capecitabine to treat patients with advanced or metastatic HER2+ breast cancer who have been previously treated with 2 or more anti-HER2 regimens. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of extensive clinical (Li et al., 2020; WCLC Abstract FP14.15, Ma et al., 2017; 28679771, Chan et al., 2016; 26874901, Ben-Baruch et al., 2015; 26358790, Park et al., 2016; 27406346, Hyman et al., 2018; 29420467, Smyth et al., 2020; 31806627) and preclinical (Schwab et al., 2015; 26260909, Menderes et al., 2017; 28397106, Hu et al., 2015; 26375550, Kavuri et al., 2015; 26243863, Bose et al., 2013; 23220880) evidence, ERBB2 amplification or activating mutations may confer sensitivity to neratinib. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of neratinib for the treatment of pancreatic cancer are limited (PubMed, May 2023). Neratinib has been largely evaluated in the context of breast cancer and non-small cell lung cancer (NSCLC). For patients with advanced HER2-positive breast cancer, neratinib treatment resulted in PFS of 22.3 weeks for patients with prior trastuzumab treatment and 39.6 weeks for those with no prior trastuzumab treatment (Burstein et al., 2010; 20142587). In patients with HER2-positive breast cancer with brain metastases, neratinib elicited a CNS ORR of 8% (3/40) (Freedman et al., 2016; 26834058). In a Phase 3 study of patients with HER2-positive, early stage breast cancer previously treated with trastuzumab, neratinib significantly improved the 2-year invasive disease-free survival compared to placebo (HR=0.67, p=0.0091)(Chan et al., 2016; 26874901). In Phase 2 trials of single-agent neratinib for patients with ERBB2-mutated, non-amplified metastatic breast cancer, clinical benefit rates of 31-40% and median PFS of 3.5-4 months have been achieved (Ma et al., 2017; 28679771, Hyman et al., 2018; 29420467, Smyth et al., 2019; 31806627). Neratinib in combination with various other agents has also shown significant clinical activity against breast cancer (Hyman et al., 2016; SABCS Abstract PD2-08)(Saura et al., 2014; 25287822, Awada et al., 2012; 22967996, Martin et al., 2013; 23953056, Chow et al., 2013; 23632474, Park et al., 2016; 27406346, Awada et al., 2016; 27078022). In patients with ERBB2-mutated NSCLC, where the majority of cases harbor inhibitor-resistant exon 20 insertions, neratinib monotherapy has resulted in ORRs of 0-4% (Gandhi et al. 2017; WCLC Abstract MA04.02, Gandhi et al., 2014; 24323026, Hyman et al., 2018; 29420467, Li et al., 2020; WCLC Abstract FP14.15). However, clinical outcomes have been improved by combination of neratinib with other targeted agents, such as temsirolimus or trastuzumab (Gandhi et al., 2014; 24323026, Gandhi et al. 2017; WCLC Abstract MA04.02, Li et al., 2020; WCLC Abstract FP14.15). Trials of neratinib have shown high ORRs (up to 44%) in ERBB2-mutated cervical cancer (Hyman et al., 2018; 29420467, D'Souza et al., 2019; SGO Abstract 18) but very low ORRs in colorectal and bladder cancer (Hyman et al., 2018; 29420467). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Lapatinib</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Lapatinib is a tyrosine kinase inhibitor that targets EGFR, ERBB2/HER2, and to a lesser degree, ERBB4. It is FDA approved in combination with capecitabine to treat patients with HER2-overexpressing (HER2+) metastatic breast cancer. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; Activation or amplification of ERBB2 may predict sensitivity to lapatinib (Cameron et al., 2010; 20736298, Geyer et al., 2006; 17192538, Serra et al., 2013; 23950206, Ali et al., 2014; 24516025, Grellety et al., 2015; 26487584, Fan et al., 2020; 32478891, Vornicova et al., 2014; 25085898, Ronellenfitsch et al., 2020; 32017710, Hou et al., 2020; 32405522). As limited clinical evidence (Hoadley et al., 2015; AACR Abstract S3-06) and extensive preclinical evidence (Trowe et al., 2008; 18413839, Kancha et al., 2011; 22046346, Bose et al., 2013; 23220880, Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Cocco et al., 2018; 30301790, Xu et al., 2017; 28487443) indicate that ERBB2 L755S and L755P mutations reduce sensitivity to lapatinib, it is not known whether this therapeutic approach would be beneficial. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Phase 2 studies have indicated limited benefit from the addition of lapatinib to chemotherapy for genomically unselected pancreatic cancer (Safran et al., 2011; 24757739, McDermott et al., 2011; ASCO GI Abstract 315, Wu et al., 2015; 26507197). In a Phase 2 study for treatment-naive metastatic pancreatic adenocarcinoma, the combination of lapatinib with capecitabine elicited a PR rate of 10% (3/29) and median OS (mOS) of 4 months (Safran et al., 2011; 24757739); similar results were reported in a smaller study (McDermott et al., 2011; ASCO GI Abstract 315). For patients with progression on gemcitabine, this combination achieved SD as the best response in 35% (6/17) of patients, with a median PFS of 2.6 months and mOS of 5.2 months (Wu et al., 2015; 26507197). The results of Phase 1 studies investigating lapatinib as a treatment for pancreatic cancer were encouraging (Safran et al., 2008; 18391597, Dennie et al., 2011; 21609937), but Phase 2 studies of lapatinib in combination with either gemcitabine or capecitabine reported limited efficacy (median OS 4.0-5.2 months) for unselected and pretreated patients (Safran et al., 2011; 24757739, Wu et al., 2015; 26507197). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Unclear_Resistance</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Fam-trastuzumab deruxtecan</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Fam-trastuzumab deruxtecan is an antibody-drug conjugate that targets the protein ERBB2/HER2 on the cell surface and delivers the cytotoxic payload DXd, which inhibits DNA topoisomerase I to induce DNA damage. Fam-trastuzumab deruxtecan is FDA approved to treat patients with HER2-positive breast cancer and gastric or gastroesophageal junction adenocarcinoma. It is also approved for patients with HER2-low advanced breast cancer who have previously been treated with chemotherapy, as well as for patients with advanced ERBB2-mutated non-small cell lung cancer (NSCLC) who have received systemic therapy. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical data in solid cancers, including breast (Modi et al., 2019; 31825192, Tamura et al., 2019; 31047803), gastric (Shitara et al., 2019; 31047804, Shitara et al., 2020; 32469182), non-small cell lung (Tsurutani et al., 2018; IASLC WCLC Abstract OA02.07, Nakagawa et al., 2021; WCLC Abstract OA04.05), and colon (Yoshino et al., 2018; ESMO Abstract 563P) cancers, ERBB2 amplification may predict sensitivity to fam-trastuzumab deruxtecan. On the basis of clinical data in non-small cell lung cancer (NSCLC) (Tsurutani et al., 2020; 32213540, Li et al., 2022; 34534430), ERBB2 missense or exon 20 insertion mutations may predict sensitivity to fam-trastuzumab deruxtecan. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Only 1 response was reported among 25 patients with human epidermal growth factor receptor 2-positive (HER2+) pancreatic cancer treated with fam-trastuzumab deruxtecan in the Phase 2 DESTINY-PanTumor02 trial (Meric-Bernstam et al., 2023; ASCO Abstract LBA3000). A Phase 1 study of fam-trastuzumab deruxtecan for patients with HER2-expressing or HER2-mutated solid tumors observed tumor shrinkage for a patient with pancreatic cancer after 6 weeks of treatment (Tsurutani et al., 2020; 32213540). Pan-tumor trials evaluating fam-trastuzumab deruxtecan have shown activity across various HER2+ tumor types, including tumors of the biliary tract, bladder, cervix, endometrium, esophagus, head and neck, lung, and ovary, with HER2+ determined by ERBB2 amplification (56% [35/62]) (Taniguchi et al., 2023; ASCO Abstract 3014), IHC (61% [46/75] ORR for IHC 3+, 27% [34/125] for IHC 2+) (Meric-Bernstam et al., 2023; ASCO Abstract LBA3000), or ERBB2 mutation (28% [17/60]) (Tsurutani et al., 2020; 32213540). In tumor-specific Phase 2 trials, clinical benefit was shown for patients treated with fam-trastuzumab deruxtecan monotherapy who had previously treated, HER2-expressing breast (61% ORR, median PFS 16.4 months) (Modi et al., 2019; 31825192), colorectal (45% ORR, median PFS 6.9 months) (Siena et al., 2020; ASCO Abstract 4000), or gastric or gastroesophageal cancer (43% ORR, median PFS 5.6 months) (Shitara et al., 2020; 32469182), as well as HER2-mutated lung cancer (62% ORR, median PFS 14.0 months) (Smit et al., 2020; ASCO Abstract 9504). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Trastuzumab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trastuzumab is a monoclonal antibody that targets the protein ERBB2/HER2. It is FDA approved as monotherapy and in combination with other therapies for HER2+ metastatic and early breast cancer and in combination with chemotherapy for HER2+ metastatic gastric or gastroesophageal adenocarcinoma. Trastuzumab biosimilars are also FDA approved for these indications. Please see the drug label(s) for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification, overexpression, or activating mutations may confer sensitivity to trastuzumab (Gianni et al., 2014; 24657003, Morris et al., 2013; 24037735, Hainsworth et al., 2018; 29320312, Mazières et al., 2013; 23610105, Ali et al., 2014; 24516025, Wang et al., 2016; 27334835, Nishikawa et al., 2017; 27521503, Bang et al., 2010; 20728210, Slamon et al., 2001; 11248153). Trastuzumab-involving regimens elicited significant responses in patients with certain ERBB2 mutations (Mazières et al., 2013; 23610105, Ali et al., 2014; 24516025, Wang et al., 2016; 27334835, Mazières et al., 2016; 26598547, Tomizawa et al., 2011; 21353324, Falchook et al., 2013; 23328556). On the basis of clinical data (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536) and preclinical support (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) in the context of breast and colorectal cancer, ERBB2 L755S may predict resistance to trastuzumab. Clinical resistance to trastuzumab was observed in 7/7 patients with primary or emergent ERBB2 L755S mutations (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Trastuzumab was shown to inhibit tumor growth in pancreatic cancer xenografts with high expression of HER2 (Kimura et al., 2006; 16914581). However, in a clinical trial in pancreatic cancer, the response rate to trastuzumab and gemcitabine was found to be similar to gemcitabine alone (Safran et al., 2004; 15581051). Similarly, a Phase 2 clinical trial of trastuzumab and capecitabine noted similar PFS and OS to standard chemotherapy (Harder et al., 2012; 22374460). A series of case studies reported preferential clinical activity for trastuzumab treatment of gallbladder adenocarcinoma versus cholangiocarcinoma, with the adenocarcinoma subgroup of 9 patients achieving 1 CR, 4 PRs, and 3 instances of SD in response to regimens involving trastuzumab; all samples from responsive patients had ERBB2 amplification or overexpression, and clinical responses lasted 8-168 weeks (Javle et al., 2015; 26022204). In a Phase 2a umbrella basket trial, out of 8 patients with biliary cancer and HER2 alteration, 3 patients had a PR and 5 patients had SDs (Hainsworth et al., 2016; ASCO Abstract LBA11511). Case reports have described responses for patients with HER2+ cholangiocarcinoma to treatment with trastuzumab and paclitaxel (Law et al., 2012; 22851567) or trastuzumab alone (Sorscher et al., 2013; 24376362). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Resistant</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Margetuximab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Margetuximab is an Fc-engineered antibody targeting ERBB2/HER2 that was designed to enhance the anti-tumor immune response. Margetuximab is FDA approved for the treatment of patients with HER2-positive breast cancer. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification may predict sensitivity to margetuximab (Rugo et al., 2019; ASCO Abstract 1000, Bang et al., 2017; 28119295, Burris et al., 2013; ASCO Abstract 3004, Catenacci et al., 2019; ESMO Abstract 2812). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of margetuximab for the treatment of pancreatic cancer are limited (PubMed, May 2023). The Phase 3 SOPHIA trial of margetuximab for HER2+ metastatic breast cancer reported improved median PFS (5.8 vs. 4.9 months, HR=0.76) and ORR (22% vs. 16%) when combining margetuximab with chemotherapy, compared with trastuzumab and chemotherapy, for patients who had progressed on ≥2 prior HER2-directed therapies (Rugo et al., 2019; ASCO Abstract 1000); however, median OS was not statistically different between the 2 treatment arms (21.6 vs. 21.9 months, HR=0.62) (Rugo et al., 2021; SABCS Abstract PD8-01). In a Phase 1 trial for HER2-overexpressing solid tumors, 12% (7/60) of patients, including 4 with breast, 2 with gastroesophageal, and 1 with lacrimal gland cancers, experienced PRs, and a further 52% (31/60) of the cohort experienced SD (Bang et al., 2017; 28119295). In a study of margetuximab for HER2+ cancers, a patient with salivary gland cancer reported a PR (Burris et al., 2013; ASCO Abstract 3004). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Trastuzumab + Pertuzumab</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Trastuzumab is a monoclonal antibody that targets ERBB2/HER2, and pertuzumab is a monoclonal antibody that interferes with the interaction between HER2 and ERBB3. These therapies are FDA approved in combination for the treatment of patients with HER2-positive (HER2+) metastatic breast cancer who have not received prior chemotherapy or HER2-targeted therapy. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; On the basis of clinical studies in multiple tumor types, ERBB2 amplification or activating mutations may predict sensitivity to trastuzumab in combination with pertuzumab (Hurvitz et al., 2017; 29175149, von Minckwitz et al., 2017; 28581356, Hainsworth et al., 2018; 29320312, Swain et al., 2015; 25693012, Swain et al., 2018; 29253081, Gianni et al., 2016; 27179402, Shao et al., 2020; 31647503). On the basis of clinical data (Aung et al., 2016; 27626067, Zuo et al., 2016; 27697991, Wagle et al., 2014; ASCO Abstract 536) and preclinical support (Zuo et al., 2016; 27697991, Kloth et al., 2015; 26001389, Kavuri et al., 2015; 26243863) in the context of breast and colorectal cancer, ERBB2 L755S may predict resistance to trastuzumab. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; A Phase 2 basket study of pertuzumab combined with trastuzumab for patients with HER2-positive pancreatic cancer reported an ORR of 10% (1/10) (Meric-Bernstam et al., 2021; ASCO Abstract 3004). The Phase 2 MyPathway basket trial for patients with HER2-positive solid tumors treated with trastuzumab plus pertuzumab reported a 23% ORR (60/258), a 45% DCR (115/258), a 7.9 month median duration of response, 2.8 months mPFS, and 10.9 months mOS; clinical responses were observed across multiple tumor types, including CRC, lung, urothelial, biliary, and ovarian (Hainsworth et al., 2018; 2932031, Meric-Bernstam et al., 2019; 30857956, Meric-Bernstam et al., 2021; ASCO Abstract 3004). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+            <Therapy>
+              <Name/>
+              <GenericName>Ado-trastuzumab emtansine</GenericName>
+              <FDAApproved>false</FDAApproved>
+              <Rationale>&lt;p&gt;&lt;b&gt;Approved Indications:&lt;/b&gt; Ado-trastuzumab emtansine (T-DM1) is an antibody-drug conjugate that targets the protein ERBB2/HER2 on the cell surface, which inhibits HER2 signaling; it also releases the cytotoxic therapy DM1 into cells, leading to cell death. T-DM1 is FDA approved to treat patients with HER2-positive (HER2+) metastatic breast cancer and disease progression on prior therapy as well as patients with HER2+ early breast cancer who have residual invasive disease after neoadjuvant taxane and trastuzumab-based treatment. Please see the drug label for full prescribing information. &lt;/p&gt; &lt;p&gt;&lt;b&gt;Gene Association:&lt;/b&gt; ERBB2 amplification or activating mutations may predict sensitivity to T-DM1 (Jhaveri et al., 2019; 31504139, Li et al., 2018; ASCO Abstract 2502, Li et al., 2020; 32213539, Hotta et al., 2018; 29313813, Krop et al., 2014; 24793816, Verma et al., 2012; 23020162, Welslau et al., 2014; 24222194, Krop et al., 2012; 22649126, Burris et al., 2011; 21172893, Jhaveri et al., 2018; ASCO Abstract 100, Baselga et al., 2016; 26920887, Perez et al., 2016; 28056202, Hurvitz et al., 2013; 23382472, von Minckwitz et al., 2019; 30516102, Hurvitz et al., 2019; 31157583, Martin et al., 2016; 27052654, Mondaca et al., 2019; 32923849). &lt;/p&gt; &lt;p&gt;&lt;b&gt;Supporting Data:&lt;/b&gt; Clinical data on the efficacy of ado-trastuzumab emtansine for the treatment of pancreatic cancer are limited (PubMed, May 2023). The vast majority of data on the therapeutic use of T-DM1 have been collected in the context of breast cancer, although clinical trials investigating T-DM1 are under way in several tumor types, primarily in HER2+ cancers. Phase 2 basket trials for HER2-amplified cancers have reported ORRs of 8-28% with T-DM1, including responses in salivary gland, lung, endometrial, biliary tract, and ovarian cancers (Li et al., 2018; ASCO Abstract 2502)(Jhaveri et al., 2018; ASCO Abstract 100). A Phase 3 trial in 602 patients with HER2+ breast cancer reported that those who received T-DM1 showed an improved PFS and a lower rate of adverse events than patients who received the physician’s choice of therapy (Krop et al., 2014; 24793816). A second Phase 3 trial in 991 patients with HER2+ breast cancer reported that T-DM1 brought about significantly longer OS and PFS, as compared with lapatinib plus capecitabine, in patients previously treated with trastuzumab plus a taxane (Verma et al., 2012; 23020162, Welslau et al., 2014; 24222194). Two separate Phase 2 trials reported robust activity for single-agent T-DM1 as a treatment for HER2+ metastatic breast cancer in patients previously treated with standard HER2-directed therapies or HER2-directed therapies plus chemotherapy, with ORRs of 35% and 26%, respectively, and PFS of 6.9 months and 4.9 months, respectively (Krop et al., 2012; 22649126, Burris et al., 2011; 21172893). &lt;/p&gt;</Rationale>
+              <ApprovedUses/>
+              <Effect>Sensitizing</Effect>
+              <Include>true</Include>
+              <IncludeInSummary>true</IncludeInSummary>
+              <ReferenceLinks/>
+            </Therapy>
+          </Therapies>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks>
+            <ClinicalTrialLink nctId="NCT02693535">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04589845">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04446260">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05150691">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05097599">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04585958">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05027139">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05650879">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05372614">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04502602">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+          </ClinicalTrialLinks>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+    <Gene>
+      <Name>FBXW7</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>R465C</Name>
+          <AlterationProperties>
+            <AlterationProperty name="R465C" isSubclonal="false" isEquivocal="false" dnaFraction="19.16"/>
+          </AlterationProperties>
+          <Interpretation>FBXW7 encodes the F-box protein subunit of the SCF ubiquitin ligase complex, which targets proteins for degradation (Welcker and Clurman, 2008; 18094723). FBXW7 inactivation is associated with chromosomal instability and with stabilization of proto-oncogenes, such as mTOR, MYC, cyclin E, NOTCH, and JUN; FBXW7 is therefore considered a tumor suppressor (Akhoondi et al., 2007; 17909001, Welcker and Clurman, 2008; 18094723). Alterations such as seen here may disrupt FBXW7 function or expression (Welcker et al., 2013; 24298052, Welcker et al., 2007; 17298674, Strohmaier et al., 2001; 11565034, Pashkova et al., 2010; 21070969, Akhoondi et al., 2007; 17909001, O'Neil et al., 2007; 17646409, Malyukova et al., 2013; 23228967, Thompson et al., 2007; 17646408). FBXW7 mutations have been reported in up to 1% of pancreatic adenocarcinomas (cBio-Witkiewicz et al., 2015; 25855536, cBio-Biankin et al., 2012; 23103869). Reduced FBXW7 expression has been associated with poor prognosis in some cancers such as colorectal cancer, gastric cancer, esophageal SCC, cervical SCC, melanoma, non-small cell lung carcinoma, and osteosarcoma (Tu et al., 2012; 22548670, Iwatsuki et al., 2010; 19739118, Yokobori et al., 2012; 22576686, Yokobori et al., 2009; 19366810, Yokobori et al., 2014; 24165483, Rajagopalan et al., 2004; 14999283, Cheng et al., 2013; 23381582, Xu et al., 2016; 26954701, Li et al., 2015; 25622249). FBXW7 inactivating alterations may indicate sensitivity to mTOR inhibitors (Mao et al., 2008; 18787170, Yang et al., 2015; 25749036). Case series reported objective responses for 2 patients with FBXW7-mutated cervical squamous cell carcinoma treated with everolimus (Kulkarni et al., 2020; SGO Abstract 356).</Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</ClinicalTrialNote>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks>
+            <ClinicalTrialLink nctId="NCT05036226">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT03297606">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT03203525">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT03239015">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT04803318">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+            <ClinicalTrialLink nctId="NCT05125523">
+              <Include>true</Include>
+            </ClinicalTrialLink>
+          </ClinicalTrialLinks>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+    <Gene>
+      <Name>GATA6</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>amplification</Name>
+          <AlterationProperties>
+            <AlterationProperty name="amplification" isSubclonal="false" isEquivocal="false"/>
+          </AlterationProperties>
+          <Interpretation>GATA6 encodes a zinc finger transcription factor, which is involved in the development of several tissues and is expressed in proliferating cells throughout the intestinal tract (Zheng et al., 2010; 21779441). GATA6 has been described as both a tumor suppressor and an oncogene, which may be dependent on the tumor type. Amplification of the 18q11.2 locus, where GATA6 is located, and GATA6 overexpression has been reported to be frequent in pancreatic (69%) and pancreatobiliary carcinomas (19%, 7/37) (Fu et al., 2008; 18769116, Kwei et al., 2008; 18535672). High GATA6 expression has been significantly associated with Moffitt’s classical subtype of pancreatic ductal adenocarcinoma, which is associated with better clinical outcomes (Wang et al., 2020; 32816949, Collisson et al., 2011; 21460848, Martinelli et al., 2017; 27325420, O'Kane et al., 2020; 32156747), and 1 retrospective study reported that low GATA6 expression is significantly associated with shorter OS compared with GATA6-high expressing tumors (median OS; 26.1 vs. 42.4 months, HR=1.70, p=0.002)(Grant et al., 2020; AACR Abstract PO-005). There are no targeted therapies available to address genomic alterations in GATA6. Patients with GATA6-high pancreatic tumors exhibited better clinical outcomes following treatment with adjuvant chemotherapy (p=0.003) or first-line folfirinox (HR=1.90, p=0.025) treatment compared with low GATA6 expressing tumors, while no difference was observed for patients treated with gemcitabine (Duan et al., 2021; 34294813, Martinelli et al., 2017; 27325420). </Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote/>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks/>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+    <Gene>
+      <Name>Microsatellite status</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>MS-Stable</Name>
+          <AlterationProperties>
+            <AlterationProperty name="MS-Stable" isSubclonal="false" isEquivocal="false"/>
+          </AlterationProperties>
+          <Interpretation>Microsatellite instability (MSI) is a condition of genetic hypermutability that generates excessive amounts of short insertion/deletion mutations in the genome; it generally occurs at microsatellite DNA sequences and is caused by a deficiency in DNA mismatch repair (MMR) in the tumor (Kocarnik et al., 2015; 26337942). Defective MMR and consequent MSI occur as a result of genetic or epigenetic inactivation of one of the MMR pathway proteins, primarily MLH1, MSH2, MSH6, or PMS2 (You et al., 2010; 21081928, Bairwa et al., 2014; 24623249, Kocarnik et al., 2015; 26337942). This sample is microsatellite-stable (MSS), equivalent to the clinical definition of an MSS tumor: one with mutations in none of the tested microsatellite markers (Boland et al., 1998; 9823339, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSS status indicates MMR proficiency and typically correlates with intact expression of all MMR family proteins (Kocarnik et al., 2015; 26337942, Bairwa et al., 2014; 24623249, Pawlik et al., 2004; 15528785, Boland and Goel, 2010; 20420947). MSI is rare in pancreatic carcinoma, reported in less than 1% of samples (n=&gt;1,000)(Hu et al., 2018; 29367431, Campbell et al., 2017; 29056344, Pihlak et al., 2018; 29329208, Salem et al., 2018; 29523759, Lahgi et al., 2012; 23029359). The prognostic significance of MSI in pancreatic cancer is unknown (PubMed, Aug 2022). On the basis of clinical evidence, MSS tumors are significantly less likely than MSI-H tumors to respond to anti-PD-1 immune checkpoint inhibitors (Gatalica et al., 2014; 25392179, Kroemer et al., 2015; 26140250, Lal et al., 2015; 25949894), including approved therapies nivolumab and pembrolizumab (Overman et al., 2016; ASCO Abstract 3501, Le et al., 2015; 26028255). In a retrospective analysis of 361 patients with solid tumors treated with pembrolizumab, 3% were MSI-H and experienced a significantly higher ORR compared with non-MSI-H cases (70% vs. 12%, p=0.001) (Ayers et al., 2016; ASCO-SITC Abstract P60).</Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote/>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks/>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+    <Gene>
+      <Name>SMAD4</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>E520*</Name>
+          <AlterationProperties>
+            <AlterationProperty name="E520*" isSubclonal="false" isEquivocal="false" dnaFraction="25.67"/>
+          </AlterationProperties>
+          <Interpretation>SMAD4, also known as DPC4, encodes a tumor suppressor that regulates transcriptional activity downstream of TGF-beta receptor signaling (Massague et al., 2012; 22992590, Massague et al., 2008; 18662538). SMAD4 alterations that result in loss or disruption of the MH1 domain (aa 18-142), MH2 domain (aa 323-552), or SAD domain (aa 275-320) are predicted to be inactivating (Massague et al., 2005; 16322555, Morén et al., 2000; 10980615, Xu and Attisano, 2000; 10781087, Luo et al., 1999; 10485843, Jones and Kern, 2000; 10871368, Fink et al., 2001; 11196171, De Bosscher et al., 2004; 14715079, Shi et al., 1997; 9214508, Miyaki et al., 1999; 10340381, Prokova et al., 2007; 17994767, Wu et al., 2001; 11274206, Ding et al., 2009; 19139564, Kuang et al., 2004; 14647410, Watanabe et al., 2000; 11265759, Bosscher et al., 2004; 14715079). SMAD4 mutation or homozygous deletion is most frequently observed in pancreatic adenocarcinoma (43%)(cBio-Witkiewicz et al., 2015; 25855536), pancreatic acinar cell carcinoma (26%)(Jiao et al., 2014; 24293293), cholangiocarcinoma (25%)(Churi et al., 2014; 25536104), small intestine cancer (20%) (Takeda et al., 2022; ASCO GI Abstract 642), appendiceal adenocarcinoma (14-20% mutation; 57% deletion)(Liu et al., 2014; 24821835, Maru et al., 2004; 14647445), colorectal adenocarcinoma (CRC; 14%)(Cancer Genome Atlas Network., 2012; 22810696), esophageal adenocarcinoma (14%)(Wang et al., 2015; 26336083), and stomach adenocarcinoma (13%)(Cancer Genome Atlas Research Network., 2014; 25079317). In preclinical studies, SMAD4 loss of function has been implicated in the development of mucinous neoplasms of the pancreas, including mucinous cystic neoplasms (MCN)(Izeradjene et al., 2007; 17349581) and intraductal papillary mucinous neoplasms (IPMN)(Bardeesy et al., 2006; 17114584); in clinical samples, SMAD4 homozygous deletion has been observed in 10% of IPMNs and 8% of MCNs, and mutation was also observed in 5% of IPMNs (Springer et al., 2015; 26253305). SMAD4 gene alterations have been associated with reduced OS for patients with pancreatic adenocarcinoma (Blackford et al., 2009; 19584151). Reduced SMAD4 expression has been associated with worse prognosis in various cancer types, including CRC (Yan et al., 2016; 26861460, Kozak et al., 2015; 25681512, Roth et al., 2012; 23104212), appendiceal mucinous neoplasm (Davison et al., 2014; 24618609), gastric adenocarcinoma (Kim et al., 2004; 15033661, Xiangming et al., 2001; 11234879), esophageal adenocarcinoma (Singhi et al., 2015; 25634752), esophageal squamous cell carcinoma (Natsugoe et al., 2002; 12060625), breast cancer (de Kruijf et al., 2013; 23022998), and prostate cancer (Shipitsin et al., 2014; 25032733). There are no targeted therapies available to address genomic alterations in SMAD4. Preclinical studies in colorectal cancer have reported associations of SMAD4 inactivation or loss with sensitivity to inhibitors of Aurora kinase A (Shi et al., 2022; 35393542) and the Wnt/beta-catenin pathway (Park et al., 2022; 35274815). Clinical studies have reported associations of SMAD4 loss or low SMAD4 expression with improved responses to chemotherapeutic agents in patients with pancreatic cancer (Ormanns et al., 2017; 28534865, Fei et al., 2021; 34002944, Bachet et al., 2012; 22377565) and non-small cell lung cancer (NSCLC) (Ziemke et al., 2017; 28577946). Other clinical studies in pancreatic cancer have reported an association of high SMAD4 expression with better responses to neoadjuvant chemotherapy (Kassardjian and Wang, 2020; 32897998) and adjuvant chemoradiotherapy (Pen et al., 2021; 33667587). Germline SMAD4 mutations, including those at the R361 hotspot, have been observed in patients with juvenile polyposis syndrome (Houlston et al., 1998; 9811934, Woodford-Richens et al., 2000; 10764709, Howe et al., 2004; 15235019, Howe et al., 2004; 15235019, Howe et al., 2004; 15235019), which is associated with an increased risk of gastrointestinal cancers (Brosens et al., 2011; 22171123). The penetrance of deleterious SMAD4 mutations in patients with colon cancer is estimated at 20% by age 35 and 70% by age 65 (Kalia et al., 2017; 27854360). In the appropriate clinical context, germline testing of SMAD4 is recommended.</Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote/>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks/>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+    <Gene>
+      <Name>Tumor Mutation Burden</Name>
+      <Include>true</Include>
+      <Alterations>
+        <Alteration>
+          <Name>06</Name>
+          <AlterationProperties>
+            <AlterationProperty name="06" isSubclonal="false" isEquivocal="false"/>
+          </AlterationProperties>
+          <Interpretation>Tumor mutation burden (TMB, also known as mutation load) is a measure of the number of somatic protein-coding base substitution and insertion/deletion mutations occurring in a tumor specimen. TMB is affected by a variety of causes, including exposure to mutagens such as ultraviolet light in melanoma (Pfeifer et al., 2005; 15748635, Hill et al., 2013; 23875803) and cigarette smoke in lung cancer (Pfeifer et al., 2002; 12379884, Rizvi et al., 2015; 25765070), treatment with temozolomide-based chemotherapy in glioma (Johnson et al., 2014; 24336570, Choi et al., 2018; 29452419), mutations in the proofreading domains of DNA polymerases encoded by the POLE and POLD1 genes (Cancer Genome Atlas Research Network, 2013; 23636398, Briggs and Tomlinson, 2013; 23447401, Heitzer and Tomlinson, 2014; 24583393, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919), and microsatellite instability (MSI) (Cancer Genome Atlas Research Network, 2013; 23636398, Cancer Genome Atlas Network, 2012; 22810696, Roberts and Gordenin, 2014; 25568919). This sample harbors a TMB level associated with lower rates of clinical benefit from treatment with PD-1- or PD-L1-targeting immune checkpoint inhibitors compared with patients with tumors harboring higher TMB levels, based on several studies in multiple solid tumor types (Goodman et al., 2017; 28835386, Marabelle et al., 2020; 32919526, Goodman et al., 2019; 31405947). Pancreatic carcinomas, including ductal and acinar subtypes, have been reported to harbor a median TMB of 2-3 mutations per megabase (muts/Mb), and 0-2% of cases have high TMB (&gt;20 muts/Mb)(FMI-Chalmers et al., 2017; 28420421); TMB has not been assessed in pancreatic mucinous neoplasms (PubMed, Oct 2022). A study of patients with pancreatic ductal adenocarcinoma harboring mismatch repair gene mutations reported improved prognosis for patients with high TMB measured in tissue samples (defined as &gt;50 mutations; survival 69-314 months) compared to those with lower TMB (average of 5.7 mutations; 10-42 months) (Hu et al., 2017; ASCO Abstract e15791). On the basis of clinical evidence in solid tumors, increased TMB may be associated with greater sensitivity to immunotherapeutic agents, including anti-PD-L1 (Legrand et al., 2018; ASCO Abstract 12000, Samstein et al., 2019; 30643254, Goodman et al., 2017; 28835386, Goodman et al., 2019; 31405947), anti-PD-1 therapies (Cristescu et al., 2018; 30309915, Goodman et al., 2017; 28835386, Samstein et al., 2019; 30643254, Marabelle et al., 2019; ESMO Abstract 11920, Goodman et al., 2019; 31405947), and combination nivolumab and ipilimumab (Ready et al., 2019; 30785829, Hellmann et al., 2018; 29658845, Hellmann et al., 2018; 29657128, Rizvi et al., 2017; WCLC Abstract 1106, Hellmann et al., 2018; 29731394, Rozeman et al., 2021; 33558721, Hodi et al., 2019; AACR abstract CT037, Lee et al., 2019; ASCO Abstract 641, Sharma et al., 2020; 32916128). In multiple pan-tumor studies, increased tissue tumor mutational burden (TMB) was associated with sensitivity to immune checkpoint inhibitors (Legrand et al., 2018; ASCO Abstract 12000, Cristescu et al., 2018; 30309915, Goodman et al., 2017; 28835386, Samstein et al., 2019; 30643254, Marabelle et al., 2020; 32919526, Goodman et al., 2019; 31405947, Ott et al., 2019; 30557521, Cristescu et al., 2022; 35101941, Friedman et al., 2022; 34876409, Sturgill et al., 2022; 35274716). In the KEYNOTE 158 trial of pembrolizumab monotherapy for patients with solid tumors, significant improvement in ORR was observed for patients with TMB ≥10 Muts/Mb (as measured by this assay) compared with those with TMB &lt;10 Muts/Mb in a large cohort that included multiple tumor types (Marabelle et al., 2020; 32919526); similar findings were observed in the KEYNOTE 028 and 012 trials (Cristescu et al., 2018; 30309915). At the same TMB cutpoint, retrospective analysis of patients with solid tumors treated with any checkpoint inhibitor identified that tissue TMB scores ≥ 10 Muts/Mb were associated with prolonged time to treatment failure compared with scores &lt;10 muts/Mb (HR=0.68) (Sturgill et al., 2022; 35274716). For patients with solid tumors treated with nivolumab plus ipilimumab in the CheckMate 848 trial, improved responses were observed in patients with a tissue TMB ≥ 10 Muts/Mb independent of blood TMB at any cutpoint in matched samples (Schenker at al., 2022; AACR Abstract 7845). However, support for higher TMB thresholds and efficacy was observed in the prospective Phase 2 MyPathway trial of atezolizumab for patients with pan-solid tumors, where improved ORR and DCR was seen in patients with TMB ≥ 16 Muts/Mb than those with TMB ≥ 10 and &lt;16 Muts/Mb (Friedman et al., 2022; 34876409). Similarly, analyses across several solid tumor types reported that patients with higher TMB (defined as ≥16-20 Muts/Mb) achieved greater clinical benefit from PD-1 or PD-L1-targeting monotherapy compared with patients with higher TMB treated with chemotherapy (Legrand et al., 2018; ASCO Abstract 12000) or those with lower TMB treated with PD-1 or PD-L1-targeting agents (Goodman et al., 2017; 28835386). </Interpretation>
+          <Include>true</Include>
+          <ClinicalTrialNote/>
+          <Therapies/>
+          <ReferenceLinks/>
+          <ClinicalTrialLinks/>
+        </Alteration>
+      </Alterations>
+      <ReferenceLinks/>
+    </Gene>
+  </Genes>
+  <Trials>
+    <Trial>
+      <Gene>APC</Gene>
+      <Alteration>E468*T1556fs*3</Alteration>
+      <Title>A Study of E7386 in Combination With Other Anticancer Drug in Participants With Solid Tumor</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>CBP, Beta-catenin, FGFRs, RET, PDGFRA, VEGFRs, KIT</Target>
+      <Locations>Texas, Hidaka (Japan), Kashiwa (Japan), Chiba (Japan), Koto-ku (Japan), Chuo-Ku (Japan), Kawasaki (Japan), Nagoya (Japan), Osakasayama (Japan)</Locations>
+      <NCTID>NCT04008797</NCTID>
+      <Note>Based on preclinical and limited clinical data, APC inactivation may be associated with sensitivity to CBP/beta-catenin interaction inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>APC</Gene>
+      <Alteration>E468*T1556fs*3</Alteration>
+      <Title>Study of E7386 in Participants With Selected Advanced Neoplasms</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>CBP, Beta-catenin</Target>
+      <Locations>Minnesota, Arizona, California, Glasgow (United Kingdom), Manchester (United Kingdom), London (United Kingdom), Sutton (United Kingdom)</Locations>
+      <NCTID>NCT03264664</NCTID>
+      <Note>Based on preclinical and limited clinical data, APC inactivation may be associated with sensitivity to CBP/beta-catenin interaction inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>TAPUR: Testing the Use of Food and Drug Administration (FDA) Approved Drugs That Target a Specific Abnormality in a Tumor Gene in People With Advanced Stage Cancer</Title>
+      <StudyPhase>PHASE 2</StudyPhase>
+      <Target>CDK4, CDK6, FLT3, VEGFRs, CSF1R, KIT, RET, mTOR, ERBB2, MEK, BRAF, PARP, PD-1, CTLA-4, PD-L1, TRKB, ALK, TRKC, ROS1, TRKA, FGFRs</Target>
+      <Locations>North Carolina, South Carolina, Georgia, Florida, Alabama, Tennessee</Locations>
+      <NCTID>NCT02693535</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>Tumor-Agnostic Precision Immuno-Oncology and Somatic Targeting Rational for You (TAPISTRY) Platform Study</Title>
+      <StudyPhase>PHASE 2</StudyPhase>
+      <Target>TRKB, ALK, TRKC, ROS1, TRKA, RET, PD-L1, AKTs, ERBB2, MDM2, PI3K-alpha, RAFs, NRAS</Target>
+      <Locations>Georgia, Florida, Virginia, Ohio, Maryland, Alabama, Tennessee, Pennsylvania</Locations>
+      <NCTID>NCT04589845</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>A Study of SHR-A1811 in Subjects With Advanced Malignant Solid Tumors</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>ERBB2</Target>
+      <Locations>South Carolina, New York, Texas, Shengyang (China), Seoul (Korea, Republic of), Seongnam (Korea, Republic of), Tianjin (China), Zhengzhou (China), Bengbu (China), Nanjing (China)</Locations>
+      <NCTID>NCT04446260</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>A Study of DB-1303 in Advanced/Metastatic Solid Tumors</Title>
+      <StudyPhase>PHASE 1/2</StudyPhase>
+      <Target>ERBB2</Target>
+      <Locations>Georgia, Tennessee, District of Columbia, Ohio, Florida, Louisiana, New York, Massachusetts, Oklahoma</Locations>
+      <NCTID>NCT05150691</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>Strata PATH™ (Precision Indications for Approved Therapies)</Title>
+      <StudyPhase>PHASE 2</StudyPhase>
+      <Target>ERBB2, ROS1, ALK, BRAF, MEK, PARP</Target>
+      <Locations>Tennessee, Florida, Ohio, Delaware, Louisiana</Locations>
+      <NCTID>NCT05097599</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>Testing the Combination of DS-8201a and Olaparib in HER2-Expressing Cancers With Expansion in Patients With Endometrial Cancer</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>ERBB2, PARP</Target>
+      <Locations>Florida, Massachusetts, Minnesota, Arizona</Locations>
+      <NCTID>NCT04585958</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>A Study of Zanidatamab (ZW25) With Evorpacept (ALX148) in Patients With Advanced HER2-expressing Cancer</Title>
+      <StudyPhase>PHASE 1/2</StudyPhase>
+      <Target>ERBB2, CD47</Target>
+      <Locations>Alabama, Pennsylvania, Florida, Ohio, New Jersey, Wisconsin, Missouri, Vermont, Texas, California</Locations>
+      <NCTID>NCT05027139</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>ELVN-002 in HER2 Mutant Non-Small Cell Lung Cancer</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>ERBB2</Target>
+      <Locations>Virginia, Florida, Massachusetts, Colorado, Seoul (Korea, Republic of), Incheon (Korea, Republic of), Paldal-Gu, Suwon-Si (Korea, Republic of), Nedlands (Australia)</Locations>
+      <NCTID>NCT05650879</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>Testing the Safety and Tolerability of the Anti-cancer Drugs Trastuzumab Deruxtecan and Neratinib for Cancers With Changes in the HER2 Gene</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>ERBB2, EGFR, ERBB4</Target>
+      <Locations>Pennsylvania, Missouri, Illinois, Wisconsin, Massachusetts, Texas, California</Locations>
+      <NCTID>NCT05372614</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>ERBB2</Gene>
+      <Alteration>L755SS310Famplification</Alteration>
+      <Title>Niraparib and Neratinib in Advanced Solid Tumors With Expansion Cohort in Advanced Ovarian Cancer</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>PARP, ERBB2, EGFR, ERBB4</Target>
+      <Locations>Virginia</Locations>
+      <NCTID>NCT04502602</NCTID>
+      <Note>ERBB2 amplification or activating mutation may confer sensitivity to HER2-targeted and dual EGFR/HER2-directed therapies, and may enhance efficacy of HSP90 inhibitors. The ERBB2 activating mutation L755S has been associated with resistance to lapatinib and trastuzumab monotherapies. However, it is unclear if ERBB2 L755S confers reduced sensitivity to trastuzumab in combination with other therapies, such as tucatinib, lapatinib, pertuzumab, or pembrolizumab.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>FBXW7</Gene>
+      <Alteration>R465C</Alteration>
+      <Title>COAST Therapy in Advanced Solid Tumors and Prostate Cancer</Title>
+      <StudyPhase>PHASE 1/2</StudyPhase>
+      <Target>DDR2, ABL, SRC, KIT, mTOR</Target>
+      <Locations>South Carolina</Locations>
+      <NCTID>NCT05036226</NCTID>
+      <Note>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>FBXW7</Gene>
+      <Alteration>R465C</Alteration>
+      <Title>Canadian Profiling and Targeted Agent Utilization Trial (CAPTUR)</Title>
+      <StudyPhase>PHASE 2</StudyPhase>
+      <Target>VEGFRs, ABL, SRC, ALK, ROS1, AXL, TRKA, MET, TRKC, DDR2, KIT, EGFR, PD-1, CTLA-4, PARP, CDK4, CDK6, FLT3, CSF1R, RET, mTOR, ERBB2, MEK, BRAF, SMO</Target>
+      <Locations>London (Canada), Toronto (Canada), Kingston (Canada), Ottawa (Canada), Montreal (Canada), Regina (Canada), Saskatoon (Canada), Edmonton (Canada), Kelowna (Canada), Vancouver (Canada)</Locations>
+      <NCTID>NCT03297606</NCTID>
+      <Note>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>FBXW7</Gene>
+      <Alteration>R465C</Alteration>
+      <Title>Combination Chemotherapy and Bevacizumab With the NovoTTF-100L(P) System in Treating Participants With Advanced, Recurrent, or Refractory Hepatic Metastatic Cancer</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>VEGFA, mTOR</Target>
+      <Locations>Texas</Locations>
+      <NCTID>NCT03203525</NCTID>
+      <Note>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>FBXW7</Gene>
+      <Alteration>R465C</Alteration>
+      <Title>Efficacy and Safety of Targeted Precision Therapy in Refractory Tumor With Druggable Molecular Event</Title>
+      <StudyPhase>PHASE 2</StudyPhase>
+      <Target>EGFR, ERBB4, ERBB2, PARP, mTOR, MET, ROS1, RET, VEGFRs, BRAF, CDK4, CDK6</Target>
+      <Locations>Shanghai (China)</Locations>
+      <NCTID>NCT03239015</NCTID>
+      <Note>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>FBXW7</Gene>
+      <Alteration>R465C</Alteration>
+      <Title>Trametinib Combined With Everolimus and Lenvatinib for Recurrent/Refractory Advanced Solid Tumors</Title>
+      <StudyPhase>PHASE 2</StudyPhase>
+      <Target>mTOR, FGFRs, RET, PDGFRA, VEGFRs, KIT, MEK</Target>
+      <Locations>Guangzhou (China)</Locations>
+      <NCTID>NCT04803318</NCTID>
+      <Note>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+    <Trial>
+      <Gene>FBXW7</Gene>
+      <Alteration>R465C</Alteration>
+      <Title>A Study of Sirolimus for Injection (Albumin Bound) in Patients With Advanced Solid Tumors</Title>
+      <StudyPhase>PHASE 1</StudyPhase>
+      <Target>mTOR</Target>
+      <Locations>Tianjin (China)</Locations>
+      <NCTID>NCT05125523</NCTID>
+      <Note>Loss or inactivation of FBXW7 may lead to increased mTOR activation and may predict sensitivity to mTOR inhibitors.</Note>
+      <Include>true</Include>
+    </Trial>
+  </Trials>
+  <References>
+    <Reference number="0">
+      <ReferenceId>15473860</ReferenceId>
+      <FullCitation>Logan CY, et al. Annu. Rev. Cell Dev. Biol. (2004) pmid: 15473860</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="1">
+      <ReferenceId>11707392</ReferenceId>
+      <FullCitation>Eklof Spink K, et al. EMBO J. (2001) pmid: 11707392</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="2">
+      <ReferenceId>16753179</ReferenceId>
+      <FullCitation>Liu J, et al. J. Mol. Biol. (2006) pmid: 16753179</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="3">
+      <ReferenceId>20144988</ReferenceId>
+      <FullCitation>Dikovskaya D, et al. J. Cell. Sci. (2010) pmid: 20144988</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="4">
+      <ReferenceId>17410430</ReferenceId>
+      <FullCitation>Murphy SJ, et al. Dig. Dis. Sci. (2007) pmid: 17410430</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="5">
+      <ReferenceId>15459959</ReferenceId>
+      <FullCitation>Aretz S, et al. Hum. Mutat. (2004) pmid: 15459959</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="6">
+      <ReferenceId>22180306</ReferenceId>
+      <FullCitation>Borger DR, et al. Oncologist (2012) pmid: 22180306</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="7">
+      <ReferenceId>7927902</ReferenceId>
+      <FullCitation>Yashima K, et al. Int. J. Cancer (1994) pmid: 7927902</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="8">
+      <ReferenceId>18677542</ReferenceId>
+      <FullCitation>Franko J, et al. J. Gastrointest. Surg. (2008) pmid: 18677542</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="9">
+      <ReferenceId>23135349</ReferenceId>
+      <FullCitation>Ginestà MM, et al. J. Clin. Pathol. (2013) pmid: 23135349</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="10">
+      <ReferenceId>16756720</ReferenceId>
+      <FullCitation>Zeng G, et al. Neoplasia (2006) pmid: 16756720</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="11">
+      <ReferenceId>17982507</ReferenceId>
+      <FullCitation>Pasca di Magliano M, et al. PLoS ONE (2007) pmid: 17982507</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="12">
+      <ReferenceId>22155636</ReferenceId>
+      <FullCitation>White BD, et al. Gastroenterology (2012) pmid: 22155636</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="13">
+      <ReferenceId>30635339</ReferenceId>
+      <FullCitation>Luke JJ, et al. Clin Cancer Res (2019) pmid: 30635339</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="14">
+      <ReferenceId>27617575</ReferenceId>
+      <FullCitation>Zhan T, et al. Oncogene (2017) pmid: 27617575</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="15">
+      <ReferenceId>32037398</ReferenceId>
+      <FullCitation>Jung YS, et al. Exp Mol Med (2020) pmid: 32037398</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="16">
+      <ReferenceId>29169144</ReferenceId>
+      <FullCitation>Krishnamurthy N, et al. Cancer Treat Rev (2018) pmid: 29169144</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="17">
+      <ReferenceId>33408116</ReferenceId>
+      <FullCitation>Yamada K, et al. Cancer Res (2021) pmid: 33408116</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="18">
+      <ReferenceId>34837838</ReferenceId>
+      <FullCitation>Kanda Y, et al. Biochem Biophys Res Commun (2022) pmid: 34837838</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="19">
+      <ReferenceId>29165669</ReferenceId>
+      <FullCitation>Landrum MJ, et al. Nucleic Acids Res. (2018) pmid: 29165669</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="20">
+      <ReferenceId>23159591</ReferenceId>
+      <FullCitation>Kerr SE, et al. J Mol Diagn (2013) pmid: 23159591</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="21">
+      <ReferenceId>21090969</ReferenceId>
+      <FullCitation>Annu Rev Pathol (2011) pmid: 21090969</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="22">
+      <ReferenceId>18844223</ReferenceId>
+      <FullCitation>Kastritis E, et al. Int. J. Cancer (2009) pmid: 18844223</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="23">
+      <ReferenceId>19822006</ReferenceId>
+      <FullCitation>Half E, et al. Orphanet J Rare Dis (2009) pmid: 19822006</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="24">
+      <ReferenceId>18094723</ReferenceId>
+      <FullCitation>Welcker M, et al. Nat. Rev. Cancer (2008) pmid: 18094723</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="25">
+      <ReferenceId>17909001</ReferenceId>
+      <FullCitation>Akhoondi S, et al. Cancer Res. (2007) pmid: 17909001</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="26">
+      <ReferenceId>24298052</ReferenceId>
+      <FullCitation>Welcker M, et al. Genes Dev. (2013) pmid: 24298052</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="27">
+      <ReferenceId>17298674</ReferenceId>
+      <FullCitation>Welcker M, et al. Cell Div (2007) pmid: 17298674</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="28">
+      <ReferenceId>11565034</ReferenceId>
+      <FullCitation>Strohmaier H, et al. Nature (2001) pmid: 11565034</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="29">
+      <ReferenceId>21070969</ReferenceId>
+      <FullCitation>Pashkova N, et al. Mol. Cell (2010) pmid: 21070969</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="30">
+      <ReferenceId>17646409</ReferenceId>
+      <FullCitation>O'Neil J, et al. J. Exp. Med. (2007) pmid: 17646409</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="31">
+      <ReferenceId>23228967</ReferenceId>
+      <FullCitation>Malyukova A, et al. Leukemia (2013) pmid: 23228967</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="32">
+      <ReferenceId>17646408</ReferenceId>
+      <FullCitation>Thompson BJ, et al. J. Exp. Med. (2007) pmid: 17646408</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="33">
+      <ReferenceId>25855536</ReferenceId>
+      <FullCitation>Witkiewicz AK, et al. Nat Commun (2015) pmid: 25855536</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="34">
+      <ReferenceId>23103869</ReferenceId>
+      <FullCitation>Biankin AV, et al. Nature (2012) pmid: 23103869</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="35">
+      <ReferenceId>22548670</ReferenceId>
+      <FullCitation>Tu K, et al. Hepatol. Res. (2012) pmid: 22548670</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="36">
+      <ReferenceId>19739118</ReferenceId>
+      <FullCitation>Iwatsuki M, et al. Int. J. Cancer (2010) pmid: 19739118</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="37">
+      <ReferenceId>22576686</ReferenceId>
+      <FullCitation>Yokobori T, et al. Int. J. Oncol. (2012) pmid: 22576686</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="38">
+      <ReferenceId>19366810</ReferenceId>
+      <FullCitation>Yokobori T, et al. Cancer Res. (2009) pmid: 19366810</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="39">
+      <ReferenceId>24165483</ReferenceId>
+      <FullCitation>Yokobori T, et al. Mol. Cancer Res. (2014) pmid: 24165483</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="40">
+      <ReferenceId>14999283</ReferenceId>
+      <FullCitation>Rajagopalan H, et al. Nature (2004) pmid: 14999283</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="41">
+      <ReferenceId>23381582</ReferenceId>
+      <FullCitation>Cheng Y, et al. J. Invest. Dermatol. (2013) pmid: 23381582</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="42">
+      <ReferenceId>26954701</ReferenceId>
+      <FullCitation>Xu Y, et al. Biomarkers (2016) pmid: 26954701</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="43">
+      <ReferenceId>25622249</ReferenceId>
+      <FullCitation>Li Z, et al. Int J Mol Sci (2015) pmid: 25622249</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="44">
+      <ReferenceId>18787170</ReferenceId>
+      <FullCitation>Mao JH, et al. Science (2008) pmid: 18787170</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="45">
+      <ReferenceId>25749036</ReferenceId>
+      <FullCitation>Yang H, et al. Oncotarget (2015) pmid: 25749036</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="46">
+      <ReferenceId>21965336</ReferenceId>
+      <FullCitation>Higgins MJ, et al. J. Clin. Invest. (2011) pmid: 21965336</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="47">
+      <ReferenceId>22046346</ReferenceId>
+      <FullCitation>Kancha RK, et al. PLoS ONE (2011) pmid: 22046346</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="48">
+      <ReferenceId>18413839</ReferenceId>
+      <FullCitation>Trowe T, et al. Clin. Cancer Res. (2008) pmid: 18413839</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="49">
+      <ReferenceId>26243863</ReferenceId>
+      <FullCitation>Kavuri SM, et al. Cancer Discov (2015) pmid: 26243863</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="50">
+      <ReferenceId>27626067</ReferenceId>
+      <FullCitation>Aung KL, et al. Cold Spring Harb Mol Case Stud (2016) pmid: 27626067</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="51">
+      <ReferenceId>27697991</ReferenceId>
+      <FullCitation>Zuo WJ, et al. Clin. Cancer Res. (2016) pmid: 27697991</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="52">
+      <ReferenceId>26001389</ReferenceId>
+      <FullCitation>Kloth M, et al. Gut (2016) pmid: 26001389</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="53">
+      <ReferenceId>23220880</ReferenceId>
+      <FullCitation>Bose R, et al. Cancer Discov (2013) pmid: 23220880</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="54">
+      <ReferenceId>30301790</ReferenceId>
+      <FullCitation>Cocco E, et al. Sci Signal (2018) pmid: 30301790</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="55">
+      <ReferenceId>28487443</ReferenceId>
+      <FullCitation>Xu X, et al. Clin. Cancer Res. (2017) pmid: 28487443</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="56">
+      <ReferenceId>26358790</ReferenceId>
+      <FullCitation>Ben-Baruch NE, et al. J Natl Compr Canc Netw (2015) pmid: 26358790</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="57">
+      <ReferenceId>28679771</ReferenceId>
+      <FullCitation>Ma CX, et al. Clin. Cancer Res. (2017) pmid: 28679771</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="58">
+      <ReferenceId>22908275</ReferenceId>
+      <FullCitation>Greulich H, et al. Proc. Natl. Acad. Sci. U.S.A. (2012) pmid: 22908275</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="59">
+      <ReferenceId>17177598</ReferenceId>
+      <FullCitation>Lee JC, et al. PLoS Med. (2006) pmid: 17177598</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="60">
+      <ReferenceId>26358791</ReferenceId>
+      <FullCitation>Chumsri S, et al. J Natl Compr Canc Netw (2015) pmid: 26358791</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="61">
+      <ReferenceId>24516025</ReferenceId>
+      <FullCitation>Ali SM, et al. J. Clin. Oncol. (2014) pmid: 24516025</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="62">
+      <ReferenceId>24835218</ReferenceId>
+      <FullCitation>Jia Y, et al. Cancer Biol. Ther. (2014) pmid: 24835218</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="63">
+      <ReferenceId>22588877</ReferenceId>
+      <FullCitation>Cerami E, et al. Cancer Discov (2012) pmid: 22588877</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="64">
+      <ReferenceId>23550210</ReferenceId>
+      <FullCitation>Gao J, et al. Sci Signal (2013) pmid: 23550210</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="65">
+      <ReferenceId>26909576</ReferenceId>
+      <FullCitation>Bailey P, et al. Nature (2016) pmid: 26909576</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="66">
+      <ReferenceId>22374460</ReferenceId>
+      <FullCitation>Harder J, et al. Br. J. Cancer (2012) pmid: 22374460</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="67">
+      <ReferenceId>19432892</ReferenceId>
+      <FullCitation>Komoto M, et al. Cancer Sci. (2009) pmid: 19432892</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="68">
+      <ReferenceId>11586103</ReferenceId>
+      <FullCitation>Safran H, et al. Am. J. Clin. Oncol. (2001) pmid: 11586103</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="69">
+      <ReferenceId>16685109</ReferenceId>
+      <FullCitation>Tsiambas E, et al. JOP (2006) pmid: 16685109</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="70">
+      <ReferenceId>18463983</ReferenceId>
+      <FullCitation>Sharif S, et al. Dig. Dis. Sci. (2008) pmid: 18463983</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="71">
+      <ReferenceId>11248153</ReferenceId>
+      <FullCitation>Slamon DJ, et al. N. Engl. J. Med. (2001) pmid: 11248153</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="72">
+      <ReferenceId>20728210</ReferenceId>
+      <FullCitation>Bang YJ, et al. Lancet (2010) pmid: 20728210</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="73">
+      <ReferenceId>16775247</ReferenceId>
+      <FullCitation>Cappuzzo F, et al. N. Engl. J. Med. (2006) pmid: 16775247</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="74">
+      <ReferenceId>23328556</ReferenceId>
+      <FullCitation>Falchook GS, et al. J Thorac Oncol (2013) pmid: 23328556</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="75">
+      <ReferenceId>23610105</ReferenceId>
+      <FullCitation>Mazières J, et al. J. Clin. Oncol. (2013) pmid: 23610105</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="76">
+      <ReferenceId>22149875</ReferenceId>
+      <FullCitation>Baselga J, et al. N. Engl. J. Med. (2012) pmid: 22149875</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="77">
+      <ReferenceId>25693012</ReferenceId>
+      <FullCitation>Swain SM, et al. N. Engl. J. Med. (2015) pmid: 25693012</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="78">
+      <ReferenceId>30857956</ReferenceId>
+      <FullCitation>Meric-Bernstam F, et al. Lancet Oncol. (2019) pmid: 30857956</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="79">
+      <ReferenceId>36400106</ReferenceId>
+      <FullCitation>Meric-Bernstam F, et al. Lancet Oncol (2022) pmid: 36400106</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="80">
+      <ReferenceId>23020162</ReferenceId>
+      <FullCitation>Verma S, et al. N. Engl. J. Med. (2012) pmid: 23020162</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="81">
+      <ReferenceId>31825192</ReferenceId>
+      <FullCitation>Modi S, et al. N. Engl. J. Med. (2019) pmid: 31825192</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="82">
+      <ReferenceId>32469182</ReferenceId>
+      <FullCitation>Shitara K, et al. N. Engl. J. Med. (2020) pmid: 32469182</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="83">
+      <ReferenceId>34534430</ReferenceId>
+      <FullCitation>Li BT, et al. N Engl J Med (2021) pmid: 34534430</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="84">
+      <ReferenceId>31825569</ReferenceId>
+      <FullCitation>Murthy RK, et al. N. Engl. J. Med. (2020) pmid: 31825569</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="85">
+      <ReferenceId>29955792</ReferenceId>
+      <FullCitation>Borges VF, et al. JAMA Oncol (2018) pmid: 29955792</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="86">
+      <ReferenceId>29804905</ReferenceId>
+      <FullCitation>Murthy R, et al. Lancet Oncol. (2018) pmid: 29804905</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="87">
+      <ReferenceId>28053022</ReferenceId>
+      <FullCitation>Moulder SL, et al. Clin. Cancer Res. (2017) pmid: 28053022</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="88">
+      <ReferenceId>32478891</ReferenceId>
+      <FullCitation>Fan Y, et al. Mol Oncol (2020) pmid: 32478891</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="89">
+      <ReferenceId>20736298</ReferenceId>
+      <FullCitation>Cameron D, et al. Oncologist (2010) pmid: 20736298</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="90">
+      <ReferenceId>17192538</ReferenceId>
+      <FullCitation>Geyer CE, et al. N. Engl. J. Med. (2006) pmid: 17192538</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="91">
+      <ReferenceId>23950206</ReferenceId>
+      <FullCitation>Serra V, et al. Cancer Discov (2013) pmid: 23950206</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="92">
+      <ReferenceId>26487584</ReferenceId>
+      <FullCitation>Grellety T, et al. Ann. Oncol. (2016) pmid: 26487584</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="93">
+      <ReferenceId>25085898</ReferenceId>
+      <FullCitation>Vornicova O, et al. Oncologist (2014) pmid: 25085898</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="94">
+      <ReferenceId>32017710</ReferenceId>
+      <FullCitation>Ronellenfitsch MW, et al. J Clin Invest (2020) pmid: 32017710</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="95">
+      <ReferenceId>32405522</ReferenceId>
+      <FullCitation>Hou JY, et al. Gynecol Oncol Rep (2020) pmid: 32405522</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="96">
+      <ReferenceId>22418700</ReferenceId>
+      <FullCitation>Lin NU, et al. Breast Cancer Res. Treat. (2012) pmid: 22418700</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="97">
+      <ReferenceId>25268372</ReferenceId>
+      <FullCitation>Schwab CL, et al. Br. J. Cancer (2014) pmid: 25268372</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="98">
+      <ReferenceId>25682316</ReferenceId>
+      <FullCitation>De Grève J, et al. Lung Cancer (2015) pmid: 25682316</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="99">
+      <ReferenceId>22325357</ReferenceId>
+      <FullCitation>De Grève J, et al. Lung Cancer (2012) pmid: 22325357</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="100">
+      <ReferenceId>26559459</ReferenceId>
+      <FullCitation>Li BT, et al. Lung Cancer (2015) pmid: 26559459</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="101">
+      <ReferenceId>30825613</ReferenceId>
+      <FullCitation>Dziadziuszko R, et al. J Thorac Oncol (2019) pmid: 30825613</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="102">
+      <ReferenceId>30685684</ReferenceId>
+      <FullCitation>Lai WV, et al. Eur. J. Cancer (2019) pmid: 30685684</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="103">
+      <ReferenceId>30425522</ReferenceId>
+      <FullCitation>Liu Z, et al. Onco Targets Ther (2018) pmid: 30425522</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="104">
+      <ReferenceId>31748336</ReferenceId>
+      <FullCitation>Fang W, et al. Oncologist (2019) pmid: 31748336</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="105">
+      <ReferenceId>32477948</ReferenceId>
+      <FullCitation>Yuan B, et al. Front Oncol (2020) pmid: 32477948</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="106">
+      <ReferenceId>29420467</ReferenceId>
+      <FullCitation>Hyman DM, et al. Nature (2018) pmid: 29420467</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="107">
+      <ReferenceId>31806627</ReferenceId>
+      <FullCitation>Smyth LM, et al. Cancer Discov (2019) pmid: 31806627</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="108">
+      <ReferenceId>25899785</ReferenceId>
+      <FullCitation>Kris MG, et al. Ann. Oncol. (2015) pmid: 25899785</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="109">
+      <ReferenceId>30596880</ReferenceId>
+      <FullCitation>Wang Y, et al. Ann. Oncol. (2019) pmid: 30596880</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="110">
+      <ReferenceId>25620423</ReferenceId>
+      <FullCitation>Yang B, et al. J Mol Model (2015) pmid: 25620423</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="111">
+      <ReferenceId>22992590</ReferenceId>
+      <FullCitation>Nat. Rev. Mol. Cell Biol. (2012) pmid: 22992590</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="112">
+      <ReferenceId>18662538</ReferenceId>
+      <FullCitation>Cell (2008) pmid: 18662538</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="113">
+      <ReferenceId>16322555</ReferenceId>
+      <FullCitation>Massagué J, et al. Genes Dev. (2005) pmid: 16322555</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="114">
+      <ReferenceId>10980615</ReferenceId>
+      <FullCitation>Morén A, et al. Oncogene (2000) pmid: 10980615</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="115">
+      <ReferenceId>10781087</ReferenceId>
+      <FullCitation>Xu J, et al. Proc. Natl. Acad. Sci. U.S.A. (2000) pmid: 10781087</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="116">
+      <ReferenceId>10485843</ReferenceId>
+      <FullCitation>Luo K, et al. Genes Dev. (1999) pmid: 10485843</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="117">
+      <ReferenceId>10871368</ReferenceId>
+      <FullCitation>Jones JB, et al. Nucleic Acids Res. (2000) pmid: 10871368</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="118">
+      <ReferenceId>11196171</ReferenceId>
+      <FullCitation>Fink SP, et al. Cancer Res. (2001) pmid: 11196171</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="119">
+      <ReferenceId>14715079</ReferenceId>
+      <FullCitation>De Bosscher K, et al. Biochem. J. (2004) pmid: 14715079</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="120">
+      <ReferenceId>9214508</ReferenceId>
+      <FullCitation>Shi Y, et al. Nature (1997) pmid: 9214508</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="121">
+      <ReferenceId>10340381</ReferenceId>
+      <FullCitation>Miyaki M, et al. Oncogene (1999) pmid: 10340381</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="122">
+      <ReferenceId>17994767</ReferenceId>
+      <FullCitation>Prokova V, et al. Biochemistry (2007) pmid: 17994767</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="123">
+      <ReferenceId>11274206</ReferenceId>
+      <FullCitation>Wu JW, et al. J. Biol. Chem. (2001) pmid: 11274206</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="124">
+      <ReferenceId>19139564</ReferenceId>
+      <FullCitation>Ding L, et al. J. Clin. Invest. (2009) pmid: 19139564</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="125">
+      <ReferenceId>14647410</ReferenceId>
+      <FullCitation>Kuang C, et al. Oncogene (2004) pmid: 14647410</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="126">
+      <ReferenceId>11265759</ReferenceId>
+      <FullCitation>Watanabe M, et al. EMBO Rep. (2000) pmid: 11265759</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="127">
+      <ReferenceId>24293293</ReferenceId>
+      <FullCitation>Jiao Y, et al. J. Pathol. (2014) pmid: 24293293</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="128">
+      <ReferenceId>25536104</ReferenceId>
+      <FullCitation>Churi CR, et al. PLoS ONE (2014) pmid: 25536104</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="129">
+      <ReferenceId>24821835</ReferenceId>
+      <FullCitation>Liu X, et al. Clin. Chem. (2014) pmid: 24821835</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="130">
+      <ReferenceId>14647445</ReferenceId>
+      <FullCitation>Maru D, et al. Oncogene (2004) pmid: 14647445</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="131">
+      <ReferenceId>22810696</ReferenceId>
+      <FullCitation>Nature (2012) pmid: 22810696</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="132">
+      <ReferenceId>26336083</ReferenceId>
+      <FullCitation>Wang K, et al. Oncologist (2015) pmid: 26336083</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="133">
+      <ReferenceId>25079317</ReferenceId>
+      <FullCitation>Nature (2014) pmid: 25079317</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="134">
+      <ReferenceId>17349581</ReferenceId>
+      <FullCitation>Izeradjene K, et al. Cancer Cell (2007) pmid: 17349581</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="135">
+      <ReferenceId>17114584</ReferenceId>
+      <FullCitation>Bardeesy N, et al. Genes Dev. (2006) pmid: 17114584</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="136">
+      <ReferenceId>26253305</ReferenceId>
+      <FullCitation>Springer S, et al. Gastroenterology (2015) pmid: 26253305</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="137">
+      <ReferenceId>19584151</ReferenceId>
+      <FullCitation>Blackford A, et al. Clin. Cancer Res. (2009) pmid: 19584151</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="138">
+      <ReferenceId>26861460</ReferenceId>
+      <FullCitation>Yan P, et al. Clin. Cancer Res. (2016) pmid: 26861460</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="139">
+      <ReferenceId>25681512</ReferenceId>
+      <FullCitation>Kozak MM, et al. J. Clin. Pathol. (2015) pmid: 25681512</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="140">
+      <ReferenceId>23104212</ReferenceId>
+      <FullCitation>Roth AD, et al. J. Natl. Cancer Inst. (2012) pmid: 23104212</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="141">
+      <ReferenceId>24618609</ReferenceId>
+      <FullCitation>Davison JM, et al. Am. J. Surg. Pathol. (2014) pmid: 24618609</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="142">
+      <ReferenceId>15033661</ReferenceId>
+      <FullCitation>Kim YH, et al. Ann. Oncol. (2004) pmid: 15033661</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="143">
+      <ReferenceId>11234879</ReferenceId>
+      <FullCitation>Xiangming C, et al. Clin. Cancer Res. (2001) pmid: 11234879</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="144">
+      <ReferenceId>25634752</ReferenceId>
+      <FullCitation>Singhi AD, et al. Am. J. Surg. Pathol. (2015) pmid: 25634752</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="145">
+      <ReferenceId>12060625</ReferenceId>
+      <FullCitation>Natsugoe S, et al. Clin. Cancer Res. (2002) pmid: 12060625</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="146">
+      <ReferenceId>23022998</ReferenceId>
+      <FullCitation>de Kruijf EM, et al. Ann. Oncol. (2013) pmid: 23022998</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="147">
+      <ReferenceId>25032733</ReferenceId>
+      <FullCitation>Shipitsin M, et al. Br. J. Cancer (2014) pmid: 25032733</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="148">
+      <ReferenceId>35393542</ReferenceId>
+      <FullCitation>Shi C, et al. Oncogene (2022) pmid: 35393542</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="149">
+      <ReferenceId>35274815</ReferenceId>
+      <FullCitation>Park JW, et al. Cancer Med (2022) pmid: 35274815</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="150">
+      <ReferenceId>28534865</ReferenceId>
+      <FullCitation>Ormanns S, et al. Int J Mol Sci (2017) pmid: 28534865</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="151">
+      <ReferenceId>34002944</ReferenceId>
+      <FullCitation>Fei N, et al. Clin Transl Sci (2021) pmid: 34002944</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="152">
+      <ReferenceId>22377565</ReferenceId>
+      <FullCitation>Bachet JB, et al. Ann. Oncol. (2012) pmid: 22377565</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="153">
+      <ReferenceId>28577946</ReferenceId>
+      <FullCitation>Ziemke M, et al. Lung Cancer (2017) pmid: 28577946</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="154">
+      <ReferenceId>32897998</ReferenceId>
+      <FullCitation>Kassardjian A, et al. Pancreas (2020) pmid: 32897998</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="155">
+      <ReferenceId>33667587</ReferenceId>
+      <FullCitation>Pen SL, et al. Radiother Oncol (2021) pmid: 33667587</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="156">
+      <ReferenceId>9811934</ReferenceId>
+      <FullCitation>Houlston R, et al. Hum. Mol. Genet. (1998) pmid: 9811934</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="157">
+      <ReferenceId>10764709</ReferenceId>
+      <FullCitation>Woodford-Richens K, et al. Gut (2000) pmid: 10764709</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="158">
+      <ReferenceId>15235019</ReferenceId>
+      <FullCitation>Howe JR, et al. J. Med. Genet. (2004) pmid: 15235019</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="159">
+      <ReferenceId>22171123</ReferenceId>
+      <FullCitation>Brosens LA, et al. World J. Gastroenterol. (2011) pmid: 22171123</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="160">
+      <ReferenceId>27854360</ReferenceId>
+      <FullCitation>Kalia SS, et al. Genet. Med. (2017) pmid: 27854360</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="161">
+      <ReferenceId>15748635</ReferenceId>
+      <FullCitation>Pfeifer GP, et al. Mutat. Res. (2005) pmid: 15748635</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="162">
+      <ReferenceId>23875803</ReferenceId>
+      <FullCitation>Hill VK, et al. Annu Rev Genomics Hum Genet (2013) pmid: 23875803</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="163">
+      <ReferenceId>12379884</ReferenceId>
+      <FullCitation>Pfeifer GP, et al. Oncogene (2002) pmid: 12379884</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="164">
+      <ReferenceId>25765070</ReferenceId>
+      <FullCitation>Rizvi NA, et al. Science (2015) pmid: 25765070</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="165">
+      <ReferenceId>24336570</ReferenceId>
+      <FullCitation>Johnson BE, et al. Science (2014) pmid: 24336570</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="166">
+      <ReferenceId>29452419</ReferenceId>
+      <FullCitation>Choi S, et al. Neuro-oncology (2018) pmid: 29452419</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="167">
+      <ReferenceId>23636398</ReferenceId>
+      <FullCitation>Cancer Genome Atlas Research Network, et al. Nature (2013) pmid: 23636398</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="168">
+      <ReferenceId>23447401</ReferenceId>
+      <FullCitation>Briggs S, et al. J. Pathol. (2013) pmid: 23447401</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="169">
+      <ReferenceId>24583393</ReferenceId>
+      <FullCitation>Heitzer E, et al. Curr. Opin. Genet. Dev. (2014) pmid: 24583393</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="170">
+      <ReferenceId>25568919</ReferenceId>
+      <FullCitation>Roberts SA, et al. Nat. Rev. Cancer (2014) pmid: 25568919</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="171">
+      <ReferenceId>28835386</ReferenceId>
+      <FullCitation>Goodman AM, et al. Mol. Cancer Ther. (2017) pmid: 28835386</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="172">
+      <ReferenceId>32919526</ReferenceId>
+      <FullCitation>Marabelle A, et al. Lancet Oncol. (2020) pmid: 32919526</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="173">
+      <ReferenceId>31405947</ReferenceId>
+      <FullCitation>Goodman AM, et al. Cancer Immunol Res (2019) pmid: 31405947</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="174">
+      <ReferenceId>28420421</ReferenceId>
+      <FullCitation>Chalmers ZR, et al. Genome Med (2017) pmid: 28420421</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="175">
+      <ReferenceId>30643254</ReferenceId>
+      <FullCitation>Samstein RM, et al. Nat. Genet. (2019) pmid: 30643254</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="176">
+      <ReferenceId>30309915</ReferenceId>
+      <FullCitation>Cristescu R, et al. Science (2018) pmid: 30309915</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="177">
+      <ReferenceId>30785829</ReferenceId>
+      <FullCitation>Ready N, et al. J. Clin. Oncol. (2019) pmid: 30785829</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="178">
+      <ReferenceId>29658845</ReferenceId>
+      <FullCitation>Hellmann MD, et al. N. Engl. J. Med. (2018) pmid: 29658845</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="179">
+      <ReferenceId>29657128</ReferenceId>
+      <FullCitation>Hellmann MD, et al. Cancer Cell (2018) pmid: 29657128</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="180">
+      <ReferenceId>29731394</ReferenceId>
+      <FullCitation>Hellmann MD, et al. Cancer Cell (2018) pmid: 29731394</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="181">
+      <ReferenceId>33558721</ReferenceId>
+      <FullCitation>Rozeman EA, et al. Nat Med (2021) pmid: 33558721</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="182">
+      <ReferenceId>32916128</ReferenceId>
+      <FullCitation>Sharma P, et al. Cancer Cell (2020) pmid: 32916128</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="183">
+      <ReferenceId>30557521</ReferenceId>
+      <FullCitation>Ott PA, et al. J. Clin. Oncol. (2019) pmid: 30557521</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="184">
+      <ReferenceId>35101941</ReferenceId>
+      <FullCitation>Cristescu R, et al. J Immunother Cancer (2022) pmid: 35101941</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="185">
+      <ReferenceId>34876409</ReferenceId>
+      <FullCitation>Friedman CF, et al. Cancer Discov (2022) pmid: 34876409</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="186">
+      <ReferenceId>35274716</ReferenceId>
+      <FullCitation>Sturgill EG, et al. Oncologist (2022) pmid: 35274716</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="187">
+      <ReferenceId>21779441</ReferenceId>
+      <FullCitation>Zheng R, et al. Genes Cancer (2010) pmid: 21779441</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="188">
+      <ReferenceId>18769116</ReferenceId>
+      <FullCitation>Fu B, et al. Cancer Biol. Ther. (2008) pmid: 18769116</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="189">
+      <ReferenceId>18535672</ReferenceId>
+      <FullCitation>Kwei KA, et al. PLoS Genet. (2008) pmid: 18535672</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="190">
+      <ReferenceId>32816949</ReferenceId>
+      <FullCitation>Wang Y, et al. Clin Cancer Res (2020) pmid: 32816949</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="191">
+      <ReferenceId>21460848</ReferenceId>
+      <FullCitation>Collisson EA, et al. Nat Med (2011) pmid: 21460848</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="192">
+      <ReferenceId>27325420</ReferenceId>
+      <FullCitation>Martinelli P, et al. Gut (2017) pmid: 27325420</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="193">
+      <ReferenceId>32156747</ReferenceId>
+      <FullCitation>O'Kane GM, et al. Clin Cancer Res (2020) pmid: 32156747</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="194">
+      <ReferenceId>34294813</ReferenceId>
+      <FullCitation>Duan K, et al. Sci Rep (2021) pmid: 34294813</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="195">
+      <ReferenceId>26337942</ReferenceId>
+      <FullCitation>Kocarnik JM, et al. Gastroenterol Rep (Oxf) (2015) pmid: 26337942</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="196">
+      <ReferenceId>21081928</ReferenceId>
+      <FullCitation>You JF, et al. Br. J. Cancer (2010) pmid: 21081928</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="197">
+      <ReferenceId>24623249</ReferenceId>
+      <FullCitation>Bairwa NK, et al. Methods Mol. Biol. (2014) pmid: 24623249</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="198">
+      <ReferenceId>9823339</ReferenceId>
+      <FullCitation>Boland CR, et al. Cancer Res. (1998) pmid: 9823339</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="199">
+      <ReferenceId>15528785</ReferenceId>
+      <FullCitation>Pawlik TM, et al. Dis. Markers (2004) pmid: 15528785</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="200">
+      <ReferenceId>20420947</ReferenceId>
+      <FullCitation>Boland CR, et al. Gastroenterology (2010) pmid: 20420947</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="201">
+      <ReferenceId>29367431</ReferenceId>
+      <FullCitation>Hu ZI, et al. Clin. Cancer Res. (2018) pmid: 29367431</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="202">
+      <ReferenceId>29056344</ReferenceId>
+      <FullCitation>Campbell BB, et al. Cell (2017) pmid: 29056344</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="203">
+      <ReferenceId>29329208</ReferenceId>
+      <FullCitation>Pihlak R, et al. Cancers (Basel) (2018) pmid: 29329208</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="204">
+      <ReferenceId>29523759</ReferenceId>
+      <FullCitation>Salem ME, et al. Mol. Cancer Res. (2018) pmid: 29523759</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="205">
+      <ReferenceId>23029359</ReferenceId>
+      <FullCitation>Laghi L, et al. PLoS ONE (2012) pmid: 23029359</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="206">
+      <ReferenceId>25392179</ReferenceId>
+      <FullCitation>Gatalica Z, et al. Cancer Epidemiol. Biomarkers Prev. (2014) pmid: 25392179</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="207">
+      <ReferenceId>26140250</ReferenceId>
+      <FullCitation>Kroemer G, et al. Oncoimmunology (2015) pmid: 26140250</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="208">
+      <ReferenceId>25949894</ReferenceId>
+      <FullCitation>Lal N, et al. Oncoimmunology (2015) pmid: 25949894</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="209">
+      <ReferenceId>26028255</ReferenceId>
+      <FullCitation>Le DT, et al. N. Engl. J. Med. (2015) pmid: 26028255</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="210">
+      <ReferenceId>16914581</ReferenceId>
+      <FullCitation>Kimura K, et al. Clin. Cancer Res. (2006) pmid: 16914581</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="211">
+      <ReferenceId>15581051</ReferenceId>
+      <FullCitation>Safran H, et al. Cancer Invest. (2004) pmid: 15581051</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="212">
+      <ReferenceId>26022204</ReferenceId>
+      <FullCitation>Javle M, et al. J Hematol Oncol (2015) pmid: 26022204</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="213">
+      <ReferenceId>22851567</ReferenceId>
+      <FullCitation>J. Clin. Oncol. (2012) pmid: 22851567</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="214">
+      <ReferenceId>24376362</ReferenceId>
+      <FullCitation>Cancer Manag Res (2013) pmid: 24376362</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="215">
+      <ReferenceId>27334835</ReferenceId>
+      <FullCitation>Wang K, et al. Clin. Cancer Res. (2016) pmid: 27334835</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="216">
+      <ReferenceId>26598547</ReferenceId>
+      <FullCitation>Mazières J, et al. Ann. Oncol. (2016) pmid: 26598547</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="217">
+      <ReferenceId>21353324</ReferenceId>
+      <FullCitation>Tomizawa K, et al. Lung Cancer (2011) pmid: 21353324</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="218">
+      <ReferenceId>24657003</ReferenceId>
+      <FullCitation>Gianni L, et al. Lancet Oncol. (2014) pmid: 24657003</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="219">
+      <ReferenceId>24037735</ReferenceId>
+      <FullCitation>Morris PG, et al. Cancer (2013) pmid: 24037735</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="220">
+      <ReferenceId>29320312</ReferenceId>
+      <FullCitation>Hainsworth JD, et al. J. Clin. Oncol. (2018) pmid: 29320312</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="221">
+      <ReferenceId>27521503</ReferenceId>
+      <FullCitation>Nishikawa K, et al. Int. J. Cancer (2017) pmid: 27521503</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="222">
+      <ReferenceId>32213540</ReferenceId>
+      <FullCitation>Tsurutani J, et al. Cancer Discov (2020) pmid: 32213540</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="223">
+      <ReferenceId>31047803</ReferenceId>
+      <FullCitation>Tamura K, et al. Lancet Oncol. (2019) pmid: 31047803</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="224">
+      <ReferenceId>31047804</ReferenceId>
+      <FullCitation>Shitara K, et al. Lancet Oncol. (2019) pmid: 31047804</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="225">
+      <ReferenceId>20142587</ReferenceId>
+      <FullCitation>Burstein HJ, et al. J. Clin. Oncol. (2010) pmid: 20142587</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="226">
+      <ReferenceId>26834058</ReferenceId>
+      <FullCitation>Freedman RA, et al. J. Clin. Oncol. (2016) pmid: 26834058</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="227">
+      <ReferenceId>26874901</ReferenceId>
+      <FullCitation>Chan A, et al. Lancet Oncol. (2016) pmid: 26874901</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="228">
+      <ReferenceId>25287822</ReferenceId>
+      <FullCitation>Saura C, et al. J. Clin. Oncol. (2014) pmid: 25287822</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="229">
+      <ReferenceId>22967996</ReferenceId>
+      <FullCitation>Awada A, et al. Ann. Oncol. (2013) pmid: 22967996</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="230">
+      <ReferenceId>23953056</ReferenceId>
+      <FullCitation>Martin M, et al. Eur. J. Cancer (2013) pmid: 23953056</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="231">
+      <ReferenceId>23632474</ReferenceId>
+      <FullCitation>Chow LW, et al. Br. J. Cancer (2013) pmid: 23632474</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="232">
+      <ReferenceId>27406346</ReferenceId>
+      <FullCitation>Park JW, et al. N. Engl. J. Med. (2016) pmid: 27406346</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="233">
+      <ReferenceId>27078022</ReferenceId>
+      <FullCitation>Awada A, et al. JAMA Oncol (2016) pmid: 27078022</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="234">
+      <ReferenceId>24323026</ReferenceId>
+      <FullCitation>Gandhi L, et al. J. Clin. Oncol. (2014) pmid: 24323026</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="235">
+      <ReferenceId>26260909</ReferenceId>
+      <FullCitation>Schwab CL, et al. Gynecol. Oncol. (2015) pmid: 26260909</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="236">
+      <ReferenceId>28397106</ReferenceId>
+      <FullCitation>Menderes G, et al. Med. Oncol. (2017) pmid: 28397106</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="237">
+      <ReferenceId>26375550</ReferenceId>
+      <FullCitation>Hu Z, et al. Oncotarget (2015) pmid: 26375550</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="238">
+      <ReferenceId>24793816</ReferenceId>
+      <FullCitation>Krop IE, et al. Lancet Oncol. (2014) pmid: 24793816</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="239">
+      <ReferenceId>24222194</ReferenceId>
+      <FullCitation>Welslau M, et al. Cancer (2014) pmid: 24222194</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="240">
+      <ReferenceId>22649126</ReferenceId>
+      <FullCitation>Krop IE, et al. J. Clin. Oncol. (2012) pmid: 22649126</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="241">
+      <ReferenceId>21172893</ReferenceId>
+      <FullCitation>Burris HA, et al. J. Clin. Oncol. (2011) pmid: 21172893</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="242">
+      <ReferenceId>31504139</ReferenceId>
+      <FullCitation>Jhaveri KL, et al. Ann. Oncol. (2019) pmid: 31504139</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="243">
+      <ReferenceId>32213539</ReferenceId>
+      <FullCitation>Li BT, et al. Cancer Discov (2020) pmid: 32213539</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="244">
+      <ReferenceId>29313813</ReferenceId>
+      <FullCitation>Hotta K, et al. J Thorac Oncol (2018) pmid: 29313813</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="245">
+      <ReferenceId>26920887</ReferenceId>
+      <FullCitation>Baselga J, et al. Clin. Cancer Res. (2016) pmid: 26920887</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="246">
+      <ReferenceId>28056202</ReferenceId>
+      <FullCitation>Perez EA, et al. J. Clin. Oncol. (2017) pmid: 28056202</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="247">
+      <ReferenceId>23382472</ReferenceId>
+      <FullCitation>Hurvitz SA, et al. J. Clin. Oncol. (2013) pmid: 23382472</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="248">
+      <ReferenceId>30516102</ReferenceId>
+      <FullCitation>von Minckwitz G, et al. N. Engl. J. Med. (2019) pmid: 30516102</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="249">
+      <ReferenceId>31157583</ReferenceId>
+      <FullCitation>Hurvitz SA, et al. J. Clin. Oncol. (2019) pmid: 31157583</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="250">
+      <ReferenceId>27052654</ReferenceId>
+      <FullCitation>Martin M, et al. Ann. Oncol. (2016) pmid: 27052654</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="251">
+      <ReferenceId>32923849</ReferenceId>
+      <FullCitation>Mondaca S, et al. JCO Precis Oncol (2019) pmid: 32923849</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="252">
+      <ReferenceId>2932031</ReferenceId>
+      <FullCitation>Hempstead RW, et al. Am J Dermatopathol (1985) pmid: 2932031</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="253">
+      <ReferenceId>29175149</ReferenceId>
+      <FullCitation>Hurvitz SA, et al. Lancet Oncol. (2018) pmid: 29175149</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="254">
+      <ReferenceId>28581356</ReferenceId>
+      <FullCitation>von Minckwitz G, et al. N. Engl. J. Med. (2017) pmid: 28581356</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="255">
+      <ReferenceId>29253081</ReferenceId>
+      <FullCitation>Swain SM, et al. Ann Oncol (2018) pmid: 29253081</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="256">
+      <ReferenceId>27179402</ReferenceId>
+      <FullCitation>Gianni L, et al. Lancet Oncol. (2016) pmid: 27179402</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="257">
+      <ReferenceId>31647503</ReferenceId>
+      <FullCitation>Shao Z, et al. JAMA Oncol (2020) pmid: 31647503</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="258">
+      <ReferenceId>18391597</ReferenceId>
+      <FullCitation>Safran H, et al. Am. J. Clin. Oncol. (2008) pmid: 18391597</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="259">
+      <ReferenceId>21609937</ReferenceId>
+      <FullCitation>Dennie TW, et al. Clin Colorectal Cancer (2011) pmid: 21609937</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="260">
+      <ReferenceId>24757739</ReferenceId>
+      <FullCitation>Safran H, et al. Am. J. Clin. Oncol. (2011) pmid: 24757739</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="261">
+      <ReferenceId>26507197</ReferenceId>
+      <FullCitation>Wu Z, et al. Cancer Chemother. Pharmacol. (2015) pmid: 26507197</FullCitation>
+      <Include>true</Include>
+    </Reference>
+    <Reference number="262">
+      <ReferenceId>28119295</ReferenceId>
+      <FullCitation>Bang YJ, et al. Ann. Oncol. (2017) pmid: 28119295</FullCitation>
+      <Include>true</Include>
+    </Reference>
+  </References>
+  <Signatures>
+    <Signature>
+      <ServerTime>2023-07-16 16:24:54</ServerTime>
+      <OpName>Douglas A. Mata, MD, MPH | Julia Elvin, M.D., Ph.D., Laboratory Director</OpName>
+      <Text>Douglas A. Mata, MD, MPH | Julia Elvin, M.D., Ph.D., Laboratory Director</Text>
+    </Signature>
+  </Signatures>
+  <comments/>
+  <AAC>
+    <Amendmends/>
+  </AAC>
+  <reportProperties>
+    <reportProperty identifier="QualityControlMetrics" key="MedianCoverageValue">
+      <value>1,055x</value>
+    </reportProperty>
+    <reportProperty identifier="AdditionalFindings" key="TumorMutationBurdenScore">
+      <value>6 Muts/Mb</value>
+    </reportProperty>
+    <reportProperty identifier="AdditionalFindings" key="MicrosatelliteStatusScore">
+      <value>0 fraction-unstable-loci</value>
+    </reportProperty>
+    <reportProperty identifier="AdditionalFindings" key="LossOfHeterozygosityScore">
+      <value>Units Not Reported</value>
+    </reportProperty>
+    <reportProperty identifier="AdditionalFindings" key="BloodTumorMutationalBurdenScore">
+      <value>Units Not Reported</value>
+    </reportProperty>
+    <reportProperty identifier="AdditionalFindings" key="TumorFractionScore">
+      <value>Units Not Reported</value>
+    </reportProperty>
+  </reportProperties>
+</FinalReport>
